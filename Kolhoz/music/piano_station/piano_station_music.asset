@@ -1,0 +1,91 @@
+music = {
+	name = "mikkyMAUS"
+	file = "mikkyMAUS.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+	volume = 0.80
+}
+music = {
+	name = "Imprussian"
+	file = "Imprussian.ogg"
+	volume = 0.80
+}
+music = {
+	name = "Svetovid"
+	file = "Svetovid.ogg"
+	volume = 0.80
+}
+music = {
+	name = "albanianwarsong"
+	file = "albanianwarsong.ogg"
+	volume = 0.80
+}
+music = {
+	name = "serbiancrimesong"
+	file = "serbiancrimesong.ogg"
+	volume = 0.80
+}
+music = {
+	name = "toccata"
+	file = "toccata.ogg"
+	volume = 0.80
+}
+music = {
+	name = "sarabande"
+	file = "sarabande.ogg"
+	volume = 0.80
+}
+music = {
+	name = "ubilinegra"
+	file = "ubilinegra.ogg"
+	volume = 0.80
+}
+music = {
+	name = "greyarmy"
+	file = "greyarmy.ogg"
+	volume = 0.80
+}
+music = {
+	name = "gaulayter"
+	file = "gaulayter.ogg"
+	volume = 0.80
+}
+music = {
+	name = "ilovepenis"
+	file = "ilovepenis.ogg"
+	volume = 0.80
+}
+music = {
+	name = "soldatovgranj"
+	file = "soldatovgranj.ogg"
+	volume = 0.80
+}
+music = {
+	name = "sovetskaya"
+	file = "sovetskaya.ogg"
+	volume = 0.80
+}
+music = {
+	name = "evabraun"
+	file = "evabraun.ogg"
+	volume = 0.80
+}
+music = {
+	name = "gachi_ynost_v_sapogax"
+	file = "gachi_ynost_v_sapogax.ogg"
+	volume = 0.80
+}
+music = {
+	name = "i_vnov_prodoljaetsa_sex"
+	file = "i_vnov_prodoljaetsa_sex.ogg"
+	volume = 0.80
+}
+music = {
+	name = "vpered_assia"
+	file = "vpered_assia.ogg"
+	volume = 0.80
+}

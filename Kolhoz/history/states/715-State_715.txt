@@ -1,0 +1,13 @@
+state={
+	id=715
+	name="STATE_715"
+	provinces={
+		73 173 1829 1988 5025 5519 6503 7073 7084 7090 7634 9478 18152 18203 18204 18222 18258 18275 18366 18384 18426 18443 18474 18560 18684 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 
+}

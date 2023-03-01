@@ -1,0 +1,4 @@
+KOL = {
+	color = rgb { 245 222 179 }
+	color_ui = rgb { 245 222 179 }
+}

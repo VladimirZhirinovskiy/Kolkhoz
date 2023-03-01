@@ -1,0 +1,21 @@
+state={
+	id=988
+	name="STATE_988"
+	provinces={
+		876 1270 8134 8367 18171 18205 18264 18326 
+	}
+	manpower=1633595
+	local_supplies=10.0
+	state_category = large_town 
+	history={
+		victory_points = {
+			18326 20 
+		}
+		buildings = {
+			infrastructure = 3
+			18326 = {
+				bunker = 3
+
+			}
+		} 
+}

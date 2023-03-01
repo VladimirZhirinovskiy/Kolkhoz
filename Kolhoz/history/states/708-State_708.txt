@@ -1,0 +1,30 @@
+state={
+	id=708
+	name="STATE_708"
+	resources={
+		steel=25.000
+		aluminium=11.000
+	}
+	provinces={
+		67 1070 5801 9503 18588 18637 18660 18735 18749 18802 
+	}
+	manpower=1140400
+	local_supplies=0.0
+	state_category = city
+	history={
+		owner = KOL
+		add_core_of = KOL
+		victory_points = {
+			18588 20 
+		}
+		buildings = {
+			infrastructure = 3
+			18588 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+		}
+	}  
+	buildings_max_level_factor=1.000
+}

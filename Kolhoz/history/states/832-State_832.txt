@@ -1,0 +1,13 @@
+state={
+	id=832
+	name="STATE_832"
+	provinces={
+		1738 2001 2006 2340 2393 2682 2760 4140 4807 5706 6813 6874 6958 7054 8421 9886 19532 19582 19598 19614 19661 19669 19708 19730 19731 19773 19821 19878 19938 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 
+}

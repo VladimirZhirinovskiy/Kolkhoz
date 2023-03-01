@@ -1,0 +1,13 @@
+state={
+	id=650
+	name="STATE_650"
+	provinces={
+		601 1194 1868 4993 5508 5721 6275 6460 6653 7474 9179 9929 17553 17554 17614 17622 17639 17684 17713 17744 17755 17779 17795 17816 17853 17861 17882 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 
+}

@@ -1,0 +1,15 @@
+characters={
+	KOL_sanchous={
+		name=KOL_sanchous
+		portraits={
+			civilian={
+				large=GFX_portrait_KOL_sanchous
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ }
+			expire="2049.1.1.1"
+			id=-1
+		}
+	}

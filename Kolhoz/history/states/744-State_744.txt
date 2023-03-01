@@ -1,0 +1,13 @@
+state={
+	id=744
+	name="STATE_744"
+	provinces={
+		505 703 2017 2255 2942 3513 5379 8165 8413 10097 18488 18542 18583 18643 18680 18702 18709 18752 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 
+}
