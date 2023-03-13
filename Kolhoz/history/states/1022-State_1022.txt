@@ -1,0 +1,16 @@
+state={
+	id=1022
+	name="STATE_1022"
+	provinces={
+		5751 18838 18900 18914 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = rural
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+	}
+	 
+}

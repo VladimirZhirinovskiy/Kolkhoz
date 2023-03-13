@@ -4,18 +4,22 @@ state={
 	provinces={
 		26363
 	}
-	manpower=5225087
+	manpower=3300667
 	local_supplies=12.0
 	state_category = megalopolis
+	buildings_max_level_factor=2.00
+
 	history={
-		victory_points = {
-			26363 20 
-		}
 		owner = KOL
 		add_core_of = KOL
+
+		victory_points = { 26363 40 }
+
 		buildings = {
 			infrastructure = 5
-			anti_air_building = 5
+			industrial_complex = 8
+			arms_factory = 4
+			anti_air_building = 3
 			26363 = {
 				bunker = 3
 

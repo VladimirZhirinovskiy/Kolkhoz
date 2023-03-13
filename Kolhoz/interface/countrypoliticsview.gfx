@@ -1,5 +1,4 @@
 spriteTypes = {
-	
 	#Government in Exile
 
 	spriteType = {
@@ -48,7 +47,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/government_in_exile/legitimacy_progress_bar_long_bg.dds"
 		size = { x = 212 y = 17 }
 		effectFile = "gfx/FX/progress.lua"
-	}	
+	}
 
 	#Autonomy Stuff
 
@@ -66,7 +65,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/autonomy/subject_progress_bar_long_bg.dds"
 		size = { x = 181 y = 16 }
 		effectFile = "gfx/FX/progress.lua"
-	}	
+	}
 	
 	progressbartype = {
 		name = "GFX_subject_progressbar"
@@ -76,12 +75,12 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/autonomy/subject_progress_bar_bg.dds"
 		size = { x = 93 y = 16 }
 		effectFile = "gfx/FX/progress.lua"
-	}	
+	}
 	
 	spriteType = {
 		name = "GFX_subject_button"
 		texturefile = "gfx/interface/autonomy/subject_button.dds"
-	}	
+	}
 	
 	spriteType = {
 		name = "GFX_subjects_entry_bg"
@@ -92,6 +91,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_autonomy_unknown_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_unknown_icon.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_autonomy_easternbloc_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_easternbloc_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_protectorate_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_mnna_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_mnna_icon.dds"
 	}
 	
 	spriteType = {
@@ -125,55 +139,22 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_autonomy_collaboration_government_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_collaboration_government.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_autonomy_level_button"
 		textureFile = "gfx/interface/autonomy/autonomy_level_button.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_autonomy_reichskommissariat_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_reichskommissariat_icon.dds"
+		name = "GFX_autonomy_associated_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_dominion_icon.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_autonomy_reichsprotectorate_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_reichsprotectorate_icon.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_autonomy_satellite_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_satellite.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_autonomy_wtt_imperial_associate_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_imperial_associate.dds"
-	}
-
-	spriteType = {
-		name = "GFX_autonomy_wtt_imperial_subject_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_imperial_associate.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_autonomy_wtt_imperial_protectorate_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_imperial_protectorate.dds"
-	}
-
 	spriteType = {
 		name = "GFX_autonomy_supervised_state_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_supervised_state.dds"
 	}
-
 	spriteType = {
-		name = "GFX_autonomy_personal_union_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_personal_union_puppet.dds"
+		name = "GFX_autonomy_UN_Trust_Territory_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_trust_territory_icon.dds"
 	}
-	
 	#-------------
 
 	spriteType = {
@@ -184,18 +165,6 @@ spriteTypes = {
 	frameAnimatedSpriteType = {
 		name = "GFX_ongoing_generic_glow_yellow"
 		texturefile = "gfx/interface/ongoing_generic_glow_yellow.dds"
-		noOfFrames = 3
-		animation_rate_fps = 1
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-		alwaystransparent = yes
-		effectFile = "gfx/FX/buttonstate_blendframes.lua"
-	}
-
-	frameAnimatedSpriteType = {
-		name = "GFX_spirit_glow"
-		texturefile = "gfx/interface/officer_corp/spirit_glow.dds"
 		noOfFrames = 3
 		animation_rate_fps = 1
 		looping = yes
@@ -244,30 +213,53 @@ spriteTypes = {
 		textureFile = "gfx/interface/rules_sum_icon.dds"
 	}
 
-
 	spriteType = {
 		name = "GFX_idea_slot_high_command"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/interface/idea_slot_high_command.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_slot_air_chief"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/interface/idea_slot_air_chief.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_slot_navy_chief"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/interface/idea_slot_navy_chief.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_slot_army_chief"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_At_ammo"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_Art_ammo"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_Cannon_ammo"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_Manpad"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_Manpat"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_inf_protect"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_slot_theorist"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/interface/idea_slot_theorist.dds"
 	}
 
 	spriteType = {
@@ -297,8 +289,29 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_slot_political_advisor"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_slot_education_advisor"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_foriegn_advisor"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_intel_advisor"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_economic_advisor"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+		
+			
+		
+		
 
 	spriteType = {
 		name = "GFX_goal_entry_pp_bg"
@@ -330,14 +343,14 @@ spriteTypes = {
 		pause_on_loop = 0.0
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
-	}	
+	}
 	
 	spriteType = {
 		name = "GFX_diplo_goal_button"
 		textureFile = "gfx/interface/diplo_goal_button.dds"
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"		
-	}	
+	}
 	
 	spriteType = {
 		name = "GFX_add_national_goal_button"
@@ -354,7 +367,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_category_header"
 		textureFile = "gfx/interface/category_header.dds"
-	}	
+	}
 	
 	spriteType = {
 		name = "GFX_pol_win_idea_header"
@@ -417,7 +430,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/idea_entry_bg_2.dds"
 		noOfFrames = 2
 	}
-
+	
 	spriteType = {
 		name = "GFX_idea_entry_bg_3"
 		texturefile = "gfx/interface/idea_entry_bg_3.dds"
@@ -426,24 +439,14 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_pol_factions_strip"
-		texturefile = "gfx\\interface\\pol_factions_strip.tga"
+		texturefile = "gfx/interface/pol_factions_strip.tga"
 		noOfFrames = 4
 	}
-
 	spriteType = {
 		name = "GFX_icon_exiled_governments"
 		texturefile = "gfx/interface/icon_exiled_governments.dds"
 	}
 
-	spriteType = {
-		name = "GFX_icon_collaboration"
-		texturefile = "gfx/interface/occupation/collaboration_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_icon_collaboration_and_exiles"
-		texturefile = "gfx/interface/occupation/collaboration_and_exiles_icon.dds"
-	}
-	
 	spriteType = {
 		name = "GFX_icon_manage_subjects"
 		texturefile = "gfx/interface/icon_manage_subjects.dds"
@@ -457,7 +460,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_neutrality_group"
 		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
-	}	
+	}
 	
 	spriteType = {
 		name = "GFX_ideology_communism_group"
@@ -473,37 +476,8 @@ spriteTypes = {
 		name = "GFX_ideology_democratic_group"
 		texturefile = "gfx/interface/ideologies/democratic_group.dds"
 	}
-
-	spriteType = {
-		name = "GFX_ideology_anarchism"
-		texturefile = "gfx/interface/ideologies/anarchism.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_ideology_tribal_confederation"
-		texturefile = "gfx/interface/ideologies/tribal_confederation.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_ideology_populism"
-		texturefile = "gfx/interface/ideologies/populism.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_national_communism"
-		texturefile = "gfx/interface/ideologies/national_communism.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_flelei_ideology"
-		texturefile = "gfx/interface/ideologies/flelei_ideology.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_parliamentary_monarchy"
-		texturefile = "gfx/interface/ideologies/parliamentary_monarchy.dds"
-	}
-
 	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"
@@ -512,92 +486,91 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_sub_goal_marker"
-		texturefile = "gfx\\interface\\sub_goal_marker.tga"
+		texturefile = "gfx/interface/sub_goal_marker.tga"
 		noOfFrames = 2
 	}
 
 	spriteType = {
 		name = "GFX_pol_party_colour_bg"
-		textureFile = "gfx//interface//pol_party_colour_bg.dds"
+		textureFile = "gfx/interface/pol_party_colour_bg.dds"
 	}
 
 	spriteType = {
 		name = "GFX_pol_party_colour"
-		textureFile = "gfx//interface//pol_party_colour.dds"
+		textureFile = "gfx/interface/pol_party_colour.dds"
 	}
 
 	spriteType = {
 		name = "GFX_small_pol_piechart_frame"
-		textureFile = "gfx//interface//small_pol_piechart_frame.dds"
+		textureFile = "gfx/interface/small_pol_piechart_frame.dds"
 		alwaystransparent = yes			
-	}	
+	}
 	
 	spriteType = {
 		name = "GFX_small_pol_piechart_overlay"
-		textureFile = "gfx//interface//small_pol_piechart_overlay.dds"
+		textureFile = "gfx/interface/small_pol_piechart_overlay.dds"
 		alwaystransparent = yes			
-	}	
+	}
 
 	spriteType = {
 		name = "GFX_pol_piechart_overlay_63x63"
-		textureFile = "gfx//interface//pol_piechart_overlay_63x63.dds"
+		textureFile = "gfx/interface/pol_piechart_overlay_63x63.dds"
 		alwaystransparent = yes			
 	}
 	
 	spriteType = {
 		name = "GFX_pol_piechart_overlay"
-		textureFile = "gfx//interface//pol_piechart_overlay.dds"
+		textureFile = "gfx/interface/pol_piechart_overlay.dds"
 		alwaystransparent = yes			
 	}
 
 	spriteType = {
 		name = "GFX_goal_placeholder"
-		textureFile = "gfx//interface//goal_placeholder.dds"
+		textureFile = "gfx/interface/goal_placeholder.dds"
 		alwaystransparent = yes			
 	}
 
 
 	spriteType = {
 		name = "GFX_add_goal_button"
-		textureFile = "gfx//interface//add_goal_button.dds"
+		textureFile = "gfx/interface/add_goal_button.dds"
 		alwaystransparent = yes			
 	}
 
 	spriteType = {
 		name = "GFX_pol_leader_frame"
-		textureFile = "gfx//interface//pol_leader_frame.dds"
+		textureFile = "gfx/interface/pol_leader_frame.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_event_leader_frame"
-		textureFile = "gfx//interface//event_leader_frame.dds"
+		textureFile = "gfx/interface/event_leader_frame.dds"
 	}
 
 	spriteType = {
 		name = "GFX_pol_goal_bg"
-		textureFile = "gfx//interface//pol_goal_bg.dds"
+		textureFile = "gfx/interface/pol_goal_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"			
 	}
 
 	spriteType = {
 		name = "GFX_pol_piechart_bg"
-		textureFile = "gfx//interface//pol_piechart_bg.dds"
+		textureFile = "gfx/interface/pol_piechart_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
 	}
 
 	spriteType = {
 		name = "GFX_pol_view_bg"
-		textureFile = "gfx//interface//pol_view_bg.dds"
+		textureFile = "gfx/interface/pol_view_bg.dds"
 	}
 
 	spriteType = {
 		name = "GFX_add_pol_idea_button"
-		textureFile = "gfx//interface//add_pol_idea_button.dds"
+		textureFile = "gfx/interface/add_pol_idea_button.dds"
 	}
 
 	spriteType = {
 		name = "GFX_pol_idea_bg"
-		textureFile = "gfx//interface//pol_idea_bg.dds"
+		textureFile = "gfx/interface/pol_idea_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
@@ -605,50 +578,43 @@ spriteTypes = {
 		name = "GFX_leader_unknown"
 		textureFile = "gfx/leaders/leader_unknown.dds"
 		legacy_lazy_load = no
-		generate_mip_maps = yes
 	}
-	
+	spriteType = {
+		name = "GFX_leader_no_source"
+		textureFile = "gfx/leaders/leader_no_source.dds"
+		legacy_lazy_load = no
+	}
 	spriteType = {
 		name = "GFX_leader_marshal_unknown"
 		textureFile = "gfx/leaders/leader_marshal_unknown.dds"
 		legacy_lazy_load = no
 	}
-
 	pieChartType = {
 		name = "GFX_political_chart_big"
 		size = 30
 	}
-	
+
 	pieChartType = {
 		name = "GFX_political_chart"
-		size = 27
-	}
+		size = 30
+	}  
 	
 	pieChartType = {
 		name = "GFX_political_chart_small"
 		size = 26
 	}
 
-	circularProgressBarType = {
-		name = "GFX_textured_pie_chart"
-		textureFile1 = "gfx/interface/ideas/idea_volunteer_only.dds"
-		textureFile2 = "gfx/interface/ideas/idea_extensive_conscription.dds"
-		size = 30
-		rotation = 90
-		amount = 75
-	}	
-
 	spriteType = {
 		name = "GFX_pol_goal_progress_frame"
-		textureFile = "gfx//interface//pol_goal_progress_frame.dds"
+		textureFile = "gfx/interface/pol_goal_progress_frame.dds"
 	}
 	
 	progressbartype = {
 		name = "GFX_activegoal_progress"
 		color = { 0.0 0.5 0.0 }
 		colortwo = { 1.0 0.0 0.0 }
-		textureFile1 = "gfx//interface//pol_goal_progress.dds"
-		textureFile2 = "gfx//interface//pol_goal_progress_bg.dds"
+		textureFile1 = "gfx/interface/pol_goal_progress.dds"
+		textureFile2 = "gfx/interface/pol_goal_progress_bg.dds"
 		size = { x = 237 y = 6 }
 		effectFile = "gfx/FX/progress_startend.lua"
 		horizontal = yes
@@ -656,46 +622,31 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_occupied_territory"
-		textureFile = "gfx//interface//occupied_list_entry.dds"
+		textureFile = "gfx/interface/occupied_list_entry.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	spriteType = {
 		name = "GFX_generic_square_button"
-		textureFile = "gfx//interface//occupation_policy_button.dds"
+		textureFile = "gfx/interface/occupation_policy_button.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	
 	textSpriteType = {
 		name = "GFX_occupation_policy_button"
-		textureFile = "gfx//interface//occupation_policy_button.dds"
+		textureFile = "gfx/interface/occupation_policy_button.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	
 	spriteType = {
 		name = "GFX_occupation_policy_button_selected"
-		textureFile = "gfx//interface//occupation_policy_button_selected.dds"
+		textureFile = "gfx/interface/occupation_policy_button_selected.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-	}	
-	
-	spriteType = {
-		name = "GFX_ideology_bria_nazism"
-		texturefile = "gfx/interface/ideologies/bria_nazism.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_ideology_liberalism"
-		texturefile = "gfx/interface/ideologies/liberalism.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_oligarchism"
-		texturefile = "gfx/interface/ideologies/oligarchism.dds"
-	}
-	
+
 	frameAnimatedSpriteType = {
 		name = "GFX_tutorial_politics_icon_glow"
-		texturefile = "gfx//interface//tutorial//politics_icon_glow.dds"
+		texturefile = "gfx/interface/tutorial/politics_icon_glow.dds"
 		noOfFrames = 2
 		animation_rate_fps = 1.5
 		looping = yes
@@ -704,5 +655,14 @@ spriteTypes = {
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
+
+	spriteType = {  
+		name = "GFX_focus_window"
+		texturefile = "gfx/interface/FocusWindow.dds"
+	}
+	spriteType = { 
+		name = "GFX_pol_view_bottom"
+		texturefile = "gfx/interface/pol_view_bottom.dds"
+	}	
 	
 }

@@ -9,7 +9,7 @@ music = {
 	}
 }
 music = {
-	song = "maintheme"
+	song = "kolkhoz"
 	chance = {
 		modifier = {
 			factor = 1
@@ -138,6 +138,14 @@ music = {
 }
 music = {
 	song = "vpered_assia"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "golos_ovoshey"
 	chance = {
 		modifier = {
 			factor = 1

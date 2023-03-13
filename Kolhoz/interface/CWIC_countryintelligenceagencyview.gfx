@@ -1,0 +1,34 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_agency_space_department"
+		texturefile = "gfx/interface/operatives/departments/agency_space_department.dds"
+	}
+	spriteType = {
+		name = "GFX_agency_primary_department"
+		texturefile = "gfx/interface/operatives/departments/agency_primary_department.dds"
+	}
+	spriteType = {
+		name = "GFX_agency_supercomputer_department"
+		texturefile = "gfx/interface/operatives/departments/agency_supercomputer_department.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_agency_garrison"
+		texturefile = "gfx/interface/operatives/icons/agency_garrison.dds"
+	}
+	spriteType = {
+		name = "GFX_agency_guerilla"
+		texturefile = "gfx/interface/operatives/icons/agency_guerilla.dds"
+	}
+	spriteType = {
+		name = "GFX_agency_audit"
+		texturefile = "gfx/interface/operatives/icons/agency_audit.dds"
+	}
+	spriteType = {
+		name = "GFX_agency_influence_defense"
+		texturefile = "gfx/interface/operatives/icons/agency_influence_defense.dds"
+	}
+
+}

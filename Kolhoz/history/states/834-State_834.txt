@@ -2,12 +2,31 @@ state={
 	id=834
 	name="STATE_834"
 	provinces={
-		4688 8718 9573 19654 19768 19803 19825 19856 19881 
+		8718 9573 19768 19803 19825 19856 
 	}
-	manpower=1
+	manpower=1032100
 	local_supplies=0.0
 	state_category = city
-	state_category = city
-	local_supplies=0.0 
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = { 19803 24 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 1
+
+			19803 = {
+				naval_base = 2
+			}
+		}
+
+	}
 	 
 }

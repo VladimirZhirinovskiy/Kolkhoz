@@ -1,4 +1,4 @@
- spriteTypes = {
+spriteTypes = {
  
 	spriteType = {
 		name = "GFX_portrait_operative_unknown"
@@ -16,102 +16,7 @@
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_Regency"
-		texturefile = "gfx/leaders/LSG/Regency.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_Drake_Yankaus_IV"
-		texturefile = "gfx/leaders/LSG/Drake_Yankaus_IV.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_Drake_Yankaus_V"
-		texturefile = "gfx/leaders/LSG/Drake_Yankaus_V.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_LSG_Christian_Luncaret"
-		texturefile = "gfx/leaders/LSG/LSG_Christian_Luncaret.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_IPE_Sol_Pot"
-		texturefile = "gfx/leaders/IPE/IPE_Sol_Pot.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_IPE_Nonucks_Prince"
-		texturefile = "gfx/leaders/IPE/IPE_Nonucks_Prince.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_IPE_Nen_Tune"
-		texturefile = "gfx/leaders/IPE/IPE_Nen_Tune.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_IPE_Tol_Pon"
-		texturefile = "gfx/leaders/IPE/IPE_Tol_Pon.dds"
-	}
-    
-	spriteType = {
-		name = "GFX_portrait_BRR_Puding"
-		texturefile = "gfx/leaders/BRR/BRR_Puding.DDS"
-    }
-	
-	spriteType = {
-		name = "GFX_portrait_ALI_Wilhuff_Steelbeak_Admiral_nationalist"
-		texturefile = "gfx/leaders/ALI/ALI_Wilhuff_Steelbeak_Admiral_nationalist.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_USS_Supreme_Soviet"
-		texturefile = "gfx/leaders/USS/USS_Supreme_Soviet.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_EAG_Zeta"
-		texturefile = "gfx/leaders/EAG/EAG_Zeta.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_king_pig_sc"
-		texturefile = "gfx/leaders/PIG/king_pig_sc.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_BID_Red"
-		texturefile = "gfx/leaders/BID/BID_Red.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_IRF_Abbas_Melikhon"
-		texturefile = "gfx/leaders/IRF/IRF_Abbas_Melikhon.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_LSG_Emilis_Butkus"
-		texturefile = "gfx/leaders/LSG/LSG_Emilis_Butkus.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_LSG_Petr_Batory"
-		texturefile = "gfx/leaders/LSG/LSG_Petr_Batory.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_LSG_alexandr_kalinin"
-		texturefile = "gfx/leaders/LSG/LSG_alexandr_kalinin.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_SES_Manuel_Burseno"
-		texturefile = "gfx/leaders/SES/SES_Manuel_Burseno.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_GLD_Gale"
-		texturefile = "gfx/leaders/GLD/GLD_Gale.dds"
+		name = "GFX_portrait_KOL_sanchous"
+		textureFile = "gfx/leaders/KOL/KOL_sanchous.dds"
 	}
 } 

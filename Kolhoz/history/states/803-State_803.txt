@@ -2,12 +2,15 @@ state={
 	id=803
 	name="STATE_803"
 	provinces={
-		1586 1625 1878 3305 3534 4782 5538 6871 10224 19129 19214 
+		1586 1625 3534 4782 6871 10224 19214 
 	}
 	manpower=1
 	local_supplies=0.0
-	state_category = city
-	state_category = city
-	local_supplies=0.0 
+	state_category = rural
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+	}
 	 
 }

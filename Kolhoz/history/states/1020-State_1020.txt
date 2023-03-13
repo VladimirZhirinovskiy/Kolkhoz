@@ -1,0 +1,17 @@
+state={
+	id=1020
+	name="STATE_1020"
+	provinces={
+		1005 2742 3367 18898 18956 18987 19034 19035 19055 19072 19092 19112 19144 19197 
+	}
+	
+	manpower=1
+	local_supplies=0.0
+	state_category = rural
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+	}
+	 
+}

@@ -1,0 +1,2423 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_autonomy_texticon"
+		texturefile = "gfx/texticons/autonomy_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_industry_texticon"
+		texturefile = "gfx/texticons/industry.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_demilitarize_zone_texticon"
+		texturefile = "gfx/texticons/demilitarize_zone_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_dismantle_military_industry_text_icon"
+		texturefile = "gfx/texticons/dismantle_military_industry_text_icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_supply_texticon"
+		texturefile = "gfx/texticons/supply_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_equipment_requirements"
+		texturefile = "gfx/texticons/equipment_requirements.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_convoy_texticon"
+		texturefile = "gfx/texticons/convoy_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mapicon_port_strike_result_text"
+		texturefile = "gfx/texticons/mapicon_port_strike_result_text.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_wing_rebase_status_texticon"
+		textureFile = "gfx/texticons/wing_rebase_status_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_national_unity_texticon"
+		texturefile = "gfx/texticons/national_unity_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_stability_texticon"
+		texturefile = "gfx/texticons/stability_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_manpower_texticon"
+		texturefile = "gfx/texticons/manpower_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_population_texticon"
+		texturefile = "gfx/texticons/population_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_fuel_texticon"
+		texturefile = "gfx/texticons/fuel_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_organization_texticon"
+		texturefile = "gfx/texticons/organization_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_strenght_texticon"
+		texturefile = "gfx/texticons/strenght_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mission_efficiency_strip"
+		texturefile = "gfx/texticons/mission_efficiency_strip.dds"
+		legacy_lazy_load = no
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_civ_factory_output"
+		texturefile = "gfx/texticons/civ_factory_output.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_civ_factory"
+		texturefile = "gfx/texticons/civ_factory.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mil_factory"
+		texturefile = "gfx/texticons/mil_factory.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_decrease_texticon"
+		texturefile = "gfx/texticons/decrease_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_increase_texticon"
+		texturefile = "gfx/texticons/increase_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_decrease_reversed_texticon"
+		texturefile = "gfx/texticons/decrease_reversed_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_increase_reversed_texticon"
+		texturefile = "gfx/texticons/increase_reversed_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_infinity_icon"
+		texturefile = "gfx/texticons/infinity_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_army_experience"
+		texturefile = "gfx/texticons/army_experience_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_merc_experience"
+		texturefile = "gfx/texticons/merc_experience_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_spec_experience"
+		texturefile = "gfx/texticons/spec_experience_20x20.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_victory_points"
+		texturefile = "gfx/texticons/victory_point_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_navy_experience"
+		texturefile = "gfx/texticons/navy_experience_20x20.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_air_experience"
+		texturefile = "gfx/texticons/air_experience_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_locked"
+		texturefile = "gfx/texticons/locked.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_pol_power"
+		texturefile = "gfx/texticons/pol_power_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_repairing"
+		texturefile = "gfx/texticons/repairing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_going_to_repair"
+		texturefile = "gfx/texticons/going_to_repair.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_in_combat"
+		texturefile = "gfx/texticons/in_combat.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_going_to_combat"
+		texturefile = "gfx/texticons/going_to_combat.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_refitting"
+		texturefile = "gfx/texticons/refitting.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_going_to_refit"
+		texturefile = "gfx/texticons/going_to_refit.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_merging"
+		texturefile = "gfx/texticons/merging.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_spotting"
+		texturefile = "gfx/texticons/spotting.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_production_cost"
+		texturefile = "gfx/texticons/production_cost.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_navprod_cost"
+		texturefile = "gfx/texticons/production_naval_cost.dds"
+		legacy_lazy_load = no
+	}
+
+
+	#### unit texticons
+
+	spriteType = {
+		name = "GFX_nato_unit_recon_icon_small"
+		texturefile = "gfx/texticons/nato_unit_recon_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_paratrooper_icon_small"
+		texturefile = "gfx/texticons/nato_unit_paratrooper_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_mechanized_icon_small"
+		texturefile = "gfx/texticons/nato_unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_marine_icon_small"
+		texturefile = "gfx/texticons/nato_unit_marine_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_motorized_icon_small"
+		texturefile = "gfx/texticons/nato_unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_heavy_armor_icon_small"
+		texturefile = "gfx/texticons/nato_unit_heavy_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_rocket_artillery_icon_small"
+		texturefile = "gfx/texticons/nato_unit_rocket_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_modern_armor_icon_small"
+		texturefile = "gfx/texticons/nato_unit_modern_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_light_armor_icon_small"
+		texturefile = "gfx/texticons/nato_unit_light_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_artillery_icon_small"
+		texturefile = "gfx/texticons/nato_unit_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_anti_air_icon_small"
+		texturefile = "gfx/texticons/nato_unit_anti_air_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_mountaineers_icon_small"
+		texturefile = "gfx/texticons/nato_unit_mountaineers_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_super_heavy_armor_icon_small"
+		texturefile = "gfx/texticons/nato_unit_super_heavy_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_engineer_icon_small"
+		texturefile = "gfx/texticons/nato_unit_engineer_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_medium_armor_icon_small"
+		texturefile = "gfx/texticons/nato_unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_cavalry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_cavalry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_anti_tank_icon_small"
+		texturefile = "gfx/texticons/nato_unit_anti_tank_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	
+	
+	spriteType = {
+		name = "GFX_prod_eff"
+		texturefile = "gfx/texticons/efficiency_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_prod_eff_cap"
+		texturefile = "gfx/texticons/efficiency_cap_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_tech_mod"
+		texturefile = "gfx/texticons/technology_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_pol_idea"
+		texturefile = "gfx/texticons/pol_idea_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_trigger_no"
+		texturefile = "gfx/texticons/trigger_no.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_trigger_yes"
+		texturefile = "gfx/texticons/trigger_yes.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_infrastructure_texticon"
+		texturefile = "gfx/texticons/infrastructure_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_right_arrow"
+		texturefile = "gfx/texticons/right_arrow_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_decision_icon_small"
+		texturefile = "gfx/texticons/decision_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_location_pointer"
+		texturefile = "gfx/texticons/location_pointer.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_divisions"
+		texturefile = "gfx/texticons/divisions.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_daynight"
+		texturefile = "gfx/texticons/daynight_text.dds"
+		noOfFrames = 2
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_temperature"
+		texturefile = "gfx/texticons/temperature_text.dds"
+		noOfFrames = 4
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_weather"
+		texturefile = "gfx/texticons/weather_text.dds"
+		noOfFrames = 6
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_Soviet_Naval"
+		texturefile = "gfx/interface/decisions/Soviet_Naval_Flag.dds"
+	}
+	spriteType = {
+		name = "GFX_legitimacy"
+		texturefile = "gfx/texticons/legitimacy.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ELF_Icon"
+		texturefile = "gfx/texticons/ELF_Icon.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ETH_Icon"
+		texturefile = "gfx/texticons/ETH_Icon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_FLN_Icon_Medium"
+		texturefile = "gfx/texticons/FLN_Icon_Medium.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_FLN_Icon"
+		texturefile = "gfx/texticons/FLN_Icon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_UPC_Icon"
+		texturefile = "gfx/texticons/UPC_Icon.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Muscat_Icon"
+		texturefile = "gfx/texticons/Muscat_Icon.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_Imamate_Oman_icon"
+		texturefile = "gfx/texticons/Imamate_Oman_icon.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_UIA_Icon"
+		texturefile = "gfx/texticons/UIA_Icon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROH_Icon"
+		texturefile = "gfx/texticons/ROH_icon.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_Mau_Mau_Icon_Medium"
+		texturefile = "gfx/texticons/Mau_Mau_Icon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Mau_Mau_Icon"
+		texturefile = "gfx/texticons/Mau_Mau_Icon_Small.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_UIA_Icon_Medium"
+		texturefile = "gfx/texticons/UIA_Icon_Medium.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EST_Icon"
+		texturefile = "gfx/texticons/EST_Icon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_LAT_Icon"
+		texturefile = "gfx/texticons/EST_Icon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_LIT_Icon"
+		texturefile = "gfx/texticons/EST_Icon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SPR_Republic_Icon"
+		texturefile = "gfx/texticons/SPR_Republic_Icon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_text_contact_resistance_token"
+		texturefile = "gfx/texticons/text_contact_resistance_token.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_text_infiltrate_air_token"
+		texturefile = "gfx/texticons/text_infiltrate_air_token.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_text_infiltrate_army_token"
+		texturefile = "gfx/texticons/text_infiltrate_army_token.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_text_infiltrate_civilian_token"
+		texturefile = "gfx/texticons/text_infiltrate_civilian_token.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_text_infiltrate_navy_token"
+		texturefile = "gfx/texticons/text_infiltrate_navy_token.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_resources_to_market_icon"
+		texturefile = "gfx/texticons/resources_to_market.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_crypto_defense"
+		texturefile = "gfx/texticons/crypto_defense.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_counter_intelligence"
+		texturefile = "gfx/texticons/counter_intelligence.dds"
+		legacy_lazy_load = no
+	}
+	
+##### BATTALIONS #####
+	spriteType = {
+		name = "GFX_unit_category_army_icon_small"
+		texturefile = "gfx/texticons/unit_category_army_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_all_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_category_all_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_light_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_category_light_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_militia_icon_small"
+		texturefile = "gfx/texticons/unit_category_light_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_mounted_icon_small"
+		texturefile = "gfx/texticons/unit_category_mounted_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_all_armor_icon_small"
+		texturefile = "gfx/texticons/unit_category_all_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_tanks_icon_small"
+		texturefile = "gfx/texticons/unit_category_tanks_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_recon_motorized_icon_small" #TRUCK
+		texturefile = "gfx/texticons/unit_motorized_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_recon_armored_icon_small"
+		texturefile = "gfx/texticons/unit_armored_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_rocket_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/support_rocket_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_artillery_support_icon_small"
+		texturefile = "gfx/texticons/unit_category_artillery_indirect_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_heavy_artillery_support_icon_small"
+		texturefile = "gfx/texticons/unit_category_artillery_indirect_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_heavy_artillery_icon_small"
+		texturefile = "gfx/texticons/unit_category_artillery_indirect_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_category_artillery_icon_small"
+		texturefile = "gfx/texticons/unit_category_all_fire_support_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_artillery_indirect_icon_small"
+		texturefile = "gfx/texticons/unit_category_artillery_indirect_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_artillery_antitank_icon_small"
+		texturefile = "gfx/texticons/unit_category_artillery_antitank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_artillery_antiair_icon_small"
+		texturefile = "gfx/texticons/unit_category_artillery_antiair_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_auto_cannon_icon_small"
+		texturefile = "gfx/texticons/unit_category_artillery_antiair_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_auto_cannon_support_icon_small"
+		texturefile = "gfx/texticons/unit_category_artillery_antiair_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_spaag_icon_small"
+		texturefile = "gfx/texticons/unit_spaag_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_direct_fire_gun_icon_small"
+		texturefile = "gfx/texticons/unit_direct_fire_gun_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_direct_fire_gun_support_icon_small"
+		texturefile = "gfx/texticons/unit_direct_fire_gun_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_tank_destroyer_icon_small"
+		texturefile = "gfx/texticons/unit_tank_destroyer_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_rockets_icon_small"
+		texturefile = "gfx/texticons/unit_category_rockets_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_towed_icon_small"
+		texturefile = "gfx/texticons/unit_category_towed_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_self_propelled_icon_small"
+		texturefile = "gfx/texticons/unit_category_self_propelled_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_line_artillery_icon_small"
+		texturefile = "gfx/texticons/unit_category_line_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_special_forces_icon_small"
+		texturefile = "gfx/texticons/unit_category_special_forces_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_helicopters_icon_small"
+		texturefile = "gfx/texticons/unit_category_helicopters_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_logistics_helicopter_icon_small"
+		texturefile = "gfx/texticons/unit_category_helicopters_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_airborne_icon_small"
+		texturefile = "gfx/texticons/unit_category_airborne_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_mercenary_icon_small"
+		texturefile = "gfx/texticons/unit_category_mercenary_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_pmc_icon_small"
+		texturefile = "gfx/texticons/unit_category_mercenary_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_ffl_icon_small"
+		texturefile = "gfx/texticons/unit_ffl_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_front_line_icon_small"
+		texturefile = "gfx/texticons/unit_category_front_line_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_support_battalions_icon_small"
+		texturefile = "gfx/texticons/unit_category_support_battalions_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_fighter_icon_small"
+		texturefile = "gfx/texticons/unit_category_fighter_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_fighter_icon_small"
+		texturefile = "gfx/texticons/unit_fighter_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_cv_fighter_icon_small"
+		texturefile = "gfx/texticons/unit_cv_fighter_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_jump_jet_icon_small"
+		texturefile = "gfx/texticons/unit_jump_jet_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_asf_icon_small"
+		texturefile = "gfx/texticons/unit_category_asf_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_fighter_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_fighter_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_cas_icon_small"
+		texturefile = "gfx/texticons/unit_category_cas_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_cv_cas_icon_small"
+		texturefile = "gfx/texticons/unit_cv_cas_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_cas_icon_small"
+		texturefile = "gfx/texticons/unit_cas_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_stratego_bomber_icon_small"
+		texturefile = "gfx/texticons/unit_category_stratego_bomber_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_nuclearstratbomber_icon_small"
+		texturefile = "gfx/texticons/unit_category_nuclear_stratego_bomber_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_strat_bomber_icon_small"
+		texturefile = "gfx/texticons/unit_strat_bomber_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_nav_bomber_icon_small"
+		texturefile = "gfx/texticons/unit_nav_bomber_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_interdictor_icon_small"
+		texturefile = "gfx/texticons/unit_category_interdictor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_tac_bomber_icon_small"
+		texturefile = "gfx/texticons/unit_tac_bomber_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_stealth_tactical_bomber_icon_small"
+		texturefile = "gfx/texticons/unit_stealth_tactical_bomber_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_naval_af_icon_small"
+		texturefile = "gfx/texticons/unit_category_naval_af_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_missile_icon_small"
+		texturefile = "gfx/texticons/unit_category_missile_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_af_logistics_icon_small"
+		texturefile = "gfx/texticons/unit_category_af_logistics_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_transport_plane_icon_small"
+		texturefile = "gfx/texticons/unit_transport_plane_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_drone_icon_small"
+		texturefile = "gfx/texticons/unit_category_drone_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_scout_plane_icon_small"
+		texturefile = "gfx/texticons/unit_category_scout_plane_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_scout_plane_icon_small"
+		texturefile = "gfx/texticons/unit_scout_plane_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_cas_uav_icon_small"
+		texturefile = "gfx/texticons/unit_cas_uav_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_naval_uav_icon_small"
+		texturefile = "gfx/texticons/unit_naval_uav_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_recon_helicopter_icon_small"
+		texturefile = "gfx/texticons/unit_scout_helicopter_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_attack_helicopter_support_icon_small"
+		texturefile = "gfx/texticons/unit_attack_helicopter_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_infantry_icon_small" #LIGHT
+		texturefile = "gfx/texticons/unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_infantry_icon_smal" #LIGHT #VANILLA ERROR FIX
+		texturefile = "gfx/texticons/unit_infantry_icon_smal.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_motorized_infantry_icon_small" #TRUCK
+		texturefile = "gfx/texticons/unit_motorized_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_mechanized_infantry_icon_small" #APC
+		texturefile = "gfx/texticons/unit_mechanized_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_armored_infantry_icon_small" #IFV
+		texturefile = "gfx/texticons/unit_armored_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_air_cavalry_icon_small" #HELI
+		texturefile = "gfx/texticons/unit_air_cavalry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_marine_icon_small" #LIGHT
+		texturefile = "gfx/texticons/unit_marine_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_airborne_icon_small" #LIGHT
+		texturefile = "gfx/texticons/unit_airborne_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_mechanized_airborne_icon_small" #MECHANIZED
+		texturefile = "gfx/texticons/unit_mechanized_airborne_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_mechanized_marine_icon_small" #MECHANIZED
+		texturefile = "gfx/texticons/unit_mechanized_marine_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_mountaineers_icon_small" #MOUNTAINEERS
+		texturefile = "gfx/texticons/unit_mountaineers_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	
+	spriteType = {
+		name = "GFX_unit_cavalry_special_force_icon_small"
+		texturefile = "gfx/texticons/unit_cavalry_special_force_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_army_special_force_icon_small"
+		texturefile = "gfx/texticons/unit_army_special_force_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_airforce_special_force_icon_small"
+		texturefile = "gfx/texticons/unit_airforce_special_force_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_navy_special_force_icon_small"
+		texturefile = "gfx/texticons/unit_navy_special_force_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_ship_screen_hull_light_icon_small"
+		texturefile = "gfx/texticons/unit_screen_hull_light_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_screen_hull_medium_icon_small"
+		texturefile = "gfx/texticons/unit_screen_hull_medium_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_screen_hull_medium_icon_small"
+		texturefile = "gfx/texticons/unit_screen_hull_medium_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_screen_hull_heavy_icon_small"
+		texturefile = "gfx/texticons/unit_screen_hull_heavy_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_screen_hull_heavy_icon_small"
+		texturefile = "gfx/texticons/unit_screen_hull_heavy_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_screen_icon_small"
+		texturefile = "gfx/texticons/unit_screen_hull_heavy_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_ship_battle_hull_light_icon_small"
+		texturefile = "gfx/texticons/unit_battle_hull_light_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_battle_hull_light_icon_small"
+		texturefile = "gfx/texticons/unit_battle_hull_light_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_capital_icon_small"
+		texturefile = "gfx/texticons/unit_battle_hull_light_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_battle_hull_medium_icon_small"
+		texturefile = "gfx/texticons/unit_battle_hull_medium_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_battle_hull_medium_icon_small"
+		texturefile = "gfx/texticons/unit_battle_hull_medium_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_battle_hull_heavy_icon_small"
+		texturefile = "gfx/texticons/unit_battle_hull_heavy_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_carrier_hull_light_icon_small"
+		texturefile = "gfx/texticons/unit_carrier_hull_light_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_carrier_hull_light_icon_small"
+		texturefile = "gfx/texticons/unit_carrier_hull_light_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_carrier_hull_medium_icon_small"
+		texturefile = "gfx/texticons/unit_carrier_hull_medium_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_carrier_hull_icon_small"
+		texturefile = "gfx/texticons/unit_carrier_hull_medium_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_carrier_hull_icon_small"
+		texturefile = "gfx/texticons/unit_carrier_hull_medium_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_carrier_icon_small"
+		texturefile = "gfx/texticons/unit_carrier_hull_medium_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_carrier_hull_super_icon_small"
+		texturefile = "gfx/texticons/unit_carrier_hull_super_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_carrier_hull_super_icon_small"
+		texturefile = "gfx/texticons/unit_carrier_hull_super_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_sub_hull_small_single_icon_small"
+		texturefile = "gfx/texticons/unit_sub_hull_small_single_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_sub_hull_small_single_icon_small"
+		texturefile = "gfx/texticons/unit_sub_hull_small_single_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_submarine_icon_small"
+		texturefile = "gfx/texticons/unit_sub_hull_small_single_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_sub_hull_large_single_icon_small"
+		texturefile = "gfx/texticons/unit_sub_hull_large_single_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ship_sub_hull_large_single_icon_small"
+		texturefile = "gfx/texticons/unit_sub_hull_large_single_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_sub_hull_large_double_icon_small"
+		texturefile = "gfx/texticons/unit_sub_hull_large_double_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_transport_icon_small"
+		texturefile = "gfx/texticons/unit_convoy_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_convoy_icon_small"
+		texturefile = "gfx/texticons/unit_convoy_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+##### NEED REPLACING #####
+	spriteType = {
+		name = "GFX_unit_motorized_rocket_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_sam_carrier_icon_small"
+		texturefile = "gfx/texticons/unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_atgm_support_icon_small"
+		texturefile = "gfx/texticons/unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_atgm_carrier_icon_small"
+		texturefile = "gfx/texticons/unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_paratrooper_icon_small"
+		texturefile = "gfx/texticons/unit_paratrooper_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_recon_icon_small"
+		texturefile = "gfx/texticons/unit_recon_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_anti_tank_icon_small"
+		texturefile = "gfx/texticons/support_AT_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_rocket_artillery_icon_small"
+		texturefile = "gfx/texticons/support_rocket_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_artillery_icon_small"
+		texturefile = "gfx/texticons/support_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_cavalry_icon_small"
+		texturefile = "gfx/texticons/unit_cavalry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_anti_air_icon_small"
+		texturefile = "gfx/texticons/support_AA_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_mechanized_icon_small"
+		texturefile = "gfx/texticons/unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_recon_mechanized_icon_small"
+		texturefile = "gfx/texticons/unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_motorized_icon_small"
+		texturefile = "gfx/texticons/unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_mountaineers_icon_small"
+		texturefile = "gfx/texticons/unit_mountaineers_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_marine_icon_small"
+		texturefile = "gfx/texticons/unit_marine_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_modern_sp_anti_air_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_modern_armor_icon_AA_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_modern_tank_destroyer_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_modern_armor_icon_AT_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_modern_sp_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_modern_armor_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_modern_armor_icon_small"
+		texturefile = "gfx/texticons/unit_modern_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_super_heavy_sp_anti_air_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_super_heavy_armor_icon_AA_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_super_heavy_tank_destroyer_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_super_heavy_armor_icon_AT_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_super_heavy_sp_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_super_heavy_armor_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_super_heavy_armor_icon_small"
+		texturefile = "gfx/texticons/unit_super_heavy_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_heavy_sp_anti_air_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_armor_icon_AA_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_heavy_tank_destroyer_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_armor_icon_AT_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_heavy_sp_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_armor_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_heavy_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_armor_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_heavy_armor_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_medium_sp_anti_air_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_medium_armor_icon_AA_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_medium_tank_destroyer_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_medium_armor_icon_AT_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_medium_sp_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_medium_armor_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/unit_medium_armor_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_light_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/unit_medium_armor_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_medium_armor_icon_small"
+		texturefile = "gfx/texticons/unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_light_sp_anti_air_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_light_armor_icon_art_AA_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_light_tank_destroyer_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_light_armor_icon_art_AT_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_light_sp_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_light_armor_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_light_armor_icon_small"
+		texturefile = "gfx/texticons/unit_light_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_bicycle_battalion_icon_small"
+		texturefile = "gfx/texticons/unit_bicycle_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_unit_amphibious_armor_icon_small"
+		texturefile = "gfx/texticons/unit_amphibious_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_unit_amphibious_mechanized_icon_small"
+		texturefile = "gfx/texticons/unit_amphibious_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_strat_bomber_icon_small"
+		texturefile = "gfx/texticons/unit_air_strat_bomber_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_production_cost"
+		texturefile = "gfx/texticons/production_cost.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_navprod_cost"
+		texturefile = "gfx/texticons/production_naval_cost.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_mot_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_mot_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_anti_air_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_anti_air_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_mot_anti_air_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_mot_anti_air_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_anti_air_icon_small"
+		texturefile = "gfx/texticons/support_AA_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_artillery_icon_small"
+		texturefile = "gfx/texticons/support_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_light_artillery_icon_small"
+		texturefile = "gfx/texticons/support_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_light_artillery_support_icon_small"
+		texturefile = "gfx/texticons/support_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_rocket_artillery_icon_small"
+		texturefile = "gfx/texticons/support_rocket_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_anti_tank_icon_small"
+		texturefile = "gfx/texticons/support_AT_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_engineer_icon_small"
+		texturefile = "gfx/texticons/support_engineer_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_engineer_mechanized_icon_small"
+		texturefile = "gfx/texticons/unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_engineer_armored_icon_small"
+		texturefile = "gfx/texticons/unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_unit_field_hospital_icon_small"
+		texturefile = "gfx/texticons/support_field_hospital_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_field_hospital_mechanized_icon_small"
+		texturefile = "gfx/texticons/unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_field_hospital_helicopter_icon_small"
+		texturefile = "gfx/texticons/unit_category_helicopters_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_military_police_icon_small"
+		texturefile = "gfx/texticons/support_military_police_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_signal_company_icon_small"
+		texturefile = "gfx/texticons/support_signal_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_maintenance_company_icon_small"
+		texturefile = "gfx/texticons/support_maintenance_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_logistics_company_icon_small"
+		texturefile = "gfx/texticons/support_logistics_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_motorized_artillery_icon_small"
+		texturefile = "gfx/texticons/nato_unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	#### unit texticons
+
+	spriteType = {
+		name = "GFX_unit_anti_tank_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_anti_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_mot_anti_tank_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_mot_anti_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_rocket_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_rocket_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_mot_rocket_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_mot_rocket_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	###US Senate
+	
+	spriteType = {
+		name = "GFX_republicans"
+		texturefile = "gfx/texticons/republicans.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_republicansglow"
+		texturefile = "gfx/texticons/republicansglow.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_democrats"
+		texturefile = "gfx/texticons/democrats.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_AIP2"
+		texturefile = "gfx/texticons/AIP2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_capitol"
+		texturefile = "gfx/texticons/capitol.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_capitol2"
+		texturefile = "gfx/texticons/capitol2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_capitol3"
+		texturefile = "gfx/texticons/capitol3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_democrat2"
+		texturefile = "gfx/texticons/democrat2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Dixiecrats"
+		texturefile = "gfx/texticons/Dixiecrats.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_DSA"
+		texturefile = "gfx/texticons/DSA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_legislate"
+		texturefile = "gfx/texticons/legislate.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_libertarian"
+		texturefile = "gfx/texticons/libertarian.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_librepubs"
+		texturefile = "gfx/texticons/librepubs.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_moralist"
+		texturefile = "gfx/texticons/moralist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_neocon"
+		texturefile = "gfx/texticons/neocon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newdems"
+		texturefile = "gfx/texticons/newdems.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_progdems"
+		texturefile = "gfx/texticons/progdems.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SWP"
+		texturefile = "gfx/texticons/SWP.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_paleo"
+		texturefile = "gfx/texticons/paleo.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_senate_yes"
+		texturefile = "gfx/texticons/senate_yes.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_senate_no"
+		texturefile = "gfx/texticons/senate_no.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_senate_no1"
+		texturefile = "gfx/texticons/senate_no1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_congress"
+		texturefile = "gfx/texticons/congress.dds"
+		legacy_lazy_load = no
+	}
+##money GUI texticons
+
+	spriteType = {
+		name = "GFX_dollar"
+		texturefile = "gfx/texticons/dollar2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_dollar3"
+		texturefile = "gfx/texticons/dollar3.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_dollarsmall"
+		texturefile = "gfx/texticons/dollarsmall.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_stockpile"
+		texturefile = "gfx/texticons/budget_nat_stockpile.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_industrial_sub"
+		texturefile = "gfx/texticons/budget_industrial_sub.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_administration"
+		texturefile = "gfx/texticons/budget_administration.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_money_pound"
+		texturefile = "gfx/texticons/icon_money_big.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_fuel_small"
+		texturefile = "gfx/texticons/icon_fuel_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_politics_upperhouse"
+		texturefile = "gfx/texticons/politics_upperhouse.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ban_small"
+		texturefile = "gfx/texticons/button_ban_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_tradeunions"
+		texturefile = "gfx/texticons/politics_tradeunions.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_tradeunions2"
+		texturefile = "gfx/texticons/politics_tradeunions_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_publicmeet"
+		texturefile = "gfx/texticons/politics_publicmeet.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_social_standing"
+		texturefile = "gfx/texticons/budget_social_standing.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ic_small"
+		texturefile = "gfx/texticons/icon_ic_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_budget_tariffs"
+		texturefile = "gfx/texticons/budget_tariffs.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_budget_education"
+		texturefile = "gfx/texticons/budget_education.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_province_growth"
+		texturefile = "gfx/texticons/province_growth.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_politics_votefran"
+		texturefile = "gfx/texticons/politics_votefran.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_unemplsub"
+		texturefile = "gfx/texticons/politics_unemplsub.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_healthcare"
+		texturefile = "gfx/texticons/politics_healthcare.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_open_popscreen"
+		texturefile = "gfx/texticons/open_popscreen.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_icon_oil_small"
+		texturefile = "gfx/texticons/icon_oil_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_icon_money_small"
+		texturefile = "gfx/texticons/icon_money_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_pensions"
+		texturefile = "gfx/texticons/politics_pensions.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_maxwork"
+		texturefile = "gfx/texticons/politics_maxwork.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_budget_gold"
+		texturefile = "gfx/texticons/budget_gold.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_votingsys"
+		texturefile = "gfx/texticons/politics_votingsys.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_politics_votingsys"
+		texturefile = "gfx/texticons/politics_votingsys.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_slavery"
+		texturefile = "gfx/texticons/politics_slavery.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_pluralism"
+		texturefile = "gfx/texticons/politics_pluralism.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_icon_metal_small"
+		texturefile = "gfx/texticons/icon_metal_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_budget_mil_spending"
+		texturefile = "gfx/texticons/budget_mil_spending.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_icon_money_mini"
+		texturefile = "gfx/texticons/icon_money_mini.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_minwage"
+		texturefile = "gfx/texticons/politics_minwage.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_foreign_weapons"
+		texturefile = "gfx/texticons/politics_foreign_weapons.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_school"
+		texturefile = "gfx/texticons/politics_school.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_education_reform"
+		texturefile = "gfx/texticons/politics_education_reform.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_invest_factory_button"
+		texturefile = "gfx/texticons/invest_factory_button.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_military_constructions"
+		texturefile = "gfx/texticons/politics_military_constructions.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unitpanel_combat_icon"
+		texturefile = "gfx/texticons/unitpanel_combat_icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_industrial_construction"
+		texturefile = "gfx/texticons/politics_industrial_construction.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_naval_training"
+		texturefile = "gfx/texticons/politics_naval_training.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_politics_transportation_system"
+		texturefile = "gfx/texticons/politics_transportation_system.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_finance_reform"
+		texturefile = "gfx/texticons/politics_finance_reform.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_rebel_icon_brigadeready"
+		texturefile = "gfx/texticons/rebel_icon_brigadeready.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_admin_reform"
+		texturefile = "gfx/texticons/politics_admin_reform.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_land_reform"
+		texturefile = "gfx/texticons/politics_land_reform.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_politics_pressrights"
+		texturefile = "gfx/texticons/politics_pressrights.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_navy"
+		texturefile = "gfx/texticons/navy.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_politics_army_training"
+		texturefile = "gfx/texticons/politics_army_training.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_food"
+		texturefile = "gfx/texticons/food.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_leftarrow"
+		texturefile = "gfx/GUI/button_arrow_left.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_rightarrow"
+		texturefile = "gfx/GUI/button_arrow_right.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_graphdot"
+		texturefile = "gfx/GUI/graphmarker.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_military"
+		texturefile = "gfx/texticons/military.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_naval"
+		texturefile = "gfx/texticons/naval.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_growth"
+		texturefile = "gfx/texticons/growth.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_culture"
+		texturefile = "gfx/texticons/culture.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_industry"
+		texturefile = "gfx/texticons/industry.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_capitalist"
+		texturefile = "gfx/texticons/capitalist.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_corruption"
+		texturefile = "gfx/texticons/corruption.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_criminals"
+		texturefile = "gfx/texticons/criminals.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_politics_safetyreg"
+		texturefile = "gfx/texticons/politics_safetyreg.dds"
+		legacy_lazy_load = no
+	}
+	
+	######################
+	# arab league
+	
+	spriteType = {
+		name = "GFX_interleague"
+		texturefile = "gfx/texticons/small/interleague.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_international"
+		texturefile = "gfx/texticons/small/international.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unification"
+		texturefile = "gfx/texticons/small/unification.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_aircraft"
+		texturefile = "gfx/texticons/aircraft.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_annex"
+		texturefile = "gfx/texticons/annex.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_arab_front"
+		texturefile = "gfx/texticons/arab_front.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_arab_league"
+		texturefile = "gfx/texticons/arab_league.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_azad_zone"
+		texturefile = "gfx/texticons/azad_zone.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_economic_zone"
+		texturefile = "gfx/texticons/economic_zone.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_embargo"
+		texturefile = "gfx/texticons/embargo.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_league_hq"
+		texturefile = "gfx/texticons/league_hq.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_league_unity"
+		texturefile = "gfx/texticons/league_unity.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_pan_arabism"
+		texturefile = "gfx/texticons/pan_arabism.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_parliament"
+		texturefile = "gfx/texticons/parliament.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_peace"
+		texturefile = "gfx/texticons/peace.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_release_nation"
+		texturefile = "gfx/texticons/release_nation.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_research"
+		texturefile = "gfx/texticons/research.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_session_length"
+		texturefile = "gfx/texticons/session_length.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ships"
+		texturefile = "gfx/texticons/ships.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_tank"
+		texturefile = "gfx/texticons/tank.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unification_support"
+		texturefile = "gfx/texticons/unification_support.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_aid"
+		texturefile = "gfx/texticons/aid.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_capital_city"
+		texturefile = "gfx/texticons/capital_city.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_corruption2"
+		texturefile = "gfx/texticons/corruption.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy"
+		texturefile = "gfx/texticons/diplomacy.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_globe"
+		texturefile = "gfx/texticons/globe.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_humiliate_rival"
+		texturefile = "gfx/texticons/humiliate_rival.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_imam"
+		texturefile = "gfx/texticons/imam.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_military_exercise"
+		texturefile = "gfx/texticons/military_exercise.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_paper"
+		texturefile = "gfx/texticons/paper.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_piety"
+		texturefile = "gfx/texticons/piety.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_strongarm"
+		texturefile = "gfx/texticons/strongarm.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_budget_rich"
+		texturefile = "gfx/texticons/budget_rich.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_topbar_trade"
+		texturefile = "gfx/texticons/topbar_trade.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_politics_naval_officers"
+		texturefile = "gfx/texticons/politics_naval_officers.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_politics_slavery_1"
+		texturefile = "gfx/texticons/politics_slavery_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_space_race_texticon"
+		texturefile = "gfx/texticons/space_race_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+}

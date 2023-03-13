@@ -2,10 +2,14 @@ state={
 	id=719
 	name="STATE_719"
 	provinces={
-		154 2548 5170 7374 8134 8342 8367 8678 9722 18291 18326 18339 18346 18387 18395 18591 18659 18696 18718 18829 
+		2548 4572 8175 8342 18659 18696 18718 18829 
 	}
 	manpower=1
 	local_supplies=0.0
-	state_category = city
+	state_category = rural
 	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+	}
 }

@@ -1,0 +1,14 @@
+state={
+	id=989
+	name="STATE_989"
+	provinces={
+		3637 5705 6683 8768 9053 17953 17980 18011 18082 18127 
+	}	
+	manpower=1
+	local_supplies=0.0
+	state_category = rural
+	history={
+		owner = KOL
+		add_core_of = KOL
+	} 
+}

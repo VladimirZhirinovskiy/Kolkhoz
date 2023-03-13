@@ -1,18 +1,30 @@
 state={
 	id=8
 	name="STATE_8"
+
 	provinces={
 		283 3558 19128 26364
 	}
-	manpower=2346797
+	
+	manpower=4015333
 	local_supplies=0.0
-	state_category = megalopolis
+	state_category = metropolis
+	buildings_max_level_factor=1.00
+
+	resources={
+		steel = 10
+		aluminium = 3
+	}
+	
 	history={
 		owner = KOL
 		add_core_of = KOL
+
 		buildings = {
 			infrastructure = 4
-			anti_air_building = 3
+			industrial_complex = 6
+			arms_factory = 4
+			anti_air_building = 1
 			}
 		}
 	}

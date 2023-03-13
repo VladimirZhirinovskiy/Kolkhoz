@@ -1,0 +1,23 @@
+state={
+	id=996
+	name="STATE_996"
+	provinces={
+		18475 18522 18567 18610 
+	}
+	manpower=84875
+	local_supplies=0.0
+	state_category = town
+	buildings_max_level_factor=1.00
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = { 18567 15 }
+
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+	}
+}

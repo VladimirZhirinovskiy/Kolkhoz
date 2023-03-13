@@ -2,20 +2,29 @@ state={
 	id=988
 	name="STATE_988"
 	provinces={
-		876 1270 8134 8367 18171 18205 18264 18326 
+		876 1270 8134 8367 18171 18205 18246 18264 18326 
 	}
+
 	manpower=1633595
 	local_supplies=10.0
-	state_category = large_town 
+	state_category = city
+	buildings_max_level_factor=1.00
+
+
 	history={
 		victory_points = {
 			18326 20 
 		}
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 1
+			anti_air_building = 1
 			18326 = {
 				bunker = 3
-
 			}
-		} 
+		}
+		owner = KOL
+		add_core_of = KOL
+	}	 
 }

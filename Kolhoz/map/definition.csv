@@ -18097,7 +18097,7 @@
 18096;172;182;216;land;false;plains;1
 18097;191;151;182;land;false;plains;1
 18098;153;157;192;land;false;plains;1
-18099;236;122;209;land;false;plains;1
+18099;236;122;209;land;false;urban;1
 18100;251;186;149;land;false;plains;1
 18101;253;20;244;land;false;plains;1
 18102;236;94;176;land;false;plains;1
@@ -18324,7 +18324,7 @@
 18323;87;208;217;land;false;plains;1
 18324;253;183;252;land;false;plains;1
 18325;177;164;247;land;false;plains;1
-18326;147;142;218;land;false;plains;1
+18326;147;142;218;land;false;urban;1
 18327;93;247;252;land;true;plains;1
 18328;144;233;237;land;false;desert;1
 18329;155;227;215;land;false;desert;1
@@ -18565,7 +18565,7 @@
 18564;146;232;196;land;false;plains;1
 18565;167;198;193;land;false;plains;1
 18566;194;137;171;land;false;plains;1
-18567;206;172;183;land;false;plains;1
+18567;206;172;183;land;false;urban;1
 18568;217;135;167;land;false;desert;1
 18569;195;227;181;land;false;desert;1
 18570;174;168;180;land;false;desert;1
@@ -19801,7 +19801,7 @@
 19800;206;233;195;land;true;desert;1
 19801;246;180;101;land;false;plains;1
 19802;196;136;185;land;false;plains;1
-19803;242;33;244;land;true;plains;1
+19803;242;33;244;land;true;urban;1
 19804;210;166;190;land;false;desert;1
 19805;108;220;226;land;false;desert;1
 19806;225;203;233;land;false;desert;1

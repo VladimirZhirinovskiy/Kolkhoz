@@ -1,14 +1,13 @@
 capital = 9
 
-set_rule = {
-	can_generate_female_aces = yes
-	can_generate_female_unit_leaders  = yes
-	can_generate_female_country_leaders = yes
-}
+#Персонажи
+#Правитель
+recruit_character = KOL_sanchous
 
-set_research_slots = 4
-set_stability = 0.75 
-set_war_support = 0.3
+set_research_slots = 3
+set_convoys = 200
+set_stability = 0.60
+set_war_support = 0.20
 
 # Starting tech
 set_technology = {
@@ -90,20 +89,26 @@ if = {
 		basic_torpedo = 1
 	}
 }
+
 set_politics = {
-	ruling_party = fascism
+	ruling_party = despotism
 	last_election = "2020.1.1"
 	election_frequency = 48
 	elections_allowed = no
-
-set_popularities = {
-	democratic = 9
-	fascism = 74
-	communism = 2
-	neutrality = 15
 }
 
-create_faction = Kolkhoz
-add_to_faction = KOL
+set_popularities = {
+	communist = 0
+	socialist = 1
+	progressivism = 1
+	liberalism = 4
+	conservatism = 3
+	paternalism = 5
+	despotism = 56
+	ultranationalism = 0
+	fascism = 17
+	national_socialism = 10
+	esoteric_nazism = 3
+}
 
-recruit_character = KOL_sanchous
+

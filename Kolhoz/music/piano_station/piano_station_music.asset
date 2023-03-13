@@ -5,8 +5,8 @@ music = {
 }
 
 music = {
-	name = "maintheme"
-	file = "maintheme.ogg"
+	name = "kolkhoz"
+	file = "kolkhoz.ogg"
 	volume = 0.80
 }
 music = {
@@ -87,5 +87,10 @@ music = {
 music = {
 	name = "vpered_assia"
 	file = "vpered_assia.ogg"
+	volume = 0.80
+}
+music = {
+	name = "golos_ovoshey"
+	file = "golos_ovoshey.ogg"
 	volume = 0.80
 }

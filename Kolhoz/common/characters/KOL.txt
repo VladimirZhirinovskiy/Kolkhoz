@@ -1,15 +1,19 @@
-characters={
-	KOL_sanchous={
-		name=KOL_sanchous
-		portraits={
-			civilian={
-				large=GFX_portrait_KOL_sanchous
+characters = {
+
+	KOL_sanchous = {
+		name = KOL_sanchous
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_KOL_sanchous"
+				small = "GFX_portrait_KOL_sanchous"
 			}
 		}
 		country_leader={
-			ideology=nazism
-			traits={ }
-			expire="2049.1.1.1"
-			id=-1
+			ideology = despotism_absolute_monarchy_subtype
+			desc = "KOL_sanchous_DESC"
+			traits = { # }
+			expire = "2083.1.1"
+			id = -1
 		}
 	}
+}
