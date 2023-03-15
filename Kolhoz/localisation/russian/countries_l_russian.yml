@@ -1,0 +1,22 @@
+﻿l_russian:
+ KOL_despotism:0 "Колхоз имени Тстанчовуса"
+ KOL_fascism_DEF:0 "Колхоз имени Тстанчовуса"
+ KOL_democratic:0 "Республика Колхоз"
+ KOL_democratic_DEF:0 "Республика Колхоз"
+ KOL_neutrality:1 "Германская империя"
+ KOL_neutrality_DEF:1 "Германская империя"
+ KOL_communism:0 "Социалистическая республика Колхоз"
+ KOL_communism_DEF:0 "Социалистическая республика Колхоз"
+ KOL_fascism_ADJ:0 "Колхозн."
+ KOL_democratic_ADJ:0 "Колхозн."
+ KOL_neutrality_ADJ:0 "Колхозн."
+ KOL_communism_ADJ:0 "Колхозн."
+ KOL_autonomy_supervised_state:0 "$OVERLORDADJ$ оккупационная зона"
+ KOL_autonomy_supervised_state_DEF:0 "$OVERLORDADJ$ оккупационная зона"
+ KOL_autonomy_puppet:0 "$OVERLORDADJ$ Колхоз"
+ KOL_autonomy_puppet_DEF:0 "$OVERLORDADJ$ Колхоз"
+ KOL:0 "Колхоз"
+ KOL_DEF:0 "Колхоз"
+ KOL_ADJ:0 "Колхозн."
+ 
+

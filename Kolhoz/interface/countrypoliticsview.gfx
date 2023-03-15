@@ -1,4 +1,10 @@
 spriteTypes = {
+
+	spriteType = { 
+		name = "GFX_dolboeb"
+		texturefile = "gfx/interface/dolboeb.dds"
+	}	
+
 	#Government in Exile
 
 	spriteType = {

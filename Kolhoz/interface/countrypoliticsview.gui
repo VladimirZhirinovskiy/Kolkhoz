@@ -51,7 +51,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 468 y = 249 }
+			position = { x= 658 y = 243 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
@@ -82,7 +82,7 @@ guiTypes = {
 		
 		containerWindowType = { 
 			name = "political_pie_chart"
-			position = { x = 357 y = 168 }
+			position = { x = 550 y = 168 }
 			size = { width=100 height=100 }
 			clipping = no
 
@@ -382,12 +382,22 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "eco_law"
-			position = { x = 160 y = 387 }
+			position = { x = 148 y = 387 }
 			font = "hoi_20b"
 			text = "Концерны"
 			maxWidth = 500
 			maxHeight = 20
 		}
+		
+		instantTextboxType = {
+			name = "arm_law"
+			position = { x = 148 y = 478 }
+			font = "hoi_20b"
+			text = "Офицерский Корпус"
+			maxWidth = 200
+			maxHeight = 20
+		}
+		
 		
 		containerWindowType = {
 			name = "ideas"
@@ -395,12 +405,6 @@ guiTypes = {
 			size = { width=424 height=225 }
 			margin = { top = 14 bottom = 47}
 		
-			background = {
-				name = "Background"
-				#quadTextureSprite ="GFX_tiled_window_2b_border"
-				#quadTextureSprite ="GFX_tiled_window_1b_border"
-				#quadTextureSprite ="GFX_tiled_window_1b_border"
-			}
 			
 			gridBoxType = {
 				name = "idea_categories_grid"
@@ -533,7 +537,7 @@ guiTypes = {
 	
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 385 y = 385 } 
+			position = { x = 578 y = 385 } 
 			quadTextureSprite = "GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -541,7 +545,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 410 y = 394 }
+			position = { x = 600 y = 386 }
 			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
@@ -560,7 +564,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "show_subjects_button"
-				position = { x = 0 y = 0 }
+				position = { x = 193 y = 0 }
 				quadTextureSprite = "GFX_button_148x34"
 				buttonFont = "hoi_16mbs"
 				Orientation = "UPPER_RIGHT"
@@ -568,7 +572,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "show_subjects_button_text"
-				position = { x = 15 y = 8 }
+				position = { x = 200 y = 2 }
 				font = "hoi_16mbs"
 				text = "MANAGE_SUBJECTS"
 				Orientation = "UPPER_LEFT"
@@ -587,7 +591,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "show_exiles_collaborations_button"
-			position = { x = 385 y = 350 }	
+			position = { x = 578 y = 350 }	
 			quadTextureSprite = "GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -596,7 +600,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
-			position = { x = 395 y = 358 }
+			position = { x = 580 y = 358 }
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20

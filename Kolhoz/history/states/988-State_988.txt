@@ -2,11 +2,11 @@ state={
 	id=988
 	name="STATE_988"
 	provinces={
-		876 1270 8134 8367 18171 18205 18246 18264 18326 
+		876 1270 8134 8367 18171 18193 18205 18246 18264 18265 18326 
 	}
 
 	manpower=1633595
-	local_supplies=10.0
+	local_supplies=0.0
 	state_category = city
 	buildings_max_level_factor=1.00
 
@@ -27,4 +27,9 @@ state={
 		owner = KOL
 		add_core_of = KOL
 	}	 
+	resources={
+		steel = 19
+		aluminium = 4
+		tungsten = 2
+	}
 }
