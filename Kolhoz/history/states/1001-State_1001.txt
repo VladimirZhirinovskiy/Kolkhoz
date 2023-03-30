@@ -5,9 +5,9 @@ state={
 		1437 3112 18182 18236 18237 18247 18284 
 	}
 
-	manpower=225608
+	manpower=627698
 	local_supplies=0.0
-	state_category = large_town
+	state_category = city
 
 	history={
 		owner = KOL

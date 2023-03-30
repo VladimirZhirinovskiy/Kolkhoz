@@ -4,7 +4,7 @@ state={
 	provinces={
 		3637 5705 6683 8768 9053 17953 17980 18011 18082 18127 
 	}	
-	manpower=44865
+	manpower=156845
 	state_category = large_town
 	buildings_max_level_factor=1.00
 
@@ -12,8 +12,10 @@ state={
 		owner = KOL
 		add_core_of = KOL
 
-		victory_points = {17953 3}
+		victory_points = {17953 2}
 		victory_points = {18127 10}
+		victory_points = {18082 6}
+
 
 		buildings = {
 			infrastructure = 2
@@ -21,6 +23,6 @@ state={
 	} 
 
 	resources ={
-		steel = 2
+		steel = 6
 	}
 }

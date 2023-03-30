@@ -5,31 +5,32 @@ state={
 		876 1270 8134 8367 18171 18193 18205 18246 18264 18265 18326 
 	}
 
-	manpower=1633595
-	local_supplies=0.0
+	manpower=2762595
 	state_category = city
 	buildings_max_level_factor=1.00
 
 
 	history={
-		victory_points = {
-			18326 20 
-		}
+
+		victory_points = { 18326 20 }
+		victory_points = { 18205 6 }
+		victory_points = { 18265 4 }
+
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5
 			arms_factory = 1
 			anti_air_building = 1
 			18326 = {
-				bunker = 3
+				bunker = 1
 			}
 		}
 		owner = KOL
 		add_core_of = KOL
 	}	 
 	resources={
-		steel = 19
-		aluminium = 4
+		steel = 10
+		aluminium = 3
 		tungsten = 2
 	}
 }

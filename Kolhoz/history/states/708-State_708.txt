@@ -3,8 +3,8 @@ state={
 	name="STATE_708"
 
 	resources={
-		steel=6.000
-		aluminium=10.000
+		steel=2.000
+		aluminium=6.000
 	}
 
 	provinces={
@@ -12,7 +12,6 @@ state={
 	}
 
 	manpower=910000
-	local_supplies=0.0
 	state_category = city
 	buildings_max_level_factor=1.00
 

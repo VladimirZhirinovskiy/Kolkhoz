@@ -13,7 +13,8 @@ state={
 		add_core_of = KOL
 
 		victory_points = {18829 16}
-		victory_points = {18659 7}
+		victory_points = {18659 3}
+		victory_points = {8175 2}
 
 
 		buildings = {

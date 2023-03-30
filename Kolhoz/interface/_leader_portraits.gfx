@@ -19,4 +19,9 @@ spriteTypes = {
 		name = "GFX_portrait_KOL_sanchous"
 		textureFile = "gfx/leaders/KOL/KOL_sanchous.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_CHN_shaurma"
+		textureFile = "gfx/leaders/CHN/CHN_shaurma.dds"
+	}
 } 

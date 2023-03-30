@@ -1,0 +1,15 @@
+state={
+	id=1038
+	name="STATE_1038"
+	provinces={
+		19973 
+	}
+	manpower=1
+	state_category = city
+
+	history = {
+		owner = CHN
+		add_core_of = CHN
+	}
+	 
+}

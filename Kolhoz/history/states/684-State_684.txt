@@ -5,7 +5,7 @@ state={
 		1687 5229 5736 6261 7886 7997 9197 17963 18059 18075 18091 
 	}
 
-	manpower=56986
+	manpower=148886
 	state_category = town
 	buildings_max_level_factor=1.00
 

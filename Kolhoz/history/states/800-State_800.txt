@@ -2,12 +2,14 @@ state={
 	id=800
 	name="STATE_800"
 	provinces={
-		89 622 948 1596 1834 1943 2095 4981 5294 5489 6048 7112 7397 10296 19174 19185 19196 19219 19229 19247 19250 19323 19355 19455 19470 19498 19514 
+		1596 1834 1943 4981 7112 10296 19355 19455 19470 19498 19514 19538 
 	}
 	manpower=1
-	local_supplies=0.0
-	state_category = city
-	state_category = city
-	local_supplies=0.0 
+	state_category = rural
 	 
+	history = {
+		owner = CHN
+		add_core_of = CHN
+	}
+	  
 }

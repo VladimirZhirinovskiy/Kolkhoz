@@ -2,7 +2,7 @@ state={
 	id=1017
 	name="STATE_1017"
 	provinces={
-		4758 19143 19204 19230 19248 
+		4758 19143 19204 19230 
 	}
 	manpower=1
 	local_supplies=0.0

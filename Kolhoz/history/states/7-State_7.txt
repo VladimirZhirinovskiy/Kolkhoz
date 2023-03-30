@@ -5,13 +5,31 @@ state={
 		2197 19088 19133 19062 26365 26366 26367 26368 26369 26370 26371 26372
 	}
 	manpower=2072308
-	local_supplies=0.0
 	state_category = rural
+
 	history={
 		owner = KOL
 		add_core_of = KOL
+
+		victory_points = {19062 1}
+		victory_points = {19088 1}
+		victory_points = {26372 1}
+		victory_points = {26369 1}
+
 		buildings = {
 			infrastructure = 3
+			19062 = {
+				bunker = 1
+			}
+			19088 = {
+					bunker = 1
+			}	
+			26372 = {
+					bunker = 1
+			}
+			26369 = {
+					bunker = 1
+			}
 		}
 	}
 }

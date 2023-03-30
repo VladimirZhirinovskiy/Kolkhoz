@@ -2,12 +2,14 @@ state={
 	id=829
 	name="STATE_829"
 	provinces={
-		383 574 1225 1746 2033 2036 2261 4021 4632 4896 6301 9192 9363 10089 19538 19616 19638 19673 19681 19724 19741 19775 19811 19835 19869 19924 19928 19973 
+		4896 6301 19601 19616 19638 19672 19673 19681 19741 
 	}
 	manpower=1
-	local_supplies=0.0
-	state_category = city
-	state_category = city
-	local_supplies=0.0 
-	 
+	state_category = rural
+	
+	history = {
+		owner = CHN
+		add_core_of = CHN
+	}
+	  
 }

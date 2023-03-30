@@ -4,11 +4,28 @@ state={
 	provinces={
 		1582 1654 2597 5596 7383 18317 18369 18452 
 	}	
-	manpower=1
-	local_supplies=0.0
-	state_category = rural 
+	manpower=1456001
+	state_category = city 
+	buildings_max_level_factor=1.00
+
 	history={
 		owner = KOL
 		add_core_of = KOL
+
+		victory_points = {2597 20}
+		victory_points = {7383 2}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 4
+		}
+	}
+
+	resources = {
+		chromium = 9
+		steel = 3
+		tungsten = 2
 	}
 }
