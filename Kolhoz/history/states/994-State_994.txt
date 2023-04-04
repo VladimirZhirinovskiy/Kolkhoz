@@ -4,8 +4,8 @@ state={
 	provinces={
 		4814 6199 8671 18187 18231 18252 18259 18316 
 	}
-	manpower=267794
-	state_category = large_town
+	manpower=473702
+	state_category = city
 	buildings_max_level_factor=1.00
 	 
 	history={
@@ -18,6 +18,9 @@ state={
 			infrastructure = 4
 			fuel_silo = 2
 			synthetic_refinery = 1
+			18252 = {
+				bunker = 1
+			}
 		}
 	}
 

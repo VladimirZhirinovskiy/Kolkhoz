@@ -1,9 +1,5 @@
 capital = 9
 
-#Персонажи
-	#Правители
-recruit_character = KOL_sanchous
-
 set_research_slots = 3
 set_convoys = 200
 set_stability = 0.60
@@ -105,10 +101,16 @@ set_popularities = {
 	conservatism = 3
 	paternalism = 5
 	despotism = 56
-	ultranationalism = 0
-	fascism = 17
-	national_socialism = 10
+	ultranationalism = 8
+	fascism = 12
+	national_socialism = 7
 	esoteric_nazism = 3
 }
 
-
+#Персонажи
+recruit_character = KOL_sanchous
+recruit_character = KOL_gordon
+recruit_character = KOL_traktorist
+recruit_character = KOL_donel
+recruit_character = KOL_evreyka
+recruit_character = KOL_tikhon

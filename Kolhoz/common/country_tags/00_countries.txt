@@ -1,2 +1,3 @@
 KOL = "countries/Kolkhoz.txt"
 CHN = "countries/Chillingia.txt"
+MIS = "countries/Misomaniac.txt"

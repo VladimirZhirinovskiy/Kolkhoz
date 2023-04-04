@@ -1,19 +1,138 @@
 characters = {
 
-	KOL_sanchous = {
+	KOL_sanchous={
 		name = KOL_sanchous
 		portraits = {
 			civilian = {
 				large = "GFX_portrait_KOL_sanchous"
-				small = "GFX_portrait_KOL_sanchous"
 			}
 		}
-		country_leader={
+		
+		country_leader = {
+			ideology = paternalism_semi_constitutional_monarchy_subtype
+			desc = KOL_sanchous_DESC
+			traits = { }
+		}
+
+		country_leader = {
 			ideology = despotism_absolute_monarchy_subtype
-			desc = "KOL_sanchous_DESC"
-			traits = { # }
-			expire = "2083.1.1"
-			id = -1
+			desc = KOL_sanchous_DESC
+			traits = { }
+		}
+
+		country_leader = {
+			ideology = esoteric_nazism_imperial_cult_subtype
+			desc = KOL_sanchous_DESC
+			traits = { }
+		}
+
+		country_leader = {
+			ideology = ultranationalism_esoteric_despotism_subtype
+			desc = KOL_sanchous_DESC
+			traits = { }
 		}
 	}
+
+	KOL_gordon={
+		name = KOL_gordon
+		portraits = {
+			civilian = {
+					large = "GFX_portrait_KOL_gordon"
+			}
+		}
+			
+		country_leader = {
+			ideology = fascism_ecclesiastic_nationalism_subtype
+			desc = KOL_gordon_DESC
+				traits = { }
+		}
+	}		
+
+	KOL_traktorist={
+		name = KOL_traktorist
+		portraits = {
+			civilian = {
+					large = "GFX_portrait_KOL_traktorist"
+			}
+		}
+			
+		country_leader = {
+			ideology = progressivism_popular_front_subtype
+			desc = KOL_traktorist_DESC
+				traits = { }
+		}
+
+		country_leader = {
+			ideology = socialist_revolutionary_frontism_subtype
+			desc = KOL_traktorist_DESC
+				traits = { }
+		}
+		
+		country_leader = {
+			ideology = communist_maoism_subtype
+			desc = KOL_traktorist_DESC
+				traits = { }
+		}
+		
+	}		
+
+	KOL_donel={
+		name = KOL_donel
+		portraits = {
+			civilian = {
+					large = "GFX_portrait_KOL_donel"
+			}
+		}
+			
+		country_leader = {
+			ideology = conservatism_paternalistic_conservatism_subtype
+			desc = KOL_donel_DESC
+				traits = { }
+		}
+	}
+
+	KOL_evreyka={
+		name = KOL_evreyka
+		portraits = {
+            army = {
+                large = "GFX_portrait_KOL_evreyka"
+                small = "GFX_idea_evreyka"
+            }
+            civilian = {
+					large = "GFX_portrait_KOL_evreyka"
+			}
+        }
+
+        corps_commander = {
+            traits = { media_personality politically_connected }
+            skill = 2
+            attack_skill = 4
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+
+        advisor={
+			slot = political_advisor
+			allowed = { original_tag = KOL }
+			idea_token = evreyka
+			traits = { prince_of_terror }
+		}
+	}
+
+	KOL_tikhon={
+		name = KOL_tikhon
+		portraits = {
+			civilian = {
+					large = "GFX_portrait_KOL_tikhon"
+			}
+		}
+			
+		country_leader = {
+			ideology = national_socialism_clerical_fascism_subtype
+			desc = KOL_tikhon_DESC
+				traits = { }
+		}
+	}
+
 }

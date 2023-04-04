@@ -6,15 +6,11 @@ state={
 	}
 	manpower=2072308
 	state_category = rural
+	buildings_max_level_factor=1.00
 
 	history={
 		owner = KOL
 		add_core_of = KOL
-
-		victory_points = {19062 1}
-		victory_points = {19088 1}
-		victory_points = {26372 1}
-		victory_points = {26369 1}
 
 		buildings = {
 			infrastructure = 3

@@ -5,7 +5,7 @@ state={
 		5162 7404 9715 18463 18485 18553  
 	}	
 
-	manpower=72891
+	manpower=281897
 	state_category = town
 	buildings_max_level_factor=1.00
 

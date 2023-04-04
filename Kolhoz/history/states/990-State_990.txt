@@ -24,7 +24,7 @@ state={
 	}
 
 	resources = {
-		chromium = 9
+		chromium = 3
 		steel = 3
 		tungsten = 2
 	}

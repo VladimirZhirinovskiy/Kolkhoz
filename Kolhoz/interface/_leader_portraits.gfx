@@ -21,6 +21,36 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_portrait_KOL_gordon"
+		textureFile = "gfx/leaders/KOL/KOL_gordon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KOL_donel"
+		textureFile = "gfx/leaders/KOL/KOL_donel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KOL_evreyka"
+		textureFile = "gfx/leaders/KOL/KOL_evreyka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_evreyka"
+		texturefile = "gfx/interface/ideas/idea_evreyka.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_portrait_KOL_traktorist"
+		textureFile = "gfx/leaders/KOL/KOL_traktorist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KOL_tikhon"
+		textureFile = "gfx/leaders/KOL/KOL_tikhon.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_portrait_CHN_shaurma"
 		textureFile = "gfx/leaders/CHN/CHN_shaurma.dds"
 	}

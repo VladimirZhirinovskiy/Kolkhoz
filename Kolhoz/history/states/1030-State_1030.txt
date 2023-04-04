@@ -6,9 +6,9 @@ state={
 		158 604 6223 7303 8892 19380 19417 19437 19446 19559 19570 19619 
 	}
 
-	manpower=1222000
-	state_category=city
-	buildings_max_level_factor=1.00
+	manpower=4222000
+	state_category=large_city
+	buildings_max_level_factor=2.00
 	 
 	history={
 		owner = KOL
@@ -18,9 +18,10 @@ state={
 
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 1
+			industrial_complex = 3
+			arms_factory = 4
 			fuel_silo = 2
+			synthetic_refinery = 1
 		}	
 	}
 	

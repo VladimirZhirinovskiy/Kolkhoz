@@ -5,7 +5,7 @@ state={
 		2730 4403 4620 18046 18047 18048 18108 
 	}
 
-	manpower=133195
+	manpower=243195
 	state_category = town
 
 	history={

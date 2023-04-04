@@ -6,7 +6,7 @@ state={
 		6401 6455 18318 18319 18355  
 	}	
 
-	manpower=28461
+	manpower=88461
 	state_category = rural
 	buildings_max_level_factor=1.00
 

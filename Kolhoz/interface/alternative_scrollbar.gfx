@@ -436,11 +436,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_GDPbg"
-		texturefile = "gfx/interface/HUD/GDPbg.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
 		name = "GFX_incomebg"
 		texturefile = "gfx/interface/HUD/incomebg.dds"
 		legacy_lazy_load = no
