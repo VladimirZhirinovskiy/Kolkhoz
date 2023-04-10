@@ -5,7 +5,6 @@ state={
 		913 5260 8932 19457 19567 
 	}
 	manpower=2125100
-	local_supplies=0.0
 	state_category = large_city
 	buildings_max_level_factor=1.00
 	 

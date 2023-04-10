@@ -25,6 +25,7 @@ state={
 				coastal_bunker = 2
 				bunker = 1
 			}
+		}
 	}
 	 
 }

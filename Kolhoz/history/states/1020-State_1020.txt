@@ -5,8 +5,8 @@ state={
 		1005 2742 3367 18898 18956 18987 19034 19035 19055 19072 19092 19112 19144 19197 
 	}
 	
-	manpower=3708319
-	state_category = large_city
+	manpower=4708319
+	state_category = metropolis
 	buildings_max_level_factor=2.00
 
 	history={
@@ -15,6 +15,7 @@ state={
 
 		victory_points = {19035 30}
 		victory_points = {19092 12}
+		victory_points = {19197 8}
 		victory_points = {19055 2}
 
 		buildings = {
@@ -29,6 +30,9 @@ state={
 				bunker = 2
 			}
 			19092 = {
+				bunker = 1
+			}
+			19197 = {
 				bunker = 1
 			}
 		}
