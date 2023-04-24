@@ -1,0 +1,13 @@
+state={
+	id=493
+	name="STATE_493"
+	provinces={
+		28 32 1035 1961 2286 2943 3461 4710 6040 6316 6741 9504 9829 9847 10037 15627 15685 15765 15815 15816 15859 15860 15883 15916 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 
+}
