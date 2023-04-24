@@ -1,0 +1,30 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		26363
+	}
+	
+	manpower=3300667
+	state_category = megalopolis
+	buildings_max_level_factor=2.00
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = { 26363 40 }
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 8
+			arms_factory = 4
+			fuel_silo = 2
+			anti_air_building = 3
+			26363 = {
+				bunker = 3
+			}
+		}
+	}	
+	 
+}
