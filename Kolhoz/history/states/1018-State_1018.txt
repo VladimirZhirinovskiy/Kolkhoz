@@ -1,0 +1,21 @@
+state={
+	id=1018
+	name="STATE_1018"
+	provinces={
+		1723 7263 18694 18763 18810 18847 
+	}
+	manpower=189231
+	local_supplies=0.0
+	state_category = rural
+	 
+	history={
+		victory_points = {1723 16}
+		owner = KOL
+		add_core_of = KOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	 
+}

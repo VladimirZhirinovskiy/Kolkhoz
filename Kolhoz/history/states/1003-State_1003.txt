@@ -1,0 +1,21 @@
+state={
+	id=1003
+	name="STATE_1003"
+	provinces={
+		 18599 18600 18647 18676 18685 
+	}
+	manpower=367123
+	local_supplies=0.0
+	state_category = town
+	 
+	history={
+		victory_points = {18685 12}
+		owner = KOL
+		add_core_of = KOL
+	}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			}
+}

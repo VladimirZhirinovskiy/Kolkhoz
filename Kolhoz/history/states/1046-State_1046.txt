@@ -1,0 +1,19 @@
+state={
+	id=1046
+	name="STATE_1046"
+	provinces={
+		996 3877 6296 7776 18717 18836 18913 18945 
+	}
+	manpower=141231
+	state_category = rural
+
+	history = {
+		victory_points = {996 14}
+		owner = CHN
+		add_core_of = CHN
+			buildings = {
+			infrastructure = 2
+			}
+	}
+	 
+}

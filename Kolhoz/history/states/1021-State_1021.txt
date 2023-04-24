@@ -1,0 +1,26 @@
+state={
+	id=1021
+	name="STATE_1021"
+	provinces={
+		1163 1547 1763 1820 6967 7059 18777 18811 18899 18988 
+	}
+	
+	manpower=612876
+	local_supplies=0.0
+	state_category = rural
+	 
+	history={
+		victory_points = {1163 17}
+		owner = KOL
+		add_core_of = KOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory =3
+		}
+	}
+	resources {
+		tungsten = 1
+	}
+	 
+}

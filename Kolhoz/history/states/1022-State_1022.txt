@@ -1,0 +1,22 @@
+state={
+	id=1022
+	name="STATE_1022"
+	provinces={
+		5751 18838 18900 18914 
+	}
+	manpower=95327
+	state_category = rural
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {18914 2}
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	 
+}

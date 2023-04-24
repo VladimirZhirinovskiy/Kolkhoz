@@ -1,0 +1,21 @@
+state={
+	id=1036
+	name="STATE_1036"
+	provinces={
+		2033 2697 4643 5753 9940 19939 
+	}
+	manpower=145123
+	state_category = rural
+
+	history = {
+		victory_points = { 19939 6 }
+		owner = CHN
+		add_core_of = CHN
+		
+		buidings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	 
+}
