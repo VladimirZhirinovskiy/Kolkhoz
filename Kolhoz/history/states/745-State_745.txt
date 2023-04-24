@@ -1,0 +1,21 @@
+state={
+	id=745
+	name="STATE_745"
+	provinces={
+		3861 4683 5923 6375 9909 18712 18734 18758 18822 4677 18823 8872 18545
+	}
+	manpower=393123
+	local_supplies=0.0
+	state_category = town
+	 
+	history={
+		victory_points = {3861 11}
+		owner = KOL
+		add_core_of = KOL
+			buildings = {
+			infrastructure = 3
+			anti_air_building = 1
+			air_base = 1
+	}
+	}
+}

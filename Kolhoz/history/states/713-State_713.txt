@@ -1,0 +1,39 @@
+state={
+	id=713
+	name="STATE_713"
+	provinces={
+		10134 18434 18505 18515 18587 18598 
+	}
+	manpower=237691
+	state_category = town
+	buildings_max_level_factor=1.00
+	 
+	history={
+
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {18515 6}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			anti_air_building = 2
+			air_base = 2
+			18515 = {
+				bunker = 3
+			}
+			18505 = {
+				bunker = 1
+			}
+			10134 = {
+				bunker = 1
+			}
+		}
+	}
+	 
+	resources = {
+		steel = 2
+		tungsten = 1
+	}
+}

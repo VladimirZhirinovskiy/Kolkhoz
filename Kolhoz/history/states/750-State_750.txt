@@ -1,0 +1,26 @@
+state={
+	id=750
+	name="STATE_750"
+	provinces={
+		393 2743 2902 7258 8055 8983 10301 18946 18986 19071 
+	}
+	
+	manpower=453212
+	local_supplies=0.0
+	state_category = town
+	 
+	history={
+		victory_points = {393}
+		owner = KOL
+		add_core_of = KOL
+		buildings = {
+			infrastructure = 5
+			fuel_silo = 2
+
+		}
+	}
+	resources = {
+		oil = 4
+	}
+	 
+}
