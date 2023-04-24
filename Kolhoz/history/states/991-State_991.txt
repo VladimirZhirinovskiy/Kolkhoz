@@ -1,0 +1,29 @@
+state={
+	id=991
+	name="STATE_991"
+	provinces={
+		5162 7404 9715 18463 18485 18553  
+	}	
+
+	manpower=281897
+	state_category = town
+	buildings_max_level_factor=1.00
+
+	history={
+
+		victory_points = {18553 10}
+		victory_points = {5162 8}
+
+		buildings = {
+			infrastructure = 2
+		}
+
+		owner = KOL
+		add_core_of = KOL
+
+	}
+
+	resources = {
+		tungsten = 2
+	}
+}

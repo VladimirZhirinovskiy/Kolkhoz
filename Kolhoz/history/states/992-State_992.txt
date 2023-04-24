@@ -1,0 +1,23 @@
+state={
+	id=992
+	name="STATE_992"
+
+	provinces={
+		6401 6455 18318 18319 18355  
+	}	
+
+	manpower=88461
+	state_category = rural
+	buildings_max_level_factor=1.00
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {18318 3}
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}
