@@ -4,7 +4,7 @@ state={
 	provinces={
 		10134 18434 18505 18515 18587 18598 
 	}
-	manpower=237691
+	manpower=437691
 	state_category = town
 	buildings_max_level_factor=1.00
 	 
@@ -13,21 +13,28 @@ state={
 		owner = KOL
 		add_core_of = KOL
 
-		victory_points = {18515 6}
+		victory_points = {18515 10}
 
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			anti_air_building = 2
 			air_base = 2
+			fuel_silp = 1
 			18515 = {
 				bunker = 3
 			}
 			18505 = {
-				bunker = 1
+				bunker = 2
 			}
 			10134 = {
-				bunker = 1
+				bunker = 2
+			}
+			18587 = {
+				bunker = 2
+			}
+			18434 = {
+				bunker = 2
 			}
 		}
 	}

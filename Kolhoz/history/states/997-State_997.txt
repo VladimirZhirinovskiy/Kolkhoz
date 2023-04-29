@@ -4,14 +4,30 @@ state={
 	provinces={
 		4937 8078 9908 18646 18837 
 	}
-	manpower=111321
-	local_supplies=0.0
+	manpower=211321
 	state_category = rural
+	buildings_max_level_factor=1.00
 	 
 	history={
-		victory_points = {4937 8}
 		owner = KOL
 		add_core_of = KOL
+
+		victory_points = {8078 6}
+
+		buildings = {
+			infrastructure = 1
+			18646 = {
+				bunker = 1
+			}
+			9908 = {
+				bunker = 1
+			}
+		}
+
 	}
-	 
+
+	resources = {
+		aluminium = 4
+		chromium = 2
+	}
 }

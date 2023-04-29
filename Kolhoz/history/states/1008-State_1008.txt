@@ -5,7 +5,6 @@ state={
 		13 706 10067 19239 19303 
 	}
 	manpower=123654
-	local_supplies=0.0
 	state_category = rural
 	 
 	history={

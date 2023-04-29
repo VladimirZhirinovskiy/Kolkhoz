@@ -4,17 +4,20 @@ state={
 	provinces={
 		1723 7263 18694 18763 18810 18847 
 	}
-	manpower=189231
-	local_supplies=0.0
-	state_category = rural
+	manpower=526239
+	state_category = town
+	buildings_max_level_factor=1.00
 	 
 	history={
-		victory_points = {1723 16}
 		owner = KOL
 		add_core_of = KOL
+
+		victory_points = {18763 4}
+
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 2
+			industrial_complex = 1
+			anti_air_building = 1
 		}
 	}
 	 

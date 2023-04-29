@@ -15,6 +15,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
 	
+	#колхоз при пидорасе
 	spriteType = {
 		name = "GFX_portrait_KOL_sanchous"
 		textureFile = "gfx/leaders/KOL/KOL_sanchous.dds"
@@ -38,7 +39,6 @@ spriteTypes = {
 		name = "GFX_idea_evreyka"
 		texturefile = "gfx/interface/ideas/idea_evreyka.dds"
 	}
-
 	
 	spriteType = {
 		name = "GFX_portrait_KOL_traktorist"
@@ -50,8 +50,15 @@ spriteTypes = {
 		textureFile = "gfx/leaders/KOL/KOL_tikhon.dds"
 	}
 	
+	#чиллингия
 	spriteType = {
 		name = "GFX_portrait_CHN_shaurma"
 		textureFile = "gfx/leaders/CHN/CHN_shaurma.dds"
+	}
+	
+	#мисохуяк
+	spriteType = {
+		name = "GFX_portrait_MIS_misomaniac"
+		textureFile = "gfx/leaders/MIS/MIS_misomaniac.dds"
 	}
 } 

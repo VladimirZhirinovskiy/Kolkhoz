@@ -1,12 +1,6 @@
 state={
 	id=708
 	name="STATE_708"
-
-	resources={
-		steel=2.000
-		aluminium=6.000
-	}
-
 	provinces={
 		5801 18588 18660 
 	}
@@ -34,5 +28,10 @@ state={
 
 			}
 		}
-	}  
+	} 
+	
+	resources={
+		steel=2.000
+		aluminium=6.000
+	} 
 }

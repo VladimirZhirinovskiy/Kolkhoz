@@ -2,7 +2,8 @@ capital = 666
 
 #Персонажи
 	#Правители
-
+	recruit_character = MIS_misomaniac
+	
 set_research_slots = 3
 set_convoys = 200
 set_stability = 0.80

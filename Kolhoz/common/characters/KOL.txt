@@ -124,7 +124,7 @@ characters = {
 		name = KOL_tikhon
 		portraits = {
 			civilian = {
-					large = "GFX_portrait_KOL_tikhon"
+				large = "GFX_portrait_KOL_tikhon"
 			}
 		}
 			

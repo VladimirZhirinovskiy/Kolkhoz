@@ -2,7 +2,7 @@ state={
 	id=1000
 	name="STATE_1000"
 	provinces={
-		3988  6721 18395   
+		3988 6721 18395 18427 18545 6088
 	}
 	manpower=125363
 	state_category = town
@@ -12,8 +12,8 @@ state={
 		owner = KOL
 		add_core_of = KOL
 
-		victory_points = {6721 4}
 		victory_points = {3988 6}
+		victory_points = {6088 1}
 
 		buildings = {
 			infrastructure = 2
@@ -23,5 +23,5 @@ state={
 				bunker = 3
 			}
 		}
-	}
+	}	
 }
