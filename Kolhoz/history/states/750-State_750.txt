@@ -5,7 +5,7 @@ state={
 		393 2743 2902 7258 8055 8983 10301 18946 18986 19071 
 	}
 	
-	manpower=453212
+	manpower=953212
 	state_category = town
 	buildings_max_level_factor=1.00
 	 
@@ -13,15 +13,17 @@ state={
 		owner = KOL
 		add_core_of = KOL
 
-		victory_points = {18946 1}
+		victory_points = {10301 10}
+		victory_points = {18986 4}
 
 		buildings = {
 			infrastructure = 3
+			fuel_silo = 2
 		}
 	}
 
 	resources = {
-		oil = 4
+		oil = 6
 	}
 	 
 }
