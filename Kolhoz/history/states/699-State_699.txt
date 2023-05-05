@@ -1,0 +1,18 @@
+state={
+	id=699
+	name="STATE_699"
+	provinces={
+		289 1229 1843 2385 3392 3519 4265 4830 6706 7648 8109 8876 9241 9749 9850 9938 10070 17922 18069 18079 18139 18185 18191 18214 18230 18250 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 history= {
+
+		owner = MIS
+		add_core_of = MIS
+		
+	 }	 
+}

@@ -1,0 +1,18 @@
+state={
+	id=622
+	name="STATE_622"
+	provinces={
+		671 3215 3651 4988 7970 8377 9389 17128 17162 17196 17221 17229 17255 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 history= {
+
+		owner = TNR
+		add_core_of = TNR
+		
+	 }			 
+}

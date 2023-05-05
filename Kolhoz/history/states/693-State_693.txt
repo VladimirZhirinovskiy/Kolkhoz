@@ -1,0 +1,18 @@
+state={
+	id=693
+	name="STATE_693"
+	provinces={
+		1695 2099 2734 2793 3313 3413 3859 5366 6283 7378 7465 7531 7745 8008 9208 9825 10240 10254 17972 17973 17985 18001 18020 18029 18104 18114 18166 18179 18219 18220 18245 18257 18271 18315 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 history= {
+
+		owner = GUB
+		add_core_of = GUB
+		
+	 }		 
+}
