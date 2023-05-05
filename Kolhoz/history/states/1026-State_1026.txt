@@ -1,0 +1,16 @@
+state={
+	id=1026
+	name="STATE_1026"
+	provinces={
+		3324  9936 18748 18759 18831 18848 18915 
+	}
+	manpower=213412
+	local_supplies=0.0
+	state_category = rural
+	 
+	history={
+		victory_points = {3324 4}
+		owner = KOL
+		add_core_of = KOL
+	} 
+}

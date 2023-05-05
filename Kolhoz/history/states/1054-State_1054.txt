@@ -1,0 +1,21 @@
+state={
+	id=1054
+	name="STATE_1054"
+	provinces={
+		6856 6879 9846 18654 18727 
+	}
+	manpower=352784
+	state_category = town
+
+	history = {
+		victory_points = {6879 13}
+		owner = CHN
+		add_core_of = CHN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			}
+	}
+	 
+}

@@ -1,0 +1,24 @@
+state={
+	id=1013
+	name="STATE_1013"
+	provinces={
+		1154 3110 19864 19888 19929 
+	}
+	manpower=23564
+	state_category = town
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {19929 5}
+
+		buildings = {
+			infrastructure = 2
+			19929 = {
+				naval_base = 1
+			}
+		}
+	}
+}

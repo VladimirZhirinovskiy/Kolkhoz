@@ -1,0 +1,16 @@
+state={
+	id=1045
+	name="STATE_1045"
+	provinces={
+		1797 3584 3707 6712 19015 19080 19161 
+	}
+	manpower=231141
+	state_category = rural
+
+	history = {
+		victory_points = { 6712 5 }
+		owner = CHN
+		add_core_of = CHN
+	}
+	 
+}
