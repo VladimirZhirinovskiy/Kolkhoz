@@ -1,0 +1,23 @@
+state={
+	id=745
+	name="STATE_745"
+	provinces={
+		3861 4683 5923 6375 9909 18712 18734 18758 18822 4677 18823 
+	}
+	manpower=2505613
+	state_category = city
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {4683 13}
+		victory_points = {4677 6}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=721
+	name="STATE_721"
+	provinces={
+		1552 2070 2293 2895 5228 6237 6391 7701 10072 18282 18325 18345 18490 18543 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 history= {
+
+		owner = ORP
+		add_core_of = ORP
+		add_core_of = GUB
+		
+	 }	 
+}
