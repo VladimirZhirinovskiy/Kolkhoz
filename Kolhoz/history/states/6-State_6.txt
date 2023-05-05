@@ -1,0 +1,27 @@
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		2730 4403 4620 18046 18047 18048 18108 
+	}
+
+	manpower=243195
+	state_category = town
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {2730 6}
+		victory_points = {18047 2}
+
+		buildings = {
+			infrastructure = 2
+			fuel_silo = 1
+		}
+	}	
+
+	resources={
+		oil = 6
+	}
+}
