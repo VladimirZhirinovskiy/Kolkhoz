@@ -1,0 +1,13 @@
+state={
+	id=380
+	name="STATE_380"
+	provinces={
+		265 1011 1644 4003 6063 6262 7631 7718 8626 9382 9427 10104 14392 14431 14509 14548 14556 14699 14708 14709 14738 14772 14786 14814 14850 14863 14918 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 
+}
