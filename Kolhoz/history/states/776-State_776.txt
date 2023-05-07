@@ -2,17 +2,14 @@ state={
 	id=776
 	name="STATE_776"
 	provinces={
-		1468 2590 3017 4421 4943 4975 5771 6268 8937 9791 18925 18964 18998 19032 19069 19140 19172 19211 
+		1468 2590 3017 4421 6268 8937 18925 18964 18998 19032 
 	}
-	manpower=1
-	local_supplies=0.0
-	state_category = city
-	state_category = city
-	local_supplies=0.0 
-	 history= {
 
+	manpower=1
+	state_category = city
+	
+	history= {
 		owner = GUB
 		add_core_of = GUB
-		
-	 }		 
+	}		 
 }

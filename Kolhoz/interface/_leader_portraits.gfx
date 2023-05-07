@@ -61,4 +61,11 @@ spriteTypes = {
 		name = "GFX_portrait_MIS_misomaniac"
 		textureFile = "gfx/leaders/MIS/MIS_misomaniac.dds"
 	}
+	
+	#губерград
+	spriteType = {
+		name = "GFX_portrait_GUB_dremes"
+		textureFile = "gfx/leaders/GUB/GUB_dremes.dds"
+	}
+	
 } 

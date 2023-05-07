@@ -2127,12 +2127,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_unification"
-		texturefile = "gfx/texticons/small/unification.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
 		name = "GFX_aircraft"
 		texturefile = "gfx/texticons/aircraft.dds"
 		legacy_lazy_load = no

@@ -2,12 +2,16 @@ state={
 	id=531
 	name="STATE_531"
 	provinces={
-		373 2204 2633 3426 9676 16065 16126 16185 16239 16276 16331 16351 16381 16400 
+		373 2204 2633 3426 16239 16276 16331 16351 16381 16400 
 	}
+
 	manpower=1
-	local_supplies=0.0
 	state_category = city
-	state_category = city
-	local_supplies=0.0 
+
+	history = {
+		owner = TNR
+		add_core_of = TNR
+		
+	}
 	 
 }

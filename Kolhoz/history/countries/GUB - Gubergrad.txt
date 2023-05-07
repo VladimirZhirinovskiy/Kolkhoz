@@ -2,7 +2,7 @@ capital = 785
 
 #Персонажи
 	#Правители
-	
+	recruit_character = GUB_dremes
 	
 set_research_slots = 3
 set_convoys = 200
@@ -91,23 +91,23 @@ if = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = ultranationalism
 	last_election = "2020.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 3
-	socialist = 10
+	communist = 1
+	socialist = 0
 	progressivism = 0
-	liberalism = 85
-	conservatism = 0
-	paternalism = 0
-	despotism = 0
-	ultranationalism = 2
-	fascism = 0
-	national_socialism = 0
-	esoteric_nazism = 0
+	liberalism = 0
+	conservatism = 1
+	paternalism = 2
+	despotism = 24
+	ultranationalism = 46
+	fascism = 19
+	national_socialism = 6
+	esoteric_nazism = 1
 }
 

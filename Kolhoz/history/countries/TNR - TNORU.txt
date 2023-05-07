@@ -103,8 +103,8 @@ set_popularities = {
 	despotism = 45
 	ultranationalism = 10
 	fascism = 15
-	national_socialism = 7
-	esoteric_nazism = 3
+	national_socialism = 4
+	esoteric_nazism = 1
 }
 
 #Персонажи
