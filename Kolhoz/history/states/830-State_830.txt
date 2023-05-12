@@ -1,0 +1,24 @@
+state={
+	id=830
+	name="STATE_830"
+	provinces={
+		1935 2891 19569 19628 19639 19689 19743 
+	}
+	manpower=321000
+	local_supplies=0.0
+	state_category = town
+	
+	 
+	history={
+		victory_points = {1935 12}
+		owner = KOL
+		add_core_of = KOL
+		buildings ={
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	 resources= {
+		steel = 2
+	 }
+}

@@ -1,0 +1,26 @@
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		11 1570 1908 3817 5305 5744 7516 8358 8656 19489 19556 19562 19592 19648 19670 19688 19713 19802 19854  19863   
+	}
+	manpower=564321
+	state_category = large_town
+	 history= {
+		victory_points = {11 15}
+
+		owner = GUB
+		add_core_of = GUB
+		buildings = {
+			infrastructure = 4
+			dockyard = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		
+	 }		 
+	 resources = {
+		steel = 5
+		oil = 4
+	 }
+}
