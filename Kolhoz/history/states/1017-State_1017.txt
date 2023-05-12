@@ -1,0 +1,31 @@
+state={
+	id=1017
+	name="STATE_1017"
+	provinces={
+		4758 19143 19204 19230 
+	}
+
+	manpower=1832769
+	state_category = large_city
+	buildings_max_level_factor=1.00
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {4758 20}
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			rocket_site = 2
+			arms_factory = 1
+		}
+	}
+	resources = {
+		steel = 6
+		tungsten = 2
+		chromium = 2
+		oil = 1
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		3336 4586 5315 6655 6669 18830 18869 18892 19018 
+	}
+	manpower=1792592
+	state_category = large_city
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {18892 23}
+		victory_points = {19018 2}
+
+		buildings={
+			infrastructure = 4 
+			industrial_complex = 3
+		}
+	}
+	resources = {
+		steel = 10
+	 }
+}

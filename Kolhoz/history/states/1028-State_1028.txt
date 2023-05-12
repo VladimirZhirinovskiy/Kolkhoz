@@ -1,0 +1,24 @@
+state={
+	id=1028
+	name="STATE_1028"
+	provinces={
+		3042 4388 19305 19356 19372 19379 
+	}
+	manpower=832123
+	local_supplies=0.0
+	state_category = city
+	
+	history={
+		victory_points = {3042 18}
+		owner = KOL
+		add_core_of = KOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			anti_air_building  = 1
+
+		}
+	}	
+
+	 
+}

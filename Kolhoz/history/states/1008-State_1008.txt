@@ -1,0 +1,23 @@
+state={
+	id=1008
+	name="STATE_1008"
+	provinces={
+		13 706 10067 19239 19303 
+	}
+	
+	manpower=524672
+	state_category = town
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {19239 6}
+		victory_points = {13 2}
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}
