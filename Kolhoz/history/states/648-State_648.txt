@@ -1,0 +1,21 @@
+state={
+	id=648
+	name="STATE_648"
+	provinces={
+		791 2668 4156 4600 5027 5237 5485 5556 5701 6751 7130 7574 9509 17327 17333 17352 17404 17413 17451 17465 17466 17474 17515 17516 17531 17547 17548 17506 17577 17593 17594 17645 17661 17662 17683 
+	}
+	manpower=542132
+	state_category = town
+	
+	 history= {
+		victory_points = {791 16}
+		owner = MIS
+		add_core_of = MIS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 3
+		}
+		
+	 }		 
+}

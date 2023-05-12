@@ -1,0 +1,30 @@
+state={
+	id=685
+	name="STATE_685"
+	provinces={
+		287 602 878 3984 4831 5793 6498 10234 17916 17937 18070 18109 18128 18153 18183 
+	}
+	manpower=1323432
+	local_supplies=0.0
+	state_category = city
+	 history= {
+		victory_points = {287 21}
+		victory_points = {602 7}
+
+		owner = TNR
+		add_core_of = TNR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+		}
+		
+	 }		
+	resources = {
+		steel = 4
+		tungsten = 2
+		aluminium = 3
+		oil = 1
+	}	 
+}

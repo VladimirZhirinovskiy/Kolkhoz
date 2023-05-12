@@ -1,0 +1,20 @@
+state={
+	id=642
+	name="STATE_642"
+	provinces={
+		223 296 466 531 605 648 1030 2482 3025 3171 3619 4020 4144 4353 4615 4671 4718 5199 6328 6816 7198 8222 8810 9595 9762 9967 10252 17309 17344 17398 17436 17437 17484 17511 17526 17576 17579 17587 17605 17638 17654 17720 17725 17760 17777 17778 17824 17846 17847 17901  
+	}
+	manpower=653234
+	state_category = large_town
+	 history= {
+		victory_points = {296 18}
+
+		owner = TNR
+		add_core_of = TNR
+		buildings = {
+			infrastructure = 4
+			industrial_complex =1
+			air_base = 3
+		}
+	 }			 
+}
