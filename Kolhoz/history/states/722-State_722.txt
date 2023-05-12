@@ -1,0 +1,19 @@
+state={
+	id=722
+	name="STATE_722"
+	provinces={
+		739 1001 1436 2550 3022 4051 4667 4693 6165 6491 9588 18272 18332 18354 18423 18459 18481 18489 18502 18565 18616 18669 
+	}
+
+	manpower=324543
+	state_category = rural
+
+	history= {
+		victory_points = {739 9}
+		owner = GUB
+		add_core_of = GUB
+		buildings = {
+			infrastructure = 1
+		}
+	}		 
+}

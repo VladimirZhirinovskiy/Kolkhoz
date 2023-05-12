@@ -1,0 +1,26 @@
+state={
+	id=790
+	name="STATE_790"
+	provinces={
+		831 4393 5093 6950 9662 19045 19127 
+	}
+	manpower=265212
+	state_category = rural
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {9662 4}
+		victory_points = {19127 2}
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	resources = {
+        oil = 1
+    }
+}
