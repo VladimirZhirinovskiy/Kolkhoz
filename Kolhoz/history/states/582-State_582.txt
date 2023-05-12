@@ -1,0 +1,18 @@
+state={
+	id=582
+	name="STATE_582"
+	provinces={
+		479 3292 5757 7286 7559 7906 9228 16851 16875 16907 16958 16970 16995 17016 17059 
+	}
+
+	manpower=111222
+	state_category = rural
+	
+	history = {
+		victory_points = {479 8}
+		owner = TNR
+		add_core_of = TNR
+		
+	} 
+
+}

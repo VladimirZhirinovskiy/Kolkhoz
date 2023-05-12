@@ -1,0 +1,13 @@
+state={
+	id=536
+	name="STATE_536"
+	provinces={
+		1774 1785 2206 3966 4069 4181 4713 5344 5741 5917 6225 7409 8893 9001 9498 16051 16117 16131 16226 16267 16289 16340 16363 16371 16401 16407 16410 16411 16456 16465 16518 16524 
+	}
+	manpower=1
+	local_supplies=0.0
+	state_category = city
+	state_category = city
+	local_supplies=0.0 
+	 
+}

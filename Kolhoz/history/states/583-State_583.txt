@@ -1,0 +1,22 @@
+state={
+	id=583
+	name="STATE_583"
+	provinces={
+		1610 2056 2602 3013 6362 7123 8393 10180 16762 16805 16868 17013 
+	}
+
+	manpower=243432
+	state_category = town
+
+	history = {
+		victory_points = {1610 11}
+		owner = TNR
+		add_core_of = TNR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+	}
+	 
+}

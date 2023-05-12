@@ -1,0 +1,21 @@
+state={
+	id=598
+	name="STATE_598"
+	provinces={
+		2715 3591 8293 9742 17105 17118 17136 17172 17177 17183 17193 17236 17239 17248 
+	}
+	manpower=234212
+	local_supplies=0.0
+	state_category = town
+	 history= {
+		victory_points = {2715 5}
+
+		owner = TNR
+		add_core_of = TNR
+				buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+	 }			 
+}
