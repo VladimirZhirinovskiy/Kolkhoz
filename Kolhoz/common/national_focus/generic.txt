@@ -1602,6 +1602,19 @@ focus_tree = {
 		}
 		x = 21
 		y = 3
+						completion_reward = {
+						if = {
+								limit = {
+										has_idea = neutrality_idea
+									}
+								remove_ideas = neutrality_idea
+							}
+						add_ideas = tehnologi_focus
+						army_experience = 45
+						set_rule = {
+								can_send_volunteers = yes
+							}
+					}		
 
 	}
 	focus = {
@@ -1613,6 +1626,10 @@ focus_tree = {
 		}
 		x = 21
 		y = 4
+					completion_reward = {
+						add_ideas = dark_ar
+						army_experience = 30
+					}
 
 	}
 	focus = {
@@ -1624,7 +1641,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 5
-
+				completion_reward = {
+						add_ideas = rab_try
+					}
 	}
 	focus = {
 		id = ultra_nazi
@@ -1675,7 +1694,19 @@ focus_tree = {
 		}
 		x = 23
 		y = 3
-
+				completion_reward = {
+						if = {
+								limit = {
+										has_idea = neutrality_idea
+									}
+								remove_ideas = neutrality_idea
+							}
+						add_ideas = ultmilitarism_focus
+						army_experience = 30
+						set_rule = {
+								can_send_volunteers = yes
+							}
+					}
 	}
 	focus = {
 		id = great_armi
@@ -1686,7 +1717,10 @@ focus_tree = {
 		}
 		x = 23
 		y = 4
-
+					completion_reward = {
+						add_ideas = great_ar
+						army_experience = 30
+					}
 	}
 	focus = {
 		id = nazi
@@ -1740,6 +1774,19 @@ focus_tree = {
 		}
 		x = 25
 		y = 3
+						completion_reward = {
+						if = {
+								limit = {
+										has_idea = neutrality_idea
+									}
+								remove_ideas = neutrality_idea
+							}
+						add_ideas = militarism_focus
+						army_experience = 20
+						set_rule = {
+								can_send_volunteers = yes
+							}
+					}
 
 	}
 	focus = {
@@ -1751,7 +1798,10 @@ focus_tree = {
 		}
 		x = 25
 		y = 4
-
+					completion_reward = {
+						add_ideas = komisa
+						army_experience = 20
+					}
 	}
 	focus = {
 		id = domineited
@@ -1763,7 +1813,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 5
-
+				completion_reward = {
+						add_ideas = domineite
+					}
 	}
 	focus = {
 		id = nationalism_focus
@@ -2078,7 +2130,16 @@ focus_tree = {
 		}
 		x = 31
 		y = 3
-
+				completion_reward = {
+						if = {
+								limit = {
+										has_idea = neutrality_idea
+									}
+								remove_ideas = neutrality_idea
+							}
+						add_political_power = 200
+						add_ideas = pravo_1
+					}
 	}
 	focus = {
 		id = rinok
@@ -2089,7 +2150,11 @@ focus_tree = {
 		}
 		x = 31
 		y = 4
-
+					completion_reward = {
+						add_ideas = rino
+						army_experience = 5
+						add_political_power = 50
+					}
 	}
 	focus = {
 		id = soc-dem
@@ -2100,7 +2165,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 5
-
+				completion_reward = {
+						add_ideas = soc-de
+					}
 	}
 	focus = {
 		id = ideological_fanaticism
@@ -2285,7 +2352,18 @@ focus_tree = {
 		}
 		x = 36
 		y = 3
+				completion_reward = {
+						if = {
+								limit = {
+										has_idea = neutrality_idea
+									}
+								remove_ideas = neutrality_idea
+							}
 
+							
+						add_political_power = 200
+						add_ideas = vola_1
+					}
 	}
 	focus = {
 		id = low_demokratia
@@ -2296,7 +2374,41 @@ focus_tree = {
 		}
 		x = 36
 		y = 4
+					completion_reward = {
+						add_ideas = demokrati
+						army_experience = 5
 
+							random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = industrial_complex
+												size > 0
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = industrial_complex
+																				size > 0
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+										type = industrial_complex
+										level = 1
+										instant_build = yes
+									}
+							}
+					}
 	}
 	focus = {
 		id = interventionism_focus
@@ -2407,7 +2519,18 @@ focus_tree = {
 		}
 		x = 40
 		y = 3
+				completion_reward = {
+						if = {
+								limit = {
+										has_idea = neutrality_idea
+									}
+								remove_ideas = neutrality_idea
+							}
 
+							
+						add_political_power = 200
+						add_ideas = svoboda_1
+					}
 	}
 	focus = {
 		id = opolcehie
@@ -2418,7 +2541,11 @@ focus_tree = {
 		}
 		x = 40
 		y = 4
+					completion_reward = {
+						add_ideas = opolcehi
+						army_experience = 35
 
+					}
 	}
 	focus = {
 		id = why_we_fight
@@ -2556,7 +2683,18 @@ focus_tree = {
 		}
 		x = 42
 		y = 3
+				completion_reward = {
+						if = {
+								limit = {
+										has_idea = neutrality_idea
+									}
+								remove_ideas = neutrality_idea
+							}
 
+							
+						add_political_power = 200
+						add_ideas = tehnologi_1
+					}
 	}
 	focus = {
 		id = tehno_armi
@@ -2568,6 +2706,10 @@ focus_tree = {
 		}
 		x = 42
 		y = 4
+					completion_reward = {
+						add_ideas = tehno_ar
+						army_experience = 25
 
+					}
 	}
 }
