@@ -3766,7 +3766,7 @@ leader_traits = {
 		random = no
 		# Boosts Communism
 		sprite = 13
-		communism_drift = 0.1
+		communist_drift = 0.1
 
 		ai_will_do = {
 			factor = 1
@@ -3781,7 +3781,7 @@ leader_traits = {
 		random = no
 		# Boosts Democracy
 		sprite = 13
-		democratic_drift = 0.1
+		conservatism_drift = 0.1
 
 		ai_will_do = {
 			factor = 0
@@ -3802,6 +3802,129 @@ leader_traits = {
 			}
 		}
 	}
+	
+	socialist_revolutionary = {
+		random = no
+		# Boosts socialist
+		sprite = 13
+		socialist_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				not = { has_completed_focus = USA_suspend_the_presecution }
+				factor = 0
+			}
+		}
+	}	
+	
+	national_socialism_demagogue = {
+		random = no
+		# Boosts national_socialism
+		sprite = 13
+		national_socialism_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				not = { has_completed_focus = USA_america_first }
+				factor = 0
+			}
+		}
+	}
+	
+	ultranationalism_demagogue = {
+		random = no
+		# Boosts ultranationalism
+		sprite = 13
+		ultranationalism_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				not = { has_completed_focus = USA_america_first }
+				factor = 0
+			}
+		}
+	}	
+	
+	
+	
+	esoteric_nazism_demagogue = {
+		random = no
+		# Boosts esoteric_nazism
+		sprite = 13
+		esoteric_nazism_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				not = { has_completed_focus = USA_america_first }
+				factor = 0
+			}
+		}
+	}	
+	
+	
+	progressivism_reformer = {
+		random = no
+		# Boosts progressivism
+		sprite = 13
+		progressivism_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				not = { has_completed_focus = USA_america_first }
+				factor = 0
+			}
+		}
+	}		
+	
+	
+	liberalism_reformer = {
+		random = no
+		# Boosts liberalism
+		sprite = 13
+		liberalism_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				not = { has_completed_focus = USA_america_first }
+				factor = 0
+			}
+		}
+	}		
+	
+	
+	
+	paternalism_demagogue = {
+		random = no
+		# Boosts paternalism
+		sprite = 13
+		paternalism_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				not = { has_completed_focus = USA_america_first }
+				factor = 0
+			}
+		}
+	}		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	staunch_monarchist = {
 		random = no
 		# Boosts Unaligned
