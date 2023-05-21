@@ -268,15 +268,15 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-completion_reward = {
-	add_tech_bonus = {
-			name = infantry_artillery_bonus
-			bonus = 1.0
-			uses = 1
-			category = infantry_weapons
-			category = artillery
-		}
-}
+				completion_reward = {
+						add_tech_bonus = {
+								name = infantry_artillery_bonus
+								bonus = 1.0
+								uses = 1
+								category = infantry_weapons
+								category = artillery
+							}
+					}
 
 
 	}
@@ -380,6 +380,8 @@ completion_reward = {
 						add_ideas = great_ar
 						army_experience = 30
 					}
+
+
 	}
 	focus = {
 		id = motorization_effort
@@ -388,7 +390,7 @@ completion_reward = {
 		prerequisite = {
 			focus = army_effort
 		}
-		x = 5
+		x = 4
 		y = 1
 				completion_reward = {
 						add_tech_bonus = {
@@ -411,8 +413,8 @@ completion_reward = {
 		prerequisite = {
 			focus = motorization_effort
 		}
-		x = 5
-		y = 2
+		x = 4
+		y = 3
 				completion_reward = {
 						add_tech_bonus = {
 								name = motorized_bonus
@@ -431,8 +433,8 @@ completion_reward = {
 		prerequisite = {
 			focus = mechanization_effort
 		}
-		x = 5
-		y = 3
+		x = 4
+		y = 4
 				completion_reward = {
 						add_tech_bonus = {
 								name = armor_bonus
@@ -528,7 +530,7 @@ completion_reward = {
 		prerequisite = {
 			focus = fighter_focus
 		}
-		x = 7
+		x = 9
 		y = 2
 				completion_reward = {
 						air_experience = 25
@@ -597,13 +599,34 @@ completion_reward = {
 
 	}
 	focus = {
+		id = NAV_effort
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 10
+		prerequisite = {
+			focus = aviation_effort_2
+		}
+		x = 7
+		y = 3
+				completion_reward = {
+						add_tech_bonus = {
+								name = nav_bomber_bonus
+								bonus = 1.0
+								ahead_reduction = 2
+								uses = 1
+								category = naval_bomber
+							}
+					}
+
+
+	}
+	focus = {
 		id = CAS_effort
 		icon = GFX_goal_generic_CAS
 		cost = 10
 		prerequisite = {
 			focus = aviation_effort_2
 		}
-		x = 7
+		x = 9
 		y = 3
 				completion_reward = {
 						add_tech_bonus = {
@@ -624,7 +647,7 @@ completion_reward = {
 		prerequisite = {
 			focus = CAS_effort
 		}
-		x = 7
+		x = 9
 		y = 4
 				ai_will_do = {
 						factor = 1
@@ -641,27 +664,6 @@ completion_reward = {
 								uses = 2
 								category = rocketry
 								category = jet_technology
-							}
-					}
-
-
-	}
-	focus = {
-		id = NAV_effort
-		icon = GFX_goal_generic_air_naval_bomber
-		cost = 10
-		prerequisite = {
-			focus = aviation_effort_2
-		}
-		x = 9
-		y = 3
-				completion_reward = {
-						add_tech_bonus = {
-								name = nav_bomber_bonus
-								bonus = 1.0
-								ahead_reduction = 2
-								uses = 1
-								category = naval_bomber
 							}
 					}
 
@@ -1394,6 +1396,8 @@ completion_reward = {
 									}
 							}
 					}
+
+
 	}
 	focus = {
 		id = collectivist_ethos
@@ -2339,6 +2343,8 @@ completion_reward = {
 				completion_reward = {
 						add_ideas = dikatatyr
 					}
+
+
 	}
 	focus = {
 		id = interventionism_focus
@@ -2620,6 +2626,8 @@ completion_reward = {
 									}
 							}
 					}
+
+
 	}
 	focus = {
 		id = extra_tech_slot
@@ -2893,5 +2901,7 @@ completion_reward = {
 				completion_reward = {
 						add_ideas = demokrat_1
 					}
+
+
 	}
 }
