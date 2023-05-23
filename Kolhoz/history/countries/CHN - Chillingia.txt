@@ -1,5 +1,7 @@
 capital = 800
 
+oob ="BOT_1936"
+
 #Персонажи
 	#Правители
 recruit_character = CHN_shaurma

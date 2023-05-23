@@ -1,5 +1,8 @@
 capital = 660
 
+oob ="BOT_1936"
+
+
 set_research_slots = 2
 set_convoys = 200
 set_stability = 0.30
