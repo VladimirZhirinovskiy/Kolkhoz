@@ -7,7 +7,8 @@ country_event = {
 	desc = political.1.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = communist }
 		communist > 0.5
 	}
 
@@ -48,7 +49,8 @@ country_event = {
 	desc = political.2.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = socialist }
 		socialist > 0.5
 	}
 
@@ -87,7 +89,8 @@ country_event = {
 	desc = political.3.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = progressivism }
 		progressivism > 0.5
 	}
 
@@ -126,7 +129,8 @@ country_event = {
 	desc = political.4.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = liberalism }
 		liberalism > 0.5
 	}
 
@@ -164,7 +168,8 @@ country_event = {
 	desc = political.5.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = conservatism }
 		conservatism > 0.5
 	}
 
@@ -201,7 +206,8 @@ country_event = {
 	desc = political.6.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = paternalism }
 		paternalism > 0.5
 	}
 
@@ -238,7 +244,8 @@ country_event = {
 	desc = political.7.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = despotism }
 		despotism > 0.5
 	}
 
@@ -275,7 +282,8 @@ country_event = {
 	desc = political.8.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = ultranationalism }
 		ultranationalism > 0.5
 	}
 
@@ -311,7 +319,8 @@ country_event = {
 	desc = political.9.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = fascism }
 		fascism > 0.5
 	}
 
@@ -348,7 +357,8 @@ country_event = {
 	desc = political.10.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = national_socialism }
 		national_socialism > 0.5
 	}
 
@@ -387,7 +397,8 @@ country_event = {
 	desc = political.11.d
 	picture = GFX_report_event_worker_protests
 
-	trigger = {
+ 	trigger = {
+		NOT = { has_government = esoteric_nazism }
 		esoteric_nazism > 0.5
 	}
 
