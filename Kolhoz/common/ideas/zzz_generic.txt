@@ -653,11 +653,13 @@ ideas = {
 				stability_factor = 0.2
 
 			}
+		}
 		demokrat_1 = {
 			
 			allowed = {
 				always = no
 			}
+		
 
 
 
@@ -676,7 +678,26 @@ ideas = {
 
 
 
+		AAA = {
+			
+			allowed = {
+				always = no
+			}
+		
 
+
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				trade_opinion_factor = -2.00
+				conscription = -0.99
+				political_power_factor = -2.00
+				justify_war_goal_time = 10.10
+			}
+		}
 
 
 
@@ -1766,94 +1787,6 @@ ideas = {
 			}
 		}
 	}
-	
-	political_advisor = {
-		# POLITICAL	
-		generic_communist_revolutionary = {
-			
-			allowed = {
-				
-			}
-
-			available = {
-				
-			}
-			
-			traits = { }
-	
-			on_add = {
-				#country_event = political.1
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = communist
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-			
-		generic_democratic_reformer = {
-			
-			allowed = {
-				
-				
-			}
-			
-			available = {
-				
-			}
-
-			
-			traits = { }
-	
-			on_add = {
-				#country_event = political.13
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = conservatism
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
-		generic_fascist_demagogue = {
-			
-			allowed = {
-
-			}
-			
-			available = {
-							
-			}
-			
-			traits = {  }
-	
-			on_add = {
-				#country_event = political.7
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
-		
-	
 
 	# TECHNOLOGY
 	tank_manufacturer = { 
@@ -2077,179 +2010,3 @@ ideas = {
 		}
 	}
 
-	political_advisor = {
-
-		generic_captain_of_industry = {
-
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-		
-		generic_fortification_engineer = {
-
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-
-		generic_war_industrialist = {
-
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-	}
-
-	army_chief = {
-		
-		generic_army_chief_off = {
-			
-			allowed = {
-				
-			}
-			
-			traits = { }
-		}
-
-		generic_army_chief_def = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-	}
-
-	navy_chief = {		
-
-		generic_navy_chief_decisive_bat = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-
-		generic_navy_anti_submarine = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-	}
-
-	air_chief = {
-
-		generic_air_close_air_sup = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-	
-		generic_air_chief_all_weather = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }			
-		}
-	}
-
-	high_command = {
-
-		generic_army_art = {
-			
-			allowed = {
-				
-			}
-			
-			traits = { }			
-		}
-		
-		generic_army_log = {
-
-			allowed = {
-				
-			}
-			
-			traits = {  }			
-		}
-
-		generic_navy_fleet_log = {
-
-			allowed = {
-				
-			}
-			
-			traits = { }			
-		}
-
-		generic_air_air_combat_trainer = {
-
-			allowed = {
-				
-			}
-			
-			traits = { }			
-		}
-	}
-
-	theorist = {
-
-		generic_military_theorist = {
-			
-			allowed = {
-				
-			}
-			
-			research_bonus = {
-				land_doctrine = 0.10
-			}
-			
-			traits = {  }
-		}
-	
-		generic_naval_theorist = {
-			
-			allowed = {
-				
-			}
-			
-			research_bonus = {
-				naval_doctrine = 0.10
-			}
-			
-			traits = { }
-		}
-
-		generic_air_warfare_theorist = {
-			
-			allowed = {
-				
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { }
-		}
-
-	}
-
-}
