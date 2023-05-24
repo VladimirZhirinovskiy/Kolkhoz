@@ -48,4 +48,4 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.11.13"
-path="C:/Users/hhrim/Documents/Paradox Interactive/Hearts of Iron IV/mod/Kolhoz"
+path="C:/Users/User/Documents/Paradox Interactive/Hearts of Iron IV/mod/Kolhoz"
