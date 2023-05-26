@@ -142,7 +142,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = communist
 			}
 
 			removal_cost = -1
@@ -150,10 +150,712 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				#justify_war_goal_time = -0.25
-				communism_drift = 0.1
+				#justify_war_goal_time = -0.20
+				communist_drift = 0.1
+				political_power_gain = 0.05
 			}
 		}
+		conservatism_dr = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				conservatism_drift = 0.1
+				political_power_gain = 0.06
+				army_core_defence_factor = 0.07
+			}
+		}
+		socialist_dr = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				socialist_drift = 0.1
+				political_power_gain = 0.06
+				army_core_attack_factor = 0.07
+			}
+		}
+		national_socialism_dr = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = national_socialism
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				national_socialism_drift = 0.1
+				national_socialism_acceptance = 85
+			}
+		}
+		ultranationalism_dr = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = ultranationalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				ultranationalism_drift = 0.01
+				army_attack_factor = 0.02
+				army_defence_factor = 0.02
+			}
+		}
+		esoteric_nazism_dr = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = esoteric_nazism
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				esoteric_nazism_drift = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		paternalism_dr = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = paternalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				paternalism_drift = 0.01
+				production_speed_buildings_factor = 0.02
+			}
+		}
+		liberalism_dr = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = liberalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				liberalism_drift = 0.1
+				trade_opinion_factor = 0.2
+			}
+		}
+		progressivism_dr = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = progressivism
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				progressivism_drift = 0.1
+				research_speed_factor = 0.1
+			}
+		}
+		ultmilitarism_focus = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = ultranationalism
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription_factor = -0.02
+				enemy_partisan_effect = -0.2
+				army_attack_factor = 0.02
+				army_core_defence_factor = 0.08
+
+			}
+		}
+
+
+		tehnologi_focus = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = ultranationalism
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription_factor = -0.05
+				army_core_defence_factor = 0.1
+				research_speed_factor = 0.1
+
+			}
+		}
+
+
+
+		pravo_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+					has_government = ultranationalism
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.03
+				trade_opinion_factor = 0.2
+				production_speed_buildings_factor = 0.01
+			}
+		}	
+
+
+
+		vola_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+					has_government = ultranationalism
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.03
+				political_power_gain = 0.1
+				stability_factor = 0.05
+				war_support_factor = 0.15
+			}
+		}	
+
+
+		svoboda_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = liberalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				trade_opinion_factor = 0.1
+				monthly_population = 0.15
+			}
+		}
+		tehnologi_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = progressivism
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				research_speed_factor = 0.12
+				production_speed_buildings_factor = 0.08
+			}
+		}
+
+		dark_ar = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription_factor = -0.15
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+
+			}
+		}
+
+		great_ar = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription_factor = -0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+
+			}
+		}
+
+		komisa = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.05
+				army_attack_factor = 0.01
+				enemy_partisan_effect = -0.15
+
+			}
+		}
+		rino = {
+			
+			allowed = {
+				always = no
+			}
+
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				trade_opinion_factor = 0.12
+				conscription = 0.05
+				research_speed_factor = 0.08
+			}
+		}
+
+
+
+		demokrati = {
+			
+			allowed = {
+				always = no
+			}
+
+
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				trade_opinion_factor = 0.05
+				conscription = 0.1
+			}
+		}
+
+
+		opolcehi = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.25
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+
+			}
+		}		
+
+		tehno_ar = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.03
+				army_attack_factor = 0.03
+				army_defence_factor = 0.03
+
+			}
+		}
+
+		rab_try = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				monthly_population = -0.50
+				production_speed_buildings_factor = 0.35
+				research_speed_factor = 0.05
+			}
+		}
+		domineite = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				
+				army_attack_factor = 0.03
+				army_defence_factor = 0.03
+				enemy_partisan_effect = -0.15
+			}
+		}
+
+		soc-de = {
+			
+			allowed = {
+				always = no
+			}
+
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				trade_opinion_factor = 0.15
+				conscription = 0.02
+				monthly_population = 0.15
+				generate_wargoal_tension = 0.55
+			}
+		}
+		dikatatyr = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.1
+				enemy_partisan_effect = -0.2
+				stability_factor = 0.2
+
+			}
+		}
+		demokrat_1 = {
+			
+			allowed = {
+				always = no
+			}
+		
+
+
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				trade_opinion_factor = 0.15
+				conscription = 0.05
+				political_power_factor = 0.50
+			}
+		}
+
+
+
+
+
+		AAA = {
+			
+			allowed = {
+				always = no
+			}
+		
+
+
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				trade_opinion_factor = -2.00
+				conscription = -0.99
+				political_power_factor = -2.00
+				justify_war_goal_time = 10.10
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		aem_gen = {
+			
+			allowed = {
+				always = no
+			}
+
+
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+					experience_gain_army = 0.0005
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		fascist_influence = {
 			
@@ -279,7 +981,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = communist
 			}
 
 			removal_cost = -1
@@ -287,7 +989,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				communist_drift = 0.1
 				research_speed_factor = 0.035
 			}
 		}
@@ -387,7 +1089,11 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				democratic_drift = -0.02
+				progressivism_drift = -0.01
+				liberalism_drift = -0.01
+				conservatism_drift = -0.01
+				despotism_drift = -0.01
+				paternalism_drift = -0.01
 			}
 		}
 	
@@ -407,7 +1113,9 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 	
 			modifier = {
-				trade_opinion_factor = 0.2
+				trade_opinion_factor = 0.15
+				monthly_population = 0.05
+
 			}
 		}
 	
@@ -487,7 +1195,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
+					has_government = communist
 					has_government = fascism
 				}
 			}
@@ -497,7 +1205,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 	
 			modifier = {
-				stability_factor = 0.05
+				stability_factor = 0.03
+				war_stability_factor = 0.03
 			}
 		}
 	
@@ -555,7 +1264,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = despotism
 			}
 
 			cancel = {
@@ -565,13 +1274,12 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-				#generate_wargoal_tension = 1.00
-				join_faction_tension = 1.00
-				#lend_lease_tension = 0.50
-				send_volunteers_tension = 0.20
-				guarantee_tension = 1.0
-				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
-				ai_get_ally_desire_factor = -100
+				political_power_factor = 0.02
+				min_export = 0.05
+				monthly_population = 0.03
+				compliance_growth_on_our_occupied_states = 0.05
+				despotism_drift = 0.01
+								
 			}
 		}
 	
@@ -667,7 +1375,8 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				foreign_subversive_activites = -0.75
+				foreign_subversive_activites = -0.35
+				army_attack_factor = 0.07
 			}			
 		}
 
@@ -1078,94 +1787,6 @@ ideas = {
 			}
 		}
 	}
-	
-	political_advisor = {
-		# POLITICAL	
-		generic_communist_revolutionary = {
-			
-			allowed = {
-				
-			}
-
-			available = {
-				
-			}
-			
-			traits = { }
-	
-			on_add = {
-				#country_event = political.1
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-			
-		generic_democratic_reformer = {
-			
-			allowed = {
-				
-				
-			}
-			
-			available = {
-				
-			}
-
-			
-			traits = { }
-	
-			on_add = {
-				#country_event = political.13
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
-		generic_fascist_demagogue = {
-			
-			allowed = {
-
-			}
-			
-			available = {
-							
-			}
-			
-			traits = {  }
-	
-			on_add = {
-				#country_event = political.7
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
-		
-	
 
 	# TECHNOLOGY
 	tank_manufacturer = { 
@@ -1389,179 +2010,3 @@ ideas = {
 		}
 	}
 
-	political_advisor = {
-
-		generic_captain_of_industry = {
-
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-		
-		generic_fortification_engineer = {
-
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-
-		generic_war_industrialist = {
-
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-	}
-
-	army_chief = {
-		
-		generic_army_chief_off = {
-			
-			allowed = {
-				
-			}
-			
-			traits = { }
-		}
-
-		generic_army_chief_def = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-	}
-
-	navy_chief = {		
-
-		generic_navy_chief_decisive_bat = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-
-		generic_navy_anti_submarine = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-	}
-
-	air_chief = {
-
-		generic_air_close_air_sup = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }
-		}
-	
-		generic_air_chief_all_weather = {
-			
-			allowed = {
-				
-			}
-			
-			traits = {  }			
-		}
-	}
-
-	high_command = {
-
-		generic_army_art = {
-			
-			allowed = {
-				
-			}
-			
-			traits = { }			
-		}
-		
-		generic_army_log = {
-
-			allowed = {
-				
-			}
-			
-			traits = {  }			
-		}
-
-		generic_navy_fleet_log = {
-
-			allowed = {
-				
-			}
-			
-			traits = { }			
-		}
-
-		generic_air_air_combat_trainer = {
-
-			allowed = {
-				
-			}
-			
-			traits = { }			
-		}
-	}
-
-	theorist = {
-
-		generic_military_theorist = {
-			
-			allowed = {
-				
-			}
-			
-			research_bonus = {
-				land_doctrine = 0.10
-			}
-			
-			traits = {  }
-		}
-	
-		generic_naval_theorist = {
-			
-			allowed = {
-				
-			}
-			
-			research_bonus = {
-				naval_doctrine = 0.10
-			}
-			
-			traits = { }
-		}
-
-		generic_air_warfare_theorist = {
-			
-			allowed = {
-				
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { }
-		}
-
-	}
-
-}

@@ -2,12 +2,11 @@ state={
 	id=619
 	name="STATE_619"
 	provinces={
-		1050 2495 5468 5673 5784 5823 6531 9273 17051 17052 17104 17170 17213 17246 
+		1050 2495 5468 5673 5784 5823 6531 7698 9273 17051 17052 17104 17159 17170 17171 17213 17219 17220 17246 
 	}
 	manpower=1
-	local_supplies=0.0
 	state_category = city
-	state_category = city
-	local_supplies=0.0 
-	 
+	history= {
+		
+	}		 
 }

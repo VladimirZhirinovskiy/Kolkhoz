@@ -2,12 +2,20 @@ state={
 	id=766
 	name="STATE_766"
 	provinces={
-		898 1969 2408 3560 5109 5905 8104 10122 18796 18867 18876 19043 19111 
+		898 1969 2408 3439 3560 5109 5905 8104 10122 18693 18796 18867 18876 19043 19111 
 	}
-	manpower=1
-	local_supplies=0.0
-	state_category = city
-	state_category = city
-	local_supplies=0.0 
-	 
+
+	manpower=732432
+	state_category = town
+
+	history= {
+		victory_points = {8104 13}
+		owner = GUB
+		add_core_of = GUB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+		}
+		
+	}		 
 }

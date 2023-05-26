@@ -4,20 +4,24 @@ state={
 	provinces={
 		2898 3088 5672 19213 19364 19367 19389 
 	}
-	manpower=603212
-	local_supplies=0.0
+	manpower=683212
 	state_category = town
-	
-	 
+	buildings_max_level_factor=1.00
+
 	history={
-		victory_points = {2898 14}
 		owner = KOL
 		add_core_of = KOL
+
+		victory_points = {19389 10}
+		victory_points = {5672 2}
+
 		buildings = {
 			infrastructure = 3
-			infrastructure = 1
-			air_base = 1
-			anti_air_building = 3
+			fuel_silo = 2
 		}
 	}
+
+	resources = {
+        oil = 2
+    }
 }

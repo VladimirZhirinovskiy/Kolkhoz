@@ -2,10 +2,23 @@ state={
 	id=794
 	name="STATE_794"
 	provinces={
-		1255 1340 1369 1573 2676 3776 4605 5464 5780 19141 19181 19226 19237 19245 19258 19289 19295 19302 19353 19410 19414 19415 19423 19469 19488 19494 
+		1255 2676 5464 19141 19181 19226 19237 19295 19302 19410 19415 19488 
 	}
-	manpower=1
-	local_supplies=0.0
-	state_category = city
-	 
+	manpower=876321
+	state_category = large_town
+	 history= {
+		victory_points = {1255 17}
+
+		owner = GUB
+		add_core_of = GUB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 1
+		}
+		
+	 }	
+	 resources = {
+		oil = 2
+	 }	 
 }

@@ -38,6 +38,7 @@ characters = {
 		portraits = {
 			civilian = {
 					large = "GFX_portrait_KOL_gordon"
+					
 			}
 		}
 			
@@ -45,6 +46,13 @@ characters = {
 			ideology = fascism_ecclesiastic_nationalism_subtype
 			desc = KOL_gordon_DESC
 				traits = { }
+		}
+		advisor={
+			small = "GFX_idea_gordon"
+			slot = political_advisor
+			allowed = { original_tag = KOL }
+			idea_token = gordon
+			traits = { popular_figurehead }
 		}
 	}		
 

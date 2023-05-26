@@ -1,5 +1,7 @@
 capital = 666
 
+oob ="BOT_1936"
+
 #Персонажи
 	#Правители
 	recruit_character = MIS_misomaniac

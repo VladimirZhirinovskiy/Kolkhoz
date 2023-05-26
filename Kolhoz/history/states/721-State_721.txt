@@ -4,10 +4,18 @@ state={
 	provinces={
 		1552 2070 2293 2895 5228 6237 6391 7701 10072 18282 18325 18345 18490 18543 
 	}
-	manpower=1
-	local_supplies=0.0
-	state_category = city
-	state_category = city
-	local_supplies=0.0 
-	 
+	manpower=432431
+	state_category = town
+	history= {
+		victory_points = {1552 14}
+
+		owner = GUB
+		add_core_of = GUB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		
+	}	 
 }

@@ -6917,4 +6917,61 @@ spriteTypes = {
 		name = "GFX_idea_nicc_imi"
 		texturefile = "gfx/interface/ideas/nicc_imi.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_generic_socialist_revolutionary"
+		texturefile = "gfx/interface/ideas/idea_generic_socialist_revolutionary.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_generic_fascist_demagogue"
+		texturefile = "gfx/interface/ideas/idea_generic_fascist_demagogue.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_generic_democratic_reformer"
+		texturefile = "gfx/interface/ideas/idea_generic_democratic_reformer.dds"
+		}		
+		
+	spriteType = {
+		name = "GFX_idea_generic_communist_revolutionary"
+		texturefile = "gfx/interface/ideas/idea_generic_communist_revolutionary.dds"
+		}		
+	
+	spriteType = {
+		name = "GFX_idea_generic_esoteric_nazism_demagogue"
+		texturefile = "gfx/interface/ideas/idea_generic_esoteric_nazism_demagogue.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_generic_ultranationalism_demagogue"
+		texturefile = "gfx/interface/ideas/idea_generic_ultranationalism_demagogue.dds"
+		}		
+		
+	spriteType = {
+		name = "GFX_idea_generic_national_socialism_demagogue"
+		texturefile = "gfx/interface/ideas/idea_generic_national_socialism_demagogue.dds"
+		}	
+	spriteType = {
+		name = "GFX_idea_gordon"
+		texturefile = "gfx/interface/ideas/idea_gordon.dds"
+		}	
+
+	spriteType = {
+		name = "GFX_idea_generic_paternalism_demagogue"
+		texturefile = "gfx/interface/ideas/idea_generic_paternalism_demagogue.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_generic_progressivism_reformer"
+		texturefile = "gfx/interface/ideas/idea_generic_progressivism_reformer.dds"
+		}		
+		
+	spriteType = {
+		name = "GFX_idea_generic_liberalism_reformer"
+		texturefile = "gfx/interface/ideas/idea_generic_liberalism_reformer.dds"
+		}	
+
+
+
+	
 }

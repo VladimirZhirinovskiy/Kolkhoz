@@ -5,7 +5,7 @@ state={
 		929 3023 4544 5504 6979 19546 19557 19576 19653 19680 19700 19721 
 	}
 	manpower=213112
-	state_category = rural
+	state_category = town
 
 	history = {
 		victory_points = { 3023 10 }
