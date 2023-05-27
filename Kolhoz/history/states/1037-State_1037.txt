@@ -1,0 +1,18 @@
+state={
+	id=1037
+	name="STATE_1037"
+	provinces={
+		4880 9810 19924 9363
+	}
+	manpower=183831
+	state_category = rural
+
+	history = {
+		owner = CHN
+		add_core_of = CHN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	 
+}

@@ -1,0 +1,29 @@
+state={
+	id=738
+	name="STATE_738"
+	provinces={
+		2043 7170 9956 18726 18738 18757 18790 
+	}
+	manpower=203131
+	state_category = town
+
+	history = {
+		victory_points = {18738 14}
+		owner = CHN
+		add_core_of = CHN
+		
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			anti_air_building = 1
+			rocket_site = 1
+		}
+
+
+	}
+	resources = {
+		steel = 4
+		aluminium = 2
+	}
+
+}

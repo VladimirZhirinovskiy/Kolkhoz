@@ -1,0 +1,6 @@
+KOL = "countries/Kolkhoz.txt"
+CHN = "countries/Chillingia.txt"
+MIS = "countries/Misomaniac.txt"
+GUB = "countries/Gubergrad.txt"
+TNR = "countries/TNORU.txt"
+AAA = "countries/AAA.txt"

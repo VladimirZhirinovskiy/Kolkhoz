@@ -1,0 +1,26 @@
+state={
+	id=1060
+	name="STATE_1060"
+	provinces={
+		1750 4225 10129 17467 17523 
+	}
+	
+	manpower=555432
+	state_category = city
+
+	history= {
+		victory_points = {1750 13}
+		owner = TNR
+		add_core_of = TNR
+		add_core_of = MIS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}	
+	resources = {
+		oil = 8
+	}
+	 		 
+}

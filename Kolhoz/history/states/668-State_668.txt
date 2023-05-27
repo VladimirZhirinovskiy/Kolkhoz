@@ -1,0 +1,22 @@
+state={
+	id=668
+	name="STATE_668"
+	provinces={
+		855 949 1693 2195 3396 3470 4960 5687 7009 7756 8654 9474 10021 10232 17620 17673 17687 17699 17747 17786 17895 17905 17946 17994 18089 
+	}
+	manpower=567321
+	local_supplies=0.0
+	state_category = town
+	local_supplies=0.0 
+	 history= {
+		victory_points = {855 14}
+
+		owner = MIS
+		add_core_of = MIS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+	 }	 
+}

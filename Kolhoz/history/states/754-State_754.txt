@@ -1,0 +1,21 @@
+state={
+	id=754
+	name="STATE_754"
+	provinces={
+		2546 5551 6071 8606 18893 18901 18907 18957 18966 19036 19056 19081 19093 19129 
+	}
+	manpower=112312
+	local_supplies=0.0
+	state_category = rural
+	 
+	history={
+		victory_points = {2546 8}
+		owner = KOL
+		add_core_of = KOL
+		buildings = {
+			infrastructure = 2
+
+
+		}
+	} 
+}

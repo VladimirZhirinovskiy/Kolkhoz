@@ -1,0 +1,16 @@
+characters = {
+
+	MIS_misomaniac={
+		name = MIS_misomaniac
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MIS_misomaniac"
+			}
+		}
+			country_leader = {
+			ideology = esoteric_nazism_burgundian_system_subtype
+			desc = MIS_misomaniac
+			traits = { }
+		}
+	}
+}
