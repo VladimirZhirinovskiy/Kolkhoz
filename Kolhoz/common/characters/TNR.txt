@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+characters = {
+
+=======
+characters = {
+
+>>>>>>> origin/b
+}
