@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 characters = {
 	GUB_dremes = {
 		name = GUB_dremes
@@ -16,22 +15,3 @@ characters = {
 
 	}
 }
-=======
-characters = {
-	GUB_dremes = {
-		name = GUB_dremes
-		portraits = {
-			civilian = {
-				large = "GFX_portrait_GUB_dremes"
-			}
-		}
-		
-		country_leader = {
-			ideology = ultranationalism_esoteric_despotism_subtype
-			desc = GUB_dremes_DESC
-			traits = { }
-		}
-
-	}
-}
->>>>>>> origin/b

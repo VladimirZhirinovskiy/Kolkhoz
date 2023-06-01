@@ -51,6 +51,15 @@ spriteTypes = {
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
+	spriteType = {
+		name = "GFX_mapmode_button_depressed"
+		texturefile = "gfx//interface/mapmode/mapmode_button_depressed.dds"
+	}
+	spriteType = {
+		name = "GFX_mapmode_button_bg"
+		texturefile = "gfx//interface/mapmode/mapmode_button_bg.dds"
+	}
 
 	frameAnimatedSpriteType = {
 		name = "GFX_tutorial_default_mapmode_highlight"

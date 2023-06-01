@@ -22,12 +22,4 @@ TNR = {
 	color = rgb { 4 74 27 }
 	color_ui = rgb { 4 74 27 }
 }
-<<<<<<< HEAD
-
-=======
-AAA = {
-	color = rgb { 10 10 10 }
-	color_ui = rgb { 10 10 10 }
-}
->>>>>>> origin/b
 

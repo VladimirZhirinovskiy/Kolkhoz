@@ -8,6 +8,10 @@ state={
 	state_category = large_town
 	buildings_max_level_factor=1.00
 
+	resources={
+		steel = 2
+	}
+	
 	history={
 		owner = KOL
 		add_core_of = KOL
@@ -19,8 +23,6 @@ state={
 			industrial_complex = 1
 		}
 
-		resources = {
-			steel = 2
-		}
 	}
+
 }

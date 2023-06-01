@@ -427,38 +427,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_decision_ger_mefo_bills"
-		texturefile = "gfx/interface/decisions/decision_ger_mefo_bills.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_decision_ger_reichskommissariats"
-		texturefile = "gfx/interface/decisions/decision_ger_reichskommissariats.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_decision_ger_military_buildup"
-		texturefile = "gfx/interface/decisions/decision_ger_military_buildup.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_decision_generic_break_treaty"
 		texturefile = "gfx/interface/decisions/decision_generic_break_treaty.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_decision_jap_pacific_guardian"
-		texturefile = "gfx/interface/decisions/decision_jap_pacific_guardian.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_decision_generic_independence"
 		texturefile = "gfx/interface/decisions/decision_generic_independence.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_decision_jap_conquer_china"
-		texturefile = "gfx/interface/decisions/decision_jap_conquer_china.dds"
 	}
 	
 	spriteType = {
@@ -1141,47 +1116,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/msf2.dds"
 	}
 	
-	
-#Africa decisions
-	spriteType = {
-		name = "GFX_decision_ethiopia"
-		texturefile = "gfx/interface/decisions/eth2.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_nigeria"
-		texturefile = "gfx/interface/decisions/NGA.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_kenya"
-		texturefile = "gfx/interface/decisions/KEN.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_establishparks"
-		texturefile = "gfx/interface/decisions/establishpark.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_ethiopianationalpark"
-		texturefile = "gfx/interface/decisions/ethiopianationalpark.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_kenyannationalpark"
-		texturefile = "gfx/interface/decisions/kenyannationalpark.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_southafricannationalpark"
-		texturefile = "gfx/interface/decisions/southafricannationalpark.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_decision_banner_morocco"
-		texturefile = "gfx/interface/decisions/banner_morocco.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_frgovernement"
-		texturefile = "gfx/interface/decisions/frgovernement.dds"
-	}
-	spriteType = {
-		name = "GFX_fr_category"
-		texturefile = "gfx/interface/decisions/fr_category.dds"
-	}
 }
