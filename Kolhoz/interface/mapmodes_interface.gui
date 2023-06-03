@@ -522,10 +522,11 @@ guiTypes = {
 		### Mapmode 4 button layout LaR/DLC - selected in code
 		# note that all buttons are duplicated so if more added they need to be in both layouts
 		containerWindowType = {
+
 			name = "4_button_mapmode"
 			size = { width = 50 height = 153 }
 
-			# 1st BUTTON (BIG)
+			#1st BUTTON (BIG)
 			
 			iconType = {
 				name = "mapmode_button_1_bg"

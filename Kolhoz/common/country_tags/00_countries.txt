@@ -3,7 +3,4 @@ CHN = "countries/Chillingia.txt"
 MIS = "countries/Misomaniac.txt"
 GUB = "countries/Gubergrad.txt"
 TNR = "countries/TNORU.txt"
-<<<<<<< HEAD
-=======
 AAA = "countries/AAA.txt"
->>>>>>> origin/b

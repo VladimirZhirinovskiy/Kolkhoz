@@ -46,6 +46,6 @@ tags={
 	"Graphics"
 	"Utilities"
 }
-supported_version="1.11.13"
+supported_version="1.12.14"
 path="mod/Kolhoz"
 picture="thumbnail.png"
