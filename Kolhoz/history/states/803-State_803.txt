@@ -5,19 +5,16 @@ state={
 		1586 1625 3534 4782 6871 10224 19214 
 	}
 	manpower=172123
-	local_supplies=0.0
 	state_category = rural
 	 
 	history={
 		victory_points = {1586 15}
+
 		owner = KOL
 		add_core_of = KOL
-		buildings{
+
+		buildings={
 			infrastructure = 1
-
-
-
-			
 		}
 	}
 	resources{
