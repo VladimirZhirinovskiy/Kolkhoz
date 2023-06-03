@@ -4,10 +4,13 @@ state={
 	provinces={
 		1256 2093 2581 2659 2871 3351 4195 4314 5203 6418 6661 6943 7572 8834 9188 9388 14439 14482 14500 14557 14562 14647 14672 14711 14754 14755 14809 14824 14871 14877 14890 14931 14959 14992 15012 15017 15056 15077 
 	}
-	manpower=1
+	manpower = 101
+	state_category = rural
 	local_supplies=0.0
-	state_category = city
-	state_category = city
-	local_supplies=0.0 
+
+	history={
+		owner = AAA
+		add_core_of = AAA
+	}
 	 
 }

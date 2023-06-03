@@ -22,4 +22,8 @@ TNR = {
 	color = rgb { 4 74 27 }
 	color_ui = rgb { 4 74 27 }
 }
+AAA = {
+	color = rgb { 100 100 100 }
+	color_ui = rgb { 100 100 100 }
+}
 
