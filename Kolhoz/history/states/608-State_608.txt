@@ -5,13 +5,7 @@ state={
 		4373 9133 17076 17237 
 	}
 
-	manpower = 101
-	state_category = rural
-	local_supplies=0.0
-
-	history={
-		owner = AAA
-		add_core_of = AAA
-	}
+	manpower=1
+	state_category = city
 	 
 }

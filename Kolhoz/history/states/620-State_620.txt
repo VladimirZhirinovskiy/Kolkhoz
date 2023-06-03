@@ -5,13 +5,9 @@ state={
 		2016 2136 2818 3140 3290 3579 3888 4410 5015 5668 7300 7935 8830 17102 17122 17160 17176 17228 17254 17308 17334 17374 17405 17423 17446 
 	}
 
-	manpower = 101
-	state_category = rural
-	local_supplies=0.0
-
-	history={
-		owner = AAA
-		add_core_of = AAA
-	} 
-		 
+	manpower=1
+	state_category = city 
+	history= {
+		
+	}		 
 }
