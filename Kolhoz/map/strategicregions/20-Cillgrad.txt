@@ -17,7 +17,6 @@ strategic_region={
 			mud=1.000
 			sandstorm=0.000
 			min_snow_level=0.000
-			}
 		}
 		period={
 			between={ 0.1 27.1 }
