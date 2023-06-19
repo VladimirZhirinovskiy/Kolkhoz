@@ -5,16 +5,16 @@ state={
 		278 3431 19733 19763 19824 19871 19881 
 	}
 	manpower=163431
-	local_supplies=0.0
 	state_category = town
 	 
 	history={
-		victory_points = {278 13}
 		owner = KOL
 		add_core_of = KOL
-		buildings{
-			infrastructure = 3
-			arms_factory = 2
+		
+		victory_points = {278 13}
+		
+		buildings={
+			infrastructure = 1
 		}
 	}
 	 

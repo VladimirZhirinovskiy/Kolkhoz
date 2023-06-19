@@ -4,18 +4,24 @@ state={
 	provinces={
 		3422 3986 7363 10242 19870 
 	}
-	manpower=111111
-	local_supplies=0.0
+	manpower=237654
 	state_category = town
 	 
 	history={
-		victory_points = {3422 10}
 		owner = KOL
 		add_core_of = KOL
+		
+		victory_points = {3986 10}
+		
 		buildings= {
 			infrastructure = 2
-			dockyard = 3
+			industrial_complex = 1
 		
 		}
 	} 
+
+	resources = {
+		steel = 2
+	}
+
 }

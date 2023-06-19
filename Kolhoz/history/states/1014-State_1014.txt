@@ -5,17 +5,23 @@ state={
 		1352 4460 5421 19649 19725 
 	}
 	manpower=231674
-	local_supplies=0.0
 	state_category = town
 	 
 	history={
-		victory_points = {1352 9}
 		owner = KOL
 		add_core_of = KOL
-		buildings = {
+		
+		victory_points = {5421 9}
+		
+		buildings= {
 			infrastructure = 2
-			industrial_complex = 2
-			anti_air_building = 3
+			fuel_silo = 1
+		
 		}
 	}
+
+	resources = {
+		steel = 2
+	}
+
 }

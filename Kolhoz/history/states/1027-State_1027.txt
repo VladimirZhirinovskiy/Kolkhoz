@@ -5,18 +5,16 @@ state={
 		2088 2989 3133 3441 9527 19099 19315 
 	}
 	manpower=532123
-	local_supplies=0.0
 	state_category = city
 	 
 	history={
-		victory_points = {2088 18}
 		owner = KOL
 		add_core_of = KOL
-		buildings{
+		
+		victory_points = {2088 18}
+		
+		buildings={
 			infrastructure=3
-			industrial_complex = 4
-			anti_air_building = 2
-			anti_air_building = 3
 		}
 	}
 	 

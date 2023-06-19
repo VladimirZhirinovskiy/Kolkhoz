@@ -3,7 +3,10 @@ state={
 	name="STATE_1035"
 	provinces={
 		3186 3852 19445 19516 19547 19584 
-	}
+	}	
+	manpower=289123
+	state_category = town
+	
 	history={
 		victory_points = {3186 12}
 		owner = KOL
@@ -12,9 +15,6 @@ state={
 			infrastructure = 1
 			air_base = 1
 		}
-	}	
-	manpower=289123
-	local_supplies=0.0
-	state_category = town
+	}
 	 
 }

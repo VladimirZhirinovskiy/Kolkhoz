@@ -19,7 +19,6 @@ strategic_region={
 			sandstorm=0.000
 			min_snow_level=0.000
 		}
-		}
 		period={
 			between={ 0.1 27.1 }
 			temperature={ -7.0 12.0 }
