@@ -4,17 +4,24 @@ state={
 	provinces={
 		2088 2989 3133 3441 9527 19099 19315 
 	}
+	
 	manpower=532123
 	state_category = city
+	buildings_max_level_factor=1.00
 	 
 	history={
 		owner = KOL
 		add_core_of = KOL
 		
-		victory_points = {2088 18}
+		victory_points = {3133 9}
+		victory_points = {19315 1}
 		
 		buildings={
-			infrastructure=3
+			infrastructure = 3 
+			arms_factory = 1
+			19315={
+				bunker = 3
+			}
 		}
 	}
 	 
