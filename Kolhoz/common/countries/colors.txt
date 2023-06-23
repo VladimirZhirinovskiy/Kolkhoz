@@ -26,4 +26,7 @@ AAA = {
 	color = rgb { 100 100 100 }
 	color_ui = rgb { 100 100 100 }
 }
-
+PRO = {
+	color = rgb { 179 69 69}
+	color_ui = rgb { 179 69 69}
+}

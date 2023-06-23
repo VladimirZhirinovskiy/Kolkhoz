@@ -89,6 +89,9 @@ if = {
 	}
 }
 
+#Персонажи
+recruit_character = TNR_parlament
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "2020.1.1"
@@ -110,4 +113,3 @@ set_popularities = {
 	esoteric_nazism = 1
 }
 
-#Персонажи

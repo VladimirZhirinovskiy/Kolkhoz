@@ -4,13 +4,18 @@ state={
 	provinces={
 		5500 6137 8579 20412 20417 20445 
 	}
-	manpower = 101
-	state_category = rural
+	manpower = 1873131
+	state_category = large_city
 	local_supplies=0.0
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = PRO
+		add_core_of = PRO
+		victory_points = {5500 27}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 5
+		}
 	}
 	 
 }

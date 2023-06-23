@@ -677,6 +677,16 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	low_parlament = {
+		random = no
+		political_power_factor = -0.35
+		stability_factor = -0.25
+		trade_opinion_factor = -0.25
+		war_support_factor = -0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	the_silver_president = { #Juan Andreu
 		random = no

@@ -73,5 +73,9 @@ spriteTypes = {
 		name = "GFX_portrait_AAA_anarchy"
 		textureFile = "gfx/leaders/AAA/AAA_anarchy.dds"
 	}
-	
+	#ТНО ХЗ
+	spriteType = {
+		name = "GFX_portrait_TNR_parlament"
+		textureFile = "gfx/leaders/TNR/TNR_parlament.dds"
+	}
 } 

@@ -1,12 +1,18 @@
 ﻿l_russian:
  KOL_despotism:0 "Колхоз имени Тстанчовуса"
  KOL_despotism_DEF:0 "Колхоз имени Тстанчовуса"
- KOL_democratic:0 "Республика Колхоз"
- KOL_democratic_DEF:0 "Республика Колхоз"
- KOL_neutrality:1 "Колхоз"
- KOL_neutrality_DEF:1 "Колхоз"
- KOL_communism:0 "Социалистическая республика Колхоз"
- KOL_communism_DEF:0 "Социалистическая республика Колхоз"
+ KOL_liberalism:0 "Республика Колхоз"
+ KOL_liberalism_DEF:0 "Республика Колхоз"
+ KOL_progressivism:0 "Республика Колхоз"
+ KOL_progressivism_DEF:0 "Республика Колхоз"
+ KOL_conservatism:0 "Республика Колхоз"
+ KOL_conservatism_DEF:0 "Республика Колхоз"
+ 
+
+ KOL_paternalism:1 "Колхоз"
+ KOL_paternalism_DEF:1 "Колхоз"
+ KOL_communist:0 "Социалистическая республика Колхоз"
+ KOL_communist_DEF:0 "Социалистическая республика Колхоз"
  KOL_fascism_ADJ:0 "Колхозн."
  KOL_democratic_ADJ:0 "Колхозн."
  KOL_neutrality_ADJ:0 "Колхозн."
@@ -30,8 +36,8 @@
  
  TNR:0 "Ру-ТНО Коммьюнити"
  
-
-
+ PRO_communist:0 "Простовградкая-Коммуна"
+ PRO:0 "Простовградкая"
  
  
 

@@ -1,3 +1,35 @@
 characters = {
 
+	TNR_parlament={
+		name = TNR_parlament
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TNR_parlament"
+			}
+		}
+		
+		country_leader = {
+			ideology = paternalism_national_conservatism_subtype
+			desc = TNR_parlament_DESC
+			traits = {}
+		}
+
+		country_leader = {
+			ideology = despotism_aristocratic_conservatism_subtype
+			desc = TNR_parlament_DESC
+			traits = {}		
+		}
+		
+		country_leader = {
+			ideology = conservatism_paternalistic_conservatism_subtype
+			desc = TNR_parlament_DESC
+			traits = {}
+		}
+		
+		country_leader = {
+			ideology = liberalism_national_liberal_subtype
+			desc = TNR_parlament_DESC
+			traits = {}
+		}
+	}
 }
