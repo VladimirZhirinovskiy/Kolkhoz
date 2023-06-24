@@ -1,15 +1,16 @@
-capital = 666
+capital = 526
 
 oob ="BOT_1936"
 
 #Персонажи
-	#Правители
-	recruit_character = MIS_misomaniac
-	
+
+#Правители
+recruit_character = CRO_VYK
+
 set_research_slots = 3
 set_convoys = 200
-set_stability = 0.80
-set_war_support = 0.20
+set_stability = 0.45
+set_war_support = 0.45
 
 # Starting tech
 set_technology = {
@@ -92,31 +93,8 @@ if = {
 	}
 }
 
-
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = LEB
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	else = {
-		puppet = LEB
-	}
-}
-
-
-
-
-
-
 set_politics = {
-	ruling_party = esoteric_nazism
+	ruling_party = paternalism
 	last_election = "2020.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -124,15 +102,14 @@ set_politics = {
 
 set_popularities = {
 	communist = 0
-	socialist = 0
-	progressivism = 0
+	socialist = 6
+	progressivism = 4
 	liberalism = 0
-	conservatism = 0
-	paternalism = 0
-	despotism = 0
-	ultranationalism = 0
-	fascism = 0
-	national_socialism = 0
-	esoteric_nazism = 100
+	conservatism = 2
+	paternalism = 60
+	despotism = 8
+	ultranationalism = 6
+	fascism = 8
+	national_socialism = 4
+	esoteric_nazism = 2
 }
-

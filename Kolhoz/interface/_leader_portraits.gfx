@@ -78,4 +78,20 @@ spriteTypes = {
 		name = "GFX_portrait_TNR_parlament"
 		textureFile = "gfx/leaders/TNR/TNR_parlament.dds"
 	}
+	
+	#Чернорууусссьььь
+	spriteType = {
+		name = "GFX_portrait_CRO_VYK"
+		textureFile = "gfx/leaders/CRO/CRO_VYK.dds"
+	}
+	
+	#Марионетка мисохуяк
+		spriteType = {
+		name = "GFX_portrait_LEB_Bandit"
+		textureFile = "gfx/leaders/LEB/LEB_Bandit.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_LEB_Gnom"
+		textureFile = "gfx/leaders/LEB/LEB_Gnom.dds"
+	}
 } 

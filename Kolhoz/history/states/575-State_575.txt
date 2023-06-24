@@ -4,13 +4,14 @@ state={
 	provinces={
 		197 1376 2348 3469 3604 3681 3854 4029 4621 6124 6680 7207 8331 9019 9895 10239 16626 16652 16709 16714 16753 16773 16774 16815 16850 16927 17039 
 	}
-	manpower = 101
+	manpower = 342213
 	state_category = rural
 	local_supplies=0.0
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = CRO
+		add_core_of = CRO
+		victory_points = {197 7}
 	}
 	 
 }

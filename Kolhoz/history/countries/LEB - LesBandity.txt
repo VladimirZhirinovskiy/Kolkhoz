@@ -1,15 +1,19 @@
-capital = 666
+capital = 638
 
 oob ="BOT_1936"
 
 #Персонажи
-	#Правители
-	recruit_character = MIS_misomaniac
-	
-set_research_slots = 3
-set_convoys = 200
-set_stability = 0.80
-set_war_support = 0.20
+
+#Правители
+recruit_character = LEB_Bandit
+recruit_character = LEB_Gnom
+		
+		
+		
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.15
+set_war_support = 0.75
 
 # Starting tech
 set_technology = {
@@ -92,29 +96,6 @@ if = {
 	}
 }
 
-
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = LEB
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	else = {
-		puppet = LEB
-	}
-}
-
-
-
-
-
-
 set_politics = {
 	ruling_party = esoteric_nazism
 	last_election = "2020.1.1"
@@ -123,16 +104,16 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 0
+	communist = 5
 	socialist = 0
 	progressivism = 0
 	liberalism = 0
 	conservatism = 0
 	paternalism = 0
 	despotism = 0
-	ultranationalism = 0
+	ultranationalism = 15
 	fascism = 0
 	national_socialism = 0
-	esoteric_nazism = 100
+	esoteric_nazism = 80
 }
 

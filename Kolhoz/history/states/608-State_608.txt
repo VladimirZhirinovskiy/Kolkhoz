@@ -9,9 +9,19 @@ state={
 	state_category = rural
 	local_supplies=0.0
 
-	history={
-		owner = AAA
-		add_core_of = AAA
+	history= {
+		victory_points = {4373 14}
+		owner = CRO
+		add_core_of = TNR
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+	resources = {
+		oil = 6
 	}
 	 
 }

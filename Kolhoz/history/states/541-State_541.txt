@@ -5,13 +5,19 @@ state={
 		322 683 1808 2504 4040 4272 6685 8728 16150 16275 16319 16330 16368 16376 16424 16476 
 	}
 	
-	manpower = 101
-	state_category = rural
+	manpower = 987321
+	state_category = town
 	local_supplies=0.0
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = CRO
+		add_core_of = CRO
+		victory_points = {322 15}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			anti_air_building = 5
+		}
 	} 
 	 
 }
