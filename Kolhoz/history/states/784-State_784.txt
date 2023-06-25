@@ -9,8 +9,8 @@ state={
 	local_supplies=0.0
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = PRO
+		add_core_of = PRO
 	}
 	 
 }

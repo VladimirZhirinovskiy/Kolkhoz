@@ -2,21 +2,16 @@ state={
 	id=892
 	name="STATE_892"
 	provinces={
-		235 488 641 955 1060 1678 2846 3677 4365 4517 5722 7953 8530 8818 9946 20225 20277 20336 20341 20366 20373 20381 20386 20392 20404 20416 20435 20441 20453 20472 
+		235 641 955 1060 1678 2846 3677 4365 4517 5722 7953 8530 8818 9946 20225 20277 20336 20341 20366 20373 20381 20386 20392 20404 20416 20435 20441 20453 20472 
 	}
+
 	manpower = 985231
 	state_category = city
-	local_supplies=0.0
+	buildings_max_level_factor=1.00
 
 	history={
-		owner = PRO
-		add_core_of = PRO
-		victory_points = {235 14}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 2
-		}
+		owner = AAA
+		add_core_of = AAA
 	}
 	 
 }

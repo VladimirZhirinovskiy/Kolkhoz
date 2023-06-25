@@ -2,22 +2,24 @@ state={
 	id=888
 	name="STATE_888"
 	provinces={
-		76 196 886 3228 7675 9357 9786 9831 10069 20198 20227 20332 20333 20374 20377 
+		76 196 488 886 9357 9786 9831 10069 20198 20227 20332 20333 
 	}
+
 	manpower = 2891321
 	state_category = megalopolis
-	local_supplies=0.0
+	buildings_max_level_factor=2.00
 
 	history={
 		owner = PRO
 		add_core_of = PRO
-		victory_points = {9357 45}
+		victory_points = {9357 50}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5
 			arms_factory = 3
 		}
 	}
+
 	resources = {
 		steel = 2
 		oil = 3

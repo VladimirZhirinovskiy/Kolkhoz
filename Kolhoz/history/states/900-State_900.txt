@@ -2,20 +2,15 @@ state={
 	id=900
 	name="STATE_900"
 	provinces={
-		5500 6137 8579 20412 20417 20445 
+		3228 5500 6137 7675 8579 20374 20377 20412 20417 20445 
 	}
 	manpower = 1873131
 	state_category = large_city
-	local_supplies=0.0
+	buildings_max_level_factor=1.00
 
 	history={
-		owner = PRO
-		add_core_of = PRO
-		victory_points = {5500 27}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 5
-		}
+		owner = AAA
+		add_core_of = AAA
 	}
 	 
 }
