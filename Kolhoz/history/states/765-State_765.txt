@@ -5,7 +5,7 @@ state={
 		505 3513 5379 6846 7491 18752 18819 18827 18845 18883 18895 18924 18933 18955 18996 19027 
 	}
 	manpower = 1013123
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = PRO
@@ -13,7 +13,7 @@ state={
 		victory_points = {505 17
 			building = {
 			infrastructure = 3
-			industrial_complex = 7
+			industrial_complex = 6
 
 		}}
 	}
