@@ -171,7 +171,14 @@ ideas = {
 				has_war_support > 0.5
 				OR = {
 					has_government = fascism
-					has_government = communism
+					has_government = communist
+					has_government = socialist
+					has_government = national_socialism				
+					has_government = despotism
+					has_government = ultranationalism		
+					has_government = esoteric_nazism		
+				
+					
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -399,7 +406,12 @@ ideas = {
 				has_war = yes
 				OR = { 
 					has_government = fascism
-					has_government = communism
+					has_government = communist
+					has_government = socialist
+					has_government = national_socialism				
+					has_government = despotism
+					has_government = ultranationalism		
+					has_government = esoteric_nazism
 				}
 				OR = {
 					has_idea = war_economy

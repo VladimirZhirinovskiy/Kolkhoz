@@ -9,10 +9,7 @@ spriteTypes = {
 		name = "GFX_selected_trade_entry_frame"
 		texturefile = "gfx/interface/selected_trade_entry_frame.dds"
 	}
-	spriteType = {
-		name = "GFX_Transparent_Prompt_Trade"
-		texturefile = "gfx/interface/Transparent_Prompt_Click.dds"
-	}
+
 	spriteType = {
 		name = "GFX_trade_offer_popup_win"
 		texturefile = "gfx/interface/trade_offer_popup_win.dds"
@@ -26,11 +23,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trade_header"
 		texturefile = "gfx/interface/trade_header.dds"
-	}
-	
-	spriteType = { 
-	name = "GFX_trade_header_bg"
-	texturefile = "gfx/interface/trade_header_bg.dds"   
 	}
 
 	spriteType = {
@@ -74,7 +66,7 @@ spriteTypes = {
 		name = "GFX_trade_resource_button"
 		texturefile = "gfx/interface/trade_resource_button.dds"
 		noOfFrames = 2		
-	}
+	}	
 	
 	spriteType = {
 		name = "GFX_trade_resource_bg"
@@ -91,21 +83,17 @@ spriteTypes = {
 		name = "GFX_trade_filter_btn"
 		texturefile = "gfx/interface/filter_btn.dds"
 		noOfFrames = 2
-	}
+	}	
 	
 	spriteType = {
 		name = "GFX_TRADE_resource_btn"
 		texturefile = "gfx/interface/resource_btn.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_Prompt_Box"
-		texturefile = "gfx/interface/Prompt_Box.dds"
-	}
 
 	spriteType = {
 		name = "GFX_TRADE_resource_overall"
 		texturefile = "gfx/interface/tradeview/resource_overall.tga"
 	}
-	
+
 }

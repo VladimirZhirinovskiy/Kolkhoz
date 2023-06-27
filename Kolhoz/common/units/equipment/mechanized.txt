@@ -15,18 +15,18 @@ equipments = {
 		interface_category = interface_category_land
 		
 		#Misc Abilities
-		maximum_speed = 8
+		maximum_speed = 10
 		reliability = 0.8
 		
 		#Defensive Abilities
 		defense = 26
 		breakthrough = 4
 		hardness = 0.6
-		armor_value = 10
+		armor_value = 14
 
 		#Offensive Abilities
 		ap_attack = 11
-		air_attack = 0
+		air_attack = 2
 
 		#Space taken in convoy
 		lend_lease_cost = 5
@@ -59,7 +59,7 @@ equipments = {
 		priority = 40
 		visual_level = 1
 
-		maximum_speed = 10
+		maximum_speed = 12
 
 		#Defensive Abilities
 		defense = 30
@@ -69,7 +69,7 @@ equipments = {
 
 		#Offensive Abilities
 		ap_attack = 16
-		
+		air_attack = 2
 		build_cost_ic = 10
 		resources = {
 			steel = 3
@@ -87,17 +87,17 @@ equipments = {
 		priority = 40
 		visual_level = 2
 		
-		maximum_speed = 12
+		maximum_speed = 14
 
 		#Defensive Abilities
 		defense = 34
 		breakthrough = 6
 		hardness = 0.8
-		armor_value = 20
+		armor_value = 25
 
 		#Offensive Abilities
 		ap_attack = 21
-		
+		air_attack = 2
 		build_cost_ic = 12
 		resources = {
 			steel = 4

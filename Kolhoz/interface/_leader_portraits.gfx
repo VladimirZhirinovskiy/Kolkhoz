@@ -94,4 +94,11 @@ spriteTypes = {
 		name = "GFX_portrait_LEB_Gnom"
 		textureFile = "gfx/leaders/LEB/LEB_Gnom.dds"
 	}
+	
+	
+	#ПРОСТО ГРАД 
+	spriteType = {
+		name = "GFX_portrait_PRO_Prostov"
+		textureFile = "gfx/leaders/PRO/PRO_Prostov.dds"
+	}
 } 

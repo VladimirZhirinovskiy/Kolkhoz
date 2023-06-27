@@ -6,16 +6,11 @@ state={
 	}
 	manpower = 863213
 	state_category = large_town
-	local_supplies=0.0
+	buildings_max_level_factor=1.00
 
 	history={
-		owner = PRO
-		add_core_of = PRO
-		victory_points = {589 18}
-		buildings = {
-			industrial_complex = 3
-			arms_factory = 2
-		}
+		owner = AAA
+		add_core_of = AAA
 	}
 	 
 }

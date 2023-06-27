@@ -24,7 +24,7 @@ ideologies = {
 				airforce_intel_to_others = 5.0
 			}
 		}
-		ai_neutral = yes
+		ai_fascist = yes 
 		can_be_boosted = no
 	}
 
@@ -57,7 +57,7 @@ ideologies = {
 				airforce_intel_to_others = 10.0
 			}
 		}
-		ai_neutral = yes
+		ai_fascist = yes
 		can_be_boosted = no
 	}
 
@@ -97,7 +97,7 @@ ideologies = {
 				airforce_intel_to_others = 10.0
 			}
 		}
-		ai_neutral = yes
+		ai_fascist = yes
 		can_be_boosted = no
 	}
 
@@ -130,7 +130,7 @@ ideologies = {
 				airforce_intel_to_others = 10.0
 			}
 		}
-		ai_neutral = yes
+		ai_fascist = yes
 		can_be_boosted = no
 	}
 
@@ -223,7 +223,7 @@ ideologies = {
 				airforce_intel_to_others = 10.0
 			}
 		}
-		ai_neutral = yes
+		ai_democratic = yes 
 		can_be_boosted = no
 	}
 
@@ -261,7 +261,7 @@ ideologies = {
 				airforce_intel_to_others = 10.0
 			}
 		}
-		ai_neutral = yes
+		ai_democratic = yes 
 		can_be_boosted = no
 	}
 
@@ -289,7 +289,7 @@ ideologies = {
 				airforce_intel_to_others = 10.0
 			}
 		}
-		ai_neutral = yes
+		ai_democratic = yes 
 		can_be_boosted = no
 	}
 
@@ -365,7 +365,7 @@ ideologies = {
 				airforce_intel_to_others = 10.0
 			}
 		}
-		ai_neutral = yes
+		ai_democratic = yes 
 		can_be_boosted = no
 	}
 
@@ -409,7 +409,7 @@ ideologies = {
 				airforce_intel_to_others = 15.0
 			}
 		}
-		ai_neutral = yes
+		ai_communist = yes
 		can_be_boosted = no
 	}
 
@@ -449,7 +449,7 @@ ideologies = {
 				airforce_intel_to_others = 15.0
 			}
 		}
-		ai_neutral = yes
+		ai_communist = yes
 		can_be_boosted = no
 	}
 }

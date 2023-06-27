@@ -6,16 +6,11 @@ state={
 	}
 	manpower = 3000000
 	state_category = large_city
-	local_supplies=0.0
+	buildings_max_level_factor=1.00
 
 	history={
-		owner = PRO
-		add_core_of = PRO
-		victory_points = {17 28}
-		buildings = {
-			infrastructure = 2
-			arms_factory = 6
-		}
+		owner = AAA
+		add_core_of = AAA
 	}
 	 
 }

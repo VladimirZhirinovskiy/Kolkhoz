@@ -1,1 +1,26 @@
-﻿
+﻿add_namespace = news
+# Саня сохраняет власть
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_geneve_accords
+	
+	major = yes 
+	fire_only_once = yes
+	
+	trigger = {
+		KOL = {
+			has_completed_focus = KOL_pol4
+
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+	
+	option = {
+		name = news.1.a
+		}
+}
