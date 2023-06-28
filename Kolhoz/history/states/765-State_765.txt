@@ -10,12 +10,14 @@ state={
 	history={
 		owner = PRO
 		add_core_of = PRO
-		victory_points = {505 17
-			building = {
+		
+		victory_points = {505 17}
+
+		building = {
 			infrastructure = 3
 			industrial_complex = 6
 
-		}}
+		}
 	}
 		 
 }
