@@ -5,20 +5,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/event_news_pic_overlay.dds"
 	}
 
-	
-	spriteType = {
-		name = "GFX_news_option_bar"
-		texturefile = "gfx/interface/news_option_bar.dds"
-	}
 	spriteType = {
 		name = "GFX_event_news_bg"
 		texturefile = "gfx/interface/event_news_bg.dds"
 	}
-
-	# spriteType = {
-	# 	name = "USA_GFX_event_news_bg"
-	# 	texturefile = "gfx/interface/USA_event_news_bg.dds"
-	# }
 
 	spriteType = {
 		name = "GFX_event_pic_clip"
@@ -32,7 +22,7 @@ spriteTypes = {
 
 	corneredTileSpriteType = {
 		name = "GFX_event_report_tileable_midsection"
-		size = { x = 580 y = 66 }
+		size = { x = 580 y = 66 }		
 		textureFile = "gfx/interface/event_report_tileable_midsection.dds"
 		borderSize = { x = 290 y = 16 }
 		alwaystransparent = yes			
@@ -68,7 +58,6 @@ spriteTypes = {
 		name = "GFX_event_button_minimize"
 		texturefile = "gfx/interface/event_button_minimize.dds"
 	}
-
 	spriteType = {
 		name = "GFX_paper_clip_event"
 		texturefile = "gfx/interface/events/clip.dds"
@@ -84,13 +73,13 @@ spriteTypes = {
 		pause_on_loop = 0.0
 		#effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
-
+	
 	##########################################
 	### EVENT WINDOW
 
 	#corneredTileSpriteType = {
 	#	name = "GFX_event_bg_transparency"
-	#	size = { x = 48 y = 48 }
+	#	size = { x = 48 y = 48 }		
 	#	textureFile = "gfx/interface/transparency.dds"
 	#	borderSize = { x = 32 y = 32 }
 	#}
@@ -108,7 +97,7 @@ spriteTypes = {
 	#	textureFile = "gfx/interface/events_BG_middle.dds"
 	#	transparencecheck = yes
 	#	alwaystransparent = yes	
-	#}
+	#}	
 	#
 	#spriteType = 
 	#{
@@ -139,7 +128,7 @@ spriteTypes = {
 	#	texturefile = "gfx/interface/event_button_547.dds"
 	#	noOfFrames = 1
 	#	effectFile = "gfx/FX/buttonstate.lua"
-	#}
+	#}	
 #
 	###########################################
 	#### EVENT PICTURES
@@ -149,5 +138,83 @@ spriteTypes = {
 	#	name = "GFX_event_event_test"
 	#	texturefile = "gfx/event_pictures/event_test.dds"
 	#	alwaystransparent = yes
-	#}
+	#}	
+
+	spriteType = {
+		name = "GFX_war_escalation_level_red"
+		texturefile = "gfx/interface/events/war_escalation_level_red.dds"
+		noOfFrames = 10
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_white"
+		texturefile = "gfx/interface/events/war_escalation_level_white.dds"
+		noOfFrames = 10
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_green"
+		texturefile = "gfx/interface/events/war_escalation_level_green.dds"
+		noOfFrames = 10
+	}
+	
+	spriteType = {
+		name = "GFX_war_escalation_level_1"
+		texturefile = "gfx/interface/events/war_escalation_level_1.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_war_escalation_level_2"
+		texturefile = "gfx/interface/events/war_escalation_level_2.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_war_escalation_level_3"
+		texturefile = "gfx/interface/events/war_escalation_level_3.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_war_escalation_level_4"
+		texturefile = "gfx/interface/events/war_escalation_level_4.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_war_escalation_level_5"
+		texturefile = "gfx/interface/events/war_escalation_level_5.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_war_escalation_level_6"
+		texturefile = "gfx/interface/events/war_escalation_level_6.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_war_escalation_level_7"
+		texturefile = "gfx/interface/events/war_escalation_level_7.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_war_escalation_level_8"
+		texturefile = "gfx/interface/events/war_escalation_level_8.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_war_escalation_level_9"
+		texturefile = "gfx/interface/events/war_escalation_level_9.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_war_escalation_level_10"
+		texturefile = "gfx/interface/events/war_escalation_level_10.dds"
+		noOfFrames = 3
+	}
+
+
 }

@@ -4,7 +4,7 @@ news_event = {
 	id = news.1
 	title = news.1.t
 	desc = news.1.d
-	picture = GFX_geneve_accords
+	picture = GFX_news_event_Kol
 	
 	major = yes 
 	fire_only_once = yes
@@ -22,5 +22,101 @@ news_event = {
 	
 	option = {
 		name = news.1.a
+		}
+}
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_Kol
+	
+	major = yes 
+	fire_only_once = yes
+	
+	trigger = {
+		KOL = {
+			has_completed_focus = KOL_dip2
+
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+	
+	option = {
+		name = news.2.a
+		}
+}
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_Kol
+	
+	major = yes 
+	fire_only_once = yes
+	
+	trigger = {
+		KOL = {
+			has_completed_focus = KOL_dip16
+
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+	
+	option = {
+		name = news.3.a
+		}
+}
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_Kol
+	
+	major = yes 
+	fire_only_once = yes
+	
+	trigger = {
+		KOL = {
+			has_completed_focus = KOL_dip9
+
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+	
+	option = {
+		name = news.4.a
+		}
+}
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_Kol
+	
+	major = yes 
+	fire_only_once = yes
+	
+	trigger = {
+		KOL = {
+			has_completed_focus = KOL_dip9
+
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+	
+	option = {
+		name = news.4.a
 		}
 }

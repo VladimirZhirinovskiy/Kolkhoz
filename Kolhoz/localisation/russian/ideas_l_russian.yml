@@ -2724,4 +2724,28 @@
  generic_liberalism_reformer:0 "Полит-Либиралист"
  generic_paternalism_demagogue:0 "Полит-Паренациналист"
  
+ Great_Nation:0 "Великая нация"
+ Great_Nation1:0 "Великая нация"
+ 
+ Imbecili_vlasi1:0 "Имбецилы во власти"
+ Imbecili_vlasi2:0 "Шизоиды во власти"
+ Imbecili_vlasi3:0 "Слабы политический аппарат "
+ Imbecili_vlasi4:0 "Нормальный политический аппарат"
+ Imbecili_vlasi5:0 "Сильный политический аппарат"
+ 
+ Imbecili_arm1:0 "Имбецилы в Армиии"
+ Imbecili_arm2:0 "Шизоиды в Армии"
+ Imbecili_arm3:0 "Политеризированая Армия"
+ Imbecili_arm4:0 "Казахская Армия"
+ Imbecili_arm5:0 "Современная Армия"
+ 
+ Sana_low:0 "Слабая поддержка Сани"
+ Sana_norm:0 "Нормальная поддержка Сани"
+ Sana_Fin:0 "Сильная поддержка Сани"
+ 
+ Anynak_ref:0 "Реформы Анунака"
+
+ 
+
+ 
 
