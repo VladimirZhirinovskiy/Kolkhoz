@@ -721,7 +721,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "exported"
-			position = { x = 272 y = 12 }
+			position = { x = 212 y = 12 }
 			font = "hoi_18mbs"
 			text = ""
 			format = center
@@ -731,7 +731,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "available_export"
-			position = { x = 169 y = 12 }
+			position = { x = 106 y = 12 }
 			font = "hoi_18mbs"
 			text = ""
 			format = center
@@ -741,7 +741,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "convoys"
-			position = { x = 390 y = 12 }
+			position = { x = 321 y = 12 }
 			font = "hoi_18mbs"
 			text = ""
 			format = center

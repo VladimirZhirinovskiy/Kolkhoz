@@ -216,7 +216,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "border_container"
 			position = { x=29 y=101 }
-			size = { width = 96 height = 48 }
+			size = { width = 96 height = 88 }
 			
 			background = {
 				name ="bg_tech_button"
@@ -1188,8 +1188,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "designer_division_support_slot_entry"
-		position = { x=0 y=0}
-		size = { width=64 height=53 }
+		position = { x=26 y=5}
+		size = { width=76 height=53 }
 		clipping = no
 
 		background = {
@@ -1212,18 +1212,16 @@ guiTypes = {
 		buttonType = {
 			name = "unit_icon"
 			spriteType = "GFX_locked_icon"
-			position = {x=2 y=20}
+			position = {x=1 y=10}
 			Orientation = CENTER_LOWER
-			scale = 0.8
 			clicksound = click_default
 		}
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 2 y = 21 }
+			position = { x = 1 y = 12 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
-			scale = 0.8
 			clicksound = click_default
 		}
 	}
