@@ -16,7 +16,10 @@ state={
 		
 		buildings = {
 			infrastructure = 4
-
 		}
+	}
+
+	resources = {
+		oil = 2
 	}
 }

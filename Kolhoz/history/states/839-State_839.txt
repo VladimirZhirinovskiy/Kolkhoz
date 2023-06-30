@@ -4,20 +4,30 @@ state={
 	provinces={
 		765 4404 7445 8446 9379 19683 19701 19702 19761 19762 
 	}
-	manpower=211412
-	local_supplies=0.0
-	state_category = town
+
+	manpower=879432
+	state_category = city
+	buildings_max_level_factor=1.00
 	 
 	history={
-		victory_points = {765 11}
 		owner = KOL
 		add_core_of = KOL
+
+		victory_points = {19701 11}
+		victory_points = {765 1}
+
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			synthetic_refinery = 1
 			air_base = 1
 		}
 	}
+
 	resources = {
-		oil = 7
+		oil = 2
+		steel = 2
+		chromium = 1
 	}
 }

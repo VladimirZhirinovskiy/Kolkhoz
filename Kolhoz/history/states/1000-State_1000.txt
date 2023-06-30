@@ -23,5 +23,9 @@ state={
 				bunker = 3
 			}
 		}
+	}
+
+	resources = {
+		steel = 4
 	}	
 }

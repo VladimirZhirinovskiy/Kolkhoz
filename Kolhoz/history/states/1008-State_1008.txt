@@ -20,4 +20,8 @@ state={
 			infrastructure = 3
 		}
 	}
+
+	resources = {
+		oil = 1
+	}
 }
