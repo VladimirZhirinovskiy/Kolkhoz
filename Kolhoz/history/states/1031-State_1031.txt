@@ -4,9 +4,10 @@ state={
 	provinces={
 		1015 4688 19524 19577 19593 19654 
 	}
-	manpower=93754
-	local_supplies=0.0
+	
+	manpower=103754
 	state_category = town
+	buildings_max_level_factor=1.00
 	 
 	history={
 		owner = KOL

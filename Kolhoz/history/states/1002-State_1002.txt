@@ -4,8 +4,8 @@ state={
 	provinces={
 		67 1070 3740 7350 9503 18637 18735 18749 18802 
 	}
-	manpower=340730
-	state_category = town
+	manpower=347770
+	state_category = large_town
 	buildings_max_level_factor=1.00
 
 	history={
@@ -25,6 +25,7 @@ state={
 	}
 
 	resources = {
-		aluminium = 4.000
+		aluminium = 2
+		chromium = 1
 	}  
 }

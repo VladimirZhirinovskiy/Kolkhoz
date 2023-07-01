@@ -4,14 +4,19 @@ state={
 	provinces={
 		70 777 1391 6704 9536 19674 19732 
 	}
+
 	manpower=137023
 	state_category = rural
+	buildings_max_level_factor=1.00
 
 	history = {
-		victory_points = { 6704 5 }
-	
 		owner = CHN
 		add_core_of = CHN
+
+		victory_points = {6704 5}
 	}
 	 
+	resources = {
+		steel = 4
+	}
 }

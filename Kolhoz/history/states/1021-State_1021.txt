@@ -5,7 +5,7 @@ state={
 		1163 1547 1763 1820 6967 7059 18777 18811 18899 18988 
 	}
 	
-	manpower=612876
+	manpower=830567
 	state_category = city
 	buildings_max_level_factor=1.00
 	 
@@ -16,15 +16,15 @@ state={
 		victory_points = {7059 11}
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 2
 		}
 	}
 
 	resources {
-		chromium = 5
+		chromium = 2
 		steel = 2
-		tungsten = 3
+		tungsten = 2
 		aluminium = 2
 	} 
 }

@@ -5,15 +5,15 @@ state={
 		5801 18588 18660 
 	}
 
-	manpower=1826601
+	manpower=2156601
 	state_category = city
 	buildings_max_level_factor=1.00
 
-	history={
+	history = {
 		owner = KOL
 		add_core_of = KOL
 
-		victory_points = { 18588 20 }
+		victory_points = {18588 21}
 		
 		buildings = {
 			infrastructure = 4
@@ -23,15 +23,15 @@ state={
 			air_base = 1
 			dockyard = 3
 			18588 = {
-				naval_base = 2
+				naval_base = 4
 				coastal_bunker = 1
 
 			}
 		}
 	} 
 	
-	resources={
-		steel=2.000
-		aluminium=6.000
+	resources ={ 
+		steel = 2
+		aluminium = 6
 	} 
 }

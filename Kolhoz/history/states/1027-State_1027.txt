@@ -5,7 +5,7 @@ state={
 		2088 2989 3133 3441 9527 19099 19315 
 	}
 	
-	manpower=232123
+	manpower=242123
 	state_category = large_town
 	buildings_max_level_factor=1.00
 	 
@@ -25,5 +25,8 @@ state={
 			}
 		}
 	}
-	 
+	
+	resources = {
+		tungsten = 1
+	}
 }

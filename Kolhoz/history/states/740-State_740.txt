@@ -4,6 +4,7 @@ state={
 	provinces={
 		5263 5961 6891 7557 18462 18507 18517 18546 
 	}
+
 	manpower=182867
 	state_category = large_town
 	buildings_max_level_factor=1.00
@@ -23,7 +24,6 @@ state={
 	}
 
 	resources = {
-		steel = 2
 		tungsten = 1
 	}
 }

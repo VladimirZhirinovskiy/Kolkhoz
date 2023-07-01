@@ -4,7 +4,8 @@ state={
 	provinces={
 		2548 4572 8175 8342 18659 18696 18718 18829 
 	}
-	manpower=307400
+
+	manpower=439611
 	state_category = city
 	buildings_max_level_factor=1.00
 	 
@@ -16,11 +17,16 @@ state={
 		victory_points = {18659 3}
 		victory_points = {8175 2}
 
-
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			synthetic_refinery = 1
 		}
+	}
+
+	resources = {
+		oil = 1
+		rubber = 1
+		steel = 1
 	}
 }

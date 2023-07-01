@@ -4,20 +4,25 @@ state={
 	provinces={
 		4230 5120 19710 19756 19812 
 	}
-	manpower=113821
-	state_category = rural
+
+	manpower=326387
+	state_category = large_city
+	buildings_max_level_factor=1.00
 	 
 	history={
 		owner = KOL
 		add_core_of = KOL
 		
-		victory_points = {5120 8}
+		victory_points = {5120 4}
+		victory_points = {19756 8}
 		
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			fuel_silo = 1
 		}
 	}
+	
 	resources = {
-		oil = 2
+		oil = 3
 	}
 }

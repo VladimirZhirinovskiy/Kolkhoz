@@ -19,10 +19,13 @@ state={
 		buildings = {
 			infrastructure = 2
 			fuel_silo = 1
+			2730 = {
+				bunker = 1
+			}
 		}
 	}	
 
 	resources={
-		oil = 6
+		oil = 5
 	}
 }

@@ -5,9 +5,9 @@ state={
 		1437 3112 18182 18236 18237 18247 18284 
 	}
 
-	manpower=627698
-	local_supplies=0.0
+	manpower=867698
 	state_category = city
+	buildings_max_level_factor=1.00
 
 	history={
 		owner = KOL
