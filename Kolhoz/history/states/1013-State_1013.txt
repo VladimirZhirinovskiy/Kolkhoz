@@ -5,7 +5,7 @@ state={
 		1154 3110 19864 19888 19929 
 	}
 	
-	manpower=23564
+	manpower=24564
 	state_category = rural
 	buildings_max_level_factor=1.00
 	 
@@ -13,13 +13,10 @@ state={
 		owner = KOL
 		add_core_of = KOL
 
-		victory_points = {19929 5}
+		victory_points = {19929 4}
 
 		buildings = {
 			infrastructure = 2
-			19929 = {
-				naval_base = 1
-			}
 		}
 	}
 }

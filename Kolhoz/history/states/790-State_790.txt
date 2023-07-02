@@ -4,7 +4,8 @@ state={
 	provinces={
 		831 4393 5093 6950 9662 19045 19127 
 	}
-	manpower=265212
+
+	manpower=231012
 	state_category = rural
 	buildings_max_level_factor=1.00
 	 
@@ -21,6 +22,6 @@ state={
 	}
 
 	resources = {
-        oil = 1
+        oil = 2
     }
 }

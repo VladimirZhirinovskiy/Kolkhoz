@@ -4,6 +4,7 @@ state={
 	provinces={
 		407 3203 6814 7509 8565 19456 19533 
 	}
+	
 	manpower=941312
 	state_category = large_town
 	buildings_max_level_factor=1.00
@@ -20,5 +21,7 @@ state={
 		}
 	}
 
-	
+	resources = {
+		chromium = 4
+	}
 }

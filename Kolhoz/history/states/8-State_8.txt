@@ -1,7 +1,6 @@
 state={
 	id=8
 	name="STATE_8"
-
 	provinces={
 		283 3558 19128 26364
 	}
@@ -10,11 +9,6 @@ state={
 	state_category = metropolis
 	buildings_max_level_factor=1.00
 
-	resources={
-		steel = 10
-		aluminium = 3
-	}
-	
 	history={
 		owner = KOL
 		add_core_of = KOL
@@ -25,5 +19,10 @@ state={
 			arms_factory = 4
 			anti_air_building = 1
 		}
+	}
+
+	resources={
+		steel = 6
+		aluminium = 1
 	}
 }

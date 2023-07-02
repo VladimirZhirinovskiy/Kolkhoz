@@ -4,7 +4,7 @@ state={
 	provinces={
 		198 3917 5496 9596 19823 19887 19925 19926 
 	}
-	manpower=274213
+	manpower=324213
 	state_category = large_town
 	buildings_max_level_factor=1.00
 	 
@@ -22,6 +22,9 @@ state={
 				naval_base = 2
 			}
 		}
+	}
 
+	resources = {
+		oil = 2
 	}
 }

@@ -15,6 +15,7 @@ state={
 		add_core_of = KOL
 
 		victory_points = {19437 21}
+		victory_points = {19570 4}
 
 		buildings = {
 			infrastructure = 4
@@ -26,8 +27,8 @@ state={
 	}
 	
 	resources = {
-		rubber = 9
-		oil = 6
+		rubber = 5
+		oil = 3
 		steel = 2
 		tungsten = 1
 	} 

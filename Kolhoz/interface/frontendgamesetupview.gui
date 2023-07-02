@@ -1790,7 +1790,6 @@ guiTypes = {
 			name = "game_settings_bg"
 			quadTextureSprite = "GFX_lobby_lower_right_sidepanel_bg"
 		}
-
 		
 		buttonType = {
 			name = "custom_settings_btn"
