@@ -100,16 +100,16 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 10
-	socialist = 2
-	progressivism = 1
-	liberalism = 4
-	conservatism = 3
-	paternalism = 5
-	despotism = 45
-	ultranationalism = 10
-	fascism = 15
-	national_socialism = 4
-	esoteric_nazism = 1
+	communist = 8
+	socialist = 8
+	progressivism = 8
+	liberalism = 8
+	conservatism = 12
+	paternalism = 12
+	despotism = 12
+	ultranationalism = 8
+	fascism = 8
+	national_socialism = 8
+	esoteric_nazism = 8
 }
 

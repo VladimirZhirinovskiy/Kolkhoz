@@ -20,14 +20,14 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
-			arms_factory = 4
-			fuel_silo = 2
+			arms_factory = 3
+			fuel_silo = 1
 			synthetic_refinery = 1
 		}	
 	}
 	
 	resources = {
-		rubber = 5
+		rubber = 4
 		oil = 3
 		steel = 2
 		tungsten = 1

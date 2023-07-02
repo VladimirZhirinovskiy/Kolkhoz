@@ -5,8 +5,8 @@ state={
 		278 3431 19733 19763 19824 19871 19881 
 	}
 
-	manpower=183431
-	state_category = town
+	manpower=193431
+	state_category = large_town
 	buildings_max_level_factor=1.00
 	 
 	history={
@@ -15,10 +15,17 @@ state={
 		
 		victory_points = {19881 8}
 		victory_points = {19824 2}
+		victory_points = {19733 2}
 		
 		buildings={
 			infrastructure = 2
+			19881 = {
+				naval_base = 1
+			}
 		}
 	}
-	 
+	
+	resources = {
+		oil = 2
+	}
 }

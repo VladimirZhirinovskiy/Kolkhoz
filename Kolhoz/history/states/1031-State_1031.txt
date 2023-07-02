@@ -5,8 +5,8 @@ state={
 		1015 4688 19524 19577 19593 19654 
 	}
 	
-	manpower=103754
-	state_category = town
+	manpower=203754
+	state_category = large_town
 	buildings_max_level_factor=1.00
 	 
 	history={
@@ -23,5 +23,9 @@ state={
 				naval_base = 1
 			}
 		}
+	}
+
+	resources = {
+		oil = 3
 	}
 }

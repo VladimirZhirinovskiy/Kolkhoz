@@ -5,7 +5,7 @@ state={
 		4230 5120 19710 19756 19812 
 	}
 
-	manpower=326387
+	manpower=426387
 	state_category = large_city
 	buildings_max_level_factor=1.00
 	 
