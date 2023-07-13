@@ -5,15 +5,19 @@ state={
 		70 777 1391 6704 9536 19674 19732 
 	}
 
-	manpower=137023
-	state_category = rural
+	manpower=367023
+	state_category = large_town
 	buildings_max_level_factor=1.00
 
 	history = {
 		owner = CHN
 		add_core_of = CHN
 
-		victory_points = {6704 5}
+		victory_points = {6704 10}
+
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	 
 	resources = {

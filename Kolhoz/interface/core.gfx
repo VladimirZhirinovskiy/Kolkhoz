@@ -1296,7 +1296,6 @@ bitmapfonts = {
 #		path = "gfx/fonts/hoi_16mbs"
 		fontfiles = { 
 			"gfx/fonts/hoi_16mbs"
-			"gfx/fonts/hoi_16mbs_cryllic"
 		}		
 		color = 0xffffffff
 
@@ -1307,7 +1306,16 @@ bitmapfonts = {
 			H = { 238 201 35 }
 			T = { 255 255 255 }
 		}
-	}	
+	}
+	
+	bitmapfont_override = {
+		name = "hoi_16mbs"
+		fontfiles = { 
+			"gfx/fonts/hoi_16mbs"
+		}
+		languages = { "l_russian" "l_polish" } 
+	}
+	
 	bitmapfont = {
 		name = "hoi_16mbs_alt"
 #		path = "gfx/fonts/hoi_16mbs"
@@ -1325,7 +1333,8 @@ bitmapfonts = {
 			H = { 219 203 71 }
 			T = { 255 255 255 }
 		}
-	}		
+	}
+	
 	bitmapfont = {
 		name = "hoi_18"
 #		path = "gfx/fonts/hoi_18"
@@ -1659,7 +1668,15 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
-
+	
+	bitmapfont_override = {
+		name = "hoi_22tech"
+		fontfiles = { 
+			"gfx/fonts/hoi_22tech"
+		}
+		languages = { "l_russian" "l_polish" } 
+	}
+	
 	bitmapfont = {
 		name = "hoi_22chat"
 		fontfiles = { 
@@ -1684,7 +1701,16 @@ bitmapfonts = {
 			H = { 238 201 35 }
 			T = { 255 255 255 }
 		}
-	}	
+	}
+
+	bitmapfont_override = {
+		name = "hoi_33"
+		fontfiles = {
+			"gfx/fonts/hoi_33"
+		}
+		languages = { "l_russian" "l_polish" }
+	}
+	
 
 	bitmapfont = {
 		name = "hoi_arrow_font"
@@ -1806,7 +1832,6 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "nsb_hoi_36header"
-#		path = "gfx/fonts/hoi_30header"
 		fontfiles = {
 			"gfx/fonts/hoi_36header"
 		}
@@ -1824,10 +1849,18 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "hoi_36header"
 		fontfiles = {
-			"gfx/fonts/hoi_26mbs"
-			"gfx/fonts/hoi_26mbs_cryllic"
+			"gfx/fonts/hoi_36header"
 		}
 		languages = { "l_russian" "l_polish" }
+	}
+	
+	
+	bitmapfont_override = {
+		name = "hoi_22tech"
+		fontfiles = { 
+			"gfx/fonts/hoi_22tech"
+		}
+		languages = { "l_russian" "l_polish" } 
 	}
 
 	corneredTileSpriteType = {
@@ -1876,6 +1909,16 @@ bitmapfonts = {
 		name = "GFX_red_cross_small"
 		textureFile = "gfx//interface//red_cross_small.dds"
 	}
+	
+	corneredTileSpriteType = {
+		name = "GFX_tiled_techtree_bg"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_techtree_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
 	
 }
 

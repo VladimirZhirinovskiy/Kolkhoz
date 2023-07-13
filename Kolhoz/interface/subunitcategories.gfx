@@ -1,22 +1,36 @@
 spriteTypes = {
-
 	spriteType = {
 		name = "GFX_category_bomber"
 		texturefile = "gfx/interface/category_bomber.dds"
 		legacy_lazy_load = no
 	}
+	
 	spriteType = {
 		name = "GFX_unit_category_nav_bomber"
 		texturefile = "gfx/interface/category_nav_bomber.dds"
 		legacy_lazy_load = no
 	}
+	
 	spriteType = {
 		name = "GFX_unit_category_tac_bomber"
 		texturefile = "gfx/interface/category_tac_bomber.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_unit_category_missile"
+		texturefile = "gfx/interface/category_tac_bomber.dds"
+		legacy_lazy_load = no
+	}
+	
 	spriteType = {
 		name = "GFX_unit_category_strat_bomber"
+		texturefile = "gfx/interface/category_strat_bomber.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_category_category_gunship"
 		texturefile = "gfx/interface/category_strat_bomber.dds"
 		legacy_lazy_load = no
 	}
@@ -36,6 +50,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_category_fighter"
 		texturefile = "gfx/interface/category_fighter.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_category_stealth"
+		texturefile = "gfx/interface/category_fighter.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_category_helicopter"
+		texturefile = "gfx/interface/category_helicopter.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_category_interceptor"
+		texturefile = "gfx/interface/category_heavy_fighter.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_category_mca"
+		texturefile = "gfx/interface/category_heavy_fighter.dds"
 		legacy_lazy_load = no
 	}
 
@@ -92,6 +130,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/category_all_infantry.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_unit_category_front_line"
+		texturefile = "gfx/interface/category_all_infantry.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_category_armoured_car"
+		texturefile = "gfx/interface/category_armoured_car.dds"
+		legacy_lazy_load = no
+	}
 
 	spriteType = {
 		name = "GFX_unit_category_light_infantry"
@@ -104,5 +154,4 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_large/unit_infantry_icon.dds"
 		noOfFrames = 2
 	}
-
 }

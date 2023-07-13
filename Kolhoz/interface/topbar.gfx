@@ -341,7 +341,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/topbar/toolbar/deployment_button.dds"
 		noOfFrames = 2		
 	}
-
+	
+	SpriteType = {
+		name = "GFX_officer_button"
+		texturefile = "gfx/interface/topbar/officer_icon.dds"
+		noOfFrames = 2
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
 	spriteType = {
 		name = "GFX_ledger_button"
 		texturefile = "gfx/interface/topbar/toolbar/ledger_button.dds"

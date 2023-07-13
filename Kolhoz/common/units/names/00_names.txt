@@ -7,26 +7,41 @@ generic = {
 		generic = { "Submarine" }
 		unique = {}
 	}
+	corvette = {
+		prefix = ""
+		generic = { "Corvette" }
+		unique = {}
+	}
 	destroyer = {
 		prefix = ""
 		generic = { "Destroyer" }
 		unique = {}
 	}
+	frigate = {
+		prefix = ""
+		generic = { "Frigate" }
+		unique = {}
+	}
+	cruiser = {
+		prefix = ""
+		generic = { "Cruiser" }
+		unique = {}
+	}
+	ship_hull_cruiser = {
+		prefix = ""
+		generic = { "Cruiser" }
+		unique = {}
+	}
 	light_cruiser = {
 		prefix = ""
-		generic = { "Light Cruiser" }
+		generic = { "Cruiser" }
 		unique = {}
 	}
-	heavy_cruiser = {
-		prefix = ""
-		generic = { "Heavy Cruiser" }
-		unique = {}
-	}
-	battle_cruiser = {
-		prefix = ""
-		generic = { "Battlecruiser" }
-		unique = {}
-	}
+	#battle_cruiser = {
+	#	prefix = ""
+	#	generic = { "Battlecruiser" }
+	#	unique = {}
+	#}
 	battleship = {
 		prefix = ""
 		generic = { "Battleship" }
@@ -42,11 +57,23 @@ generic = {
 		generic = { "Carrier" }
 		unique = {}
 	}
-	
+
 	# Land units
 	infantry = {
 		prefix = ""
 		generic = { "Infantry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	light_infantry = {
+		prefix = ""
+		generic = { "Light Infantry Regiment" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	elite_infantry = {
+		prefix = ""
+		generic = { "Assault Infantry Division" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
@@ -62,7 +89,7 @@ generic = {
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	paratrooper = {
+	air_assault = {
 		prefix = ""
 		generic = { "Airborne Division" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
@@ -75,6 +102,12 @@ generic = {
 		unique = {}
 	}
 	mechanized = {
+		prefix = ""
+		generic = { "Mechanized Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	APC = {
 		prefix = ""
 		generic = { "Mechanized Division" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
@@ -127,52 +160,40 @@ generic = {
 		generic = { "Police Company" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
-	}	
+	}
 	signal_company = {
 		prefix = ""
 		generic = { "Signal Company" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
-	}	
+	}
 	maintenance_company = {
 		prefix = ""
 		generic = { "Maintenance Company" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
-	}	
+	}
 	cavalry = {
 		prefix = ""
 		generic = { "Cavalry Division" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	light_armor = {
+	#super_heavy_armor = {
+	#	prefix = ""
+	#	generic = { "Super Heavy Tank Brigade" }
+	#	generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	#	unique = {}
+	#}
+	MBT = {
 		prefix = ""
-		generic = { "Light Tank Brigade" }
+		generic = { "Armoured Division" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	medium_armor = {
+	IFV = {
 		prefix = ""
-		generic = { "Medium Tank Brigade" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	heavy_armor = {
-		prefix = ""
-		generic = { "Heavy Tank Brigade" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	modern_armor = {
-		prefix = ""
-		generic = { "Modern Tank Brigade" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	super_heavy_armor = {
-		prefix = ""
-		generic = { "Super Heavy Tank Brigade" }
+		generic = { "Armoured Division" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}

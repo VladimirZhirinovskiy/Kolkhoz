@@ -4,8 +4,8 @@ state={
 	provinces={
 		18599 18600 18647 18676 18685 18533 8872 
 	}
-	manpower=367123
-	state_category = town
+	manpower=481122
+	state_category = large_town
 	buildings_max_level_factor=1.00
 	 
 	history={
