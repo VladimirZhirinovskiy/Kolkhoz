@@ -29,13 +29,4 @@ spriteTypes = {
 		name = "GFX_scroll_down_alt"
 		texturefile = "gfx/interface/alternative_scrollbar/scroll_down_alt.dds"
 	}
-	
-	
-	corneredTileSpriteType = {
-		name = "GFX_scrollbar_vertical_bg"
-		size= { x=18 y=156 }
-		textureFile = "gfx/interface/scrollbar_vertical_bg.dds"
-		borderSize = { x=0 y=52 }
-		tilingCenter = yes
-	}
 }

@@ -1,0 +1,209 @@
+division_template = {
+	name = "POLCENIE"				# Infantry Brigade
+
+	division_names_group = CRO_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }		
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Militsai"				# Infantry Brigade
+	division_names_group = CRO_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}		
+
+}
+
+division_template = {
+	name = "Motrrus"				# Infantry Brigade
+	is_locked = yes
+	division_names_group = CRO_Mnt_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		mot_artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		anti_tank = {x = 0 y = 2}
+	}		
+
+}
+division_template = {
+	name = "Bron_es"				# Infantry Brigade
+	is_locked = yes
+	division_names_group = CRO_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }	
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		anti_tank = {x = 0 y = 2}
+	}		
+
+}
+
+
+
+
+units = {	
+	division= {	
+		name = "1.Танковая"
+		location = 1300  
+		division_template = "Bron_es"
+		start_experience_factor = 0.75
+	}
+	division= {	
+		name = "1.Освободительная"
+		location = 761  
+		division_template = "Motrrus"
+		start_experience_factor = 0.85
+	}
+	division= {	
+		name = "2.Освободительная"
+		location = 825  
+		division_template = "Motrrus"
+		start_experience_factor = 0.85
+	}
+	division= {	
+		name = "3.Освободительная"
+		location = 17039  
+		division_template = "Motrrus"
+		start_experience_factor = 0.85
+	}
+	division= {	
+		name = "1.ЧЕРНОгвардейская"
+		location = 17237  
+		division_template = "POLCENIE"
+		start_experience_factor = 0.55
+	}
+	division= {	
+		name = "2.ЧЕРНОгвардейская"
+		location = 9133  
+		division_template = "POLCENIE"
+		start_experience_factor = 0.55
+	}
+	division= {	
+		name = "3.ЧЕРНОгвардейская"
+		location = 4373  
+		division_template = "POLCENIE"
+		start_experience_factor = 0.55
+	}	
+	division= {	
+		name = "4.ЧЕРНОгвардейская"
+		location = 17076  
+		division_template = "POLCENIE"
+		start_experience_factor = 0.55
+	}
+	division= {	
+		name = "5.ЧЕРНОгвардейская"
+		location = 1526  
+		division_template = "POLCENIE"
+		start_experience_factor = 0.55
+	}
+	division= {	
+		name = "6.ЧЕРНОгвардейская"
+		location = 16952  
+		division_template = "POLCENIE"
+		start_experience_factor = 0.55
+	}
+	division= {	
+		name = "1.Партизанская"
+		location = 687  
+		division_template = "Militsai"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "2.Партизанская"
+		location = 945  
+		division_template = "Militsai"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "3.Партизанская"
+		location = 1704  
+		division_template = "Militsai"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "4.Партизанская"
+		location = 6885  
+		division_template = "Militsai"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "5.Партизанская"
+		location = 8728  
+		division_template = "Militsai"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "6.Партизанская"
+		location = 17039  
+		division_template = "Militsai"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "7.Партизанская"
+		location = 17066  
+		division_template = "Militsai"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "8.Партизанская"
+		location = 16991  
+		division_template = "Militsai"
+		start_experience_factor = 0.35
+	}
+}
+
+
+
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CRO"
+		}
+		requested_factories = 8
+		progress = 0.58
+		efficiency = 100
+	}
+}

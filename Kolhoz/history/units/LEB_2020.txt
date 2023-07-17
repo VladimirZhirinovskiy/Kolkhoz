@@ -1,0 +1,72 @@
+﻿### Botswana OOB ###
+
+division_template = {
+	name = "infa"		
+	division_names_group = LEB_INF_01		# Uses generic English templates
+	# Note: Represents both regular infantry and militia units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+
+}
+}
+
+
+
+units = {
+	division= {	
+		name = "Колониальная двизия 1"
+		location = 661 
+		division_template = "infa"
+		start_experience_factor = 0.65
+	}
+	division= {	
+		name = "Колониальная двизия 2"
+		location = 3577 
+		division_template = "infa"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "Колониальная двизия 3"
+		location = 2016 
+		division_template = "infa"
+		start_experience_factor = 0.65
+	}
+	division= {	
+		name = "Колониальная двизия 4"
+		location = 1050 
+		division_template = "infa"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "Колониальная двизия 5"
+		location = 4817 
+		division_template = "infa"
+		start_experience_factor = 0.35
+	}		
+}
+
+
+### No air forces (small handful of various aircraft in 1935) ###
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "LEB"
+		}
+		requested_factories = 5
+		progress = 0.4
+		efficiency = 30
+	}
+
+}
+
+#################################

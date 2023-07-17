@@ -38,7 +38,11 @@ characters = {
 			desc = LEB_Gnom_DESC
 			traits = { }
 		}
-
+		country_leader = {
+			ideology = liberalism_national_liberal_subtype
+			desc = LEB_Gnom_DESC
+			traits = { }
+		}
 	}
 
 }

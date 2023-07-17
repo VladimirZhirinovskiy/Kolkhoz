@@ -11,19 +11,20 @@ sub_units = {
 			infantry
 			support
 		}
-
+		
 		group = support
-
+		
 		categories = {
 			category_support_battalions
 			category_army
 		}
 
+	
 		combat_width = 0
-
+	
 		#Size Definitions
 		max_strength = 1
-		max_organisation = 0
+		max_organisation = 0	
 		default_morale = 0.3
 		manpower = 500
 		training_time = 180
@@ -31,7 +32,8 @@ sub_units = {
 		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.02
-
+		can_be_parachuted = yes
+		
 		# Important Ability
 		suppression_factor = 0.20
 
@@ -39,10 +41,11 @@ sub_units = {
 			infantry_equipment
 			support_equipment
 		}
-
+		
 		need = {
 			support_equipment = 10
-			infantry_equipment = 50
+			infantry_equipment = 40
 		}
+
 	}
 }
