@@ -4,13 +4,23 @@ state={
 	provinces={
 		317 1258 1385 2042 4102 4337 4534 5046 5256 5351 5797 7949 8040 8357 9238 9271 14839 14899 14919 14950 14951 14981 15002 15031 15070 15071 15075 15076 15119 15143 15144 15185 15209 15217 15224 15225 15258 15269 
 	}
-	manpower = 101
-	state_category = rural
+	manpower = 432123
+	state_category = town
 	local_supplies=0.0
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = TAR
+		add_core_of = TAR
+		add_core_of = BIZ
+		victory_points = {317 12}
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 3
+		}
+	}
+	resources = {
+		oil = 12
+		steel = 6
 	}
 	 
 }

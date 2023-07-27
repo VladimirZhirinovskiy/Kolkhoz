@@ -25,7 +25,46 @@ continent = {
 	name = europe
 	army = {
 		male = {
-			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
 		}
 		female = {
 		}
@@ -33,10 +72,1416 @@ continent = {
 	
 	navy = {
 		male = {
-			""
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
 		}
 	}
 	
 	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+CHN = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+KOL = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+MIS = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+CRO = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+GUB = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+TNR = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+LEB = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+PRO = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+TAR = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
+	}
+}
+BIZ = {
+	army = {
+		male = {
+			"GFX_Portrait_Generic_land_1"
+			"GFX_Portrait_Generic_land_2"
+			"GFX_Portrait_Generic_land_3"
+			"GFX_Portrait_Generic_land_4"
+			"GFX_Portrait_Generic_land_5"
+			"GFX_Portrait_Generic_land_6"
+			"GFX_Portrait_Generic_land_7"
+			"GFX_Portrait_Generic_land_8"
+			"GFX_Portrait_Generic_land_9"
+			"GFX_Portrait_Generic_land_10"
+			"GFX_Portrait_Generic_land_11"
+			"GFX_Portrait_Generic_land_12"
+			"GFX_Portrait_Generic_land_13"
+			"GFX_Portrait_Generic_land_14"
+			"GFX_Portrait_Generic_land_15"
+			"GFX_Portrait_Generic_land_16"
+			"GFX_Portrait_Generic_land_17"
+			"GFX_Portrait_Generic_land_18"
+			"GFX_Portrait_Generic_land_19"
+			"GFX_Portrait_Generic_land_20"	
+			"GFX_Portrait_Generic_land_21"
+			"GFX_Portrait_Generic_land_22"
+			"GFX_Portrait_Generic_land_23"
+			"GFX_Portrait_Generic_land_24"
+			"GFX_Portrait_Generic_land_25"
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_land_27"
+			"GFX_Portrait_Generic_land_28"
+			"GFX_Portrait_Generic_land_29"
+			"GFX_Portrait_Generic_land_30"
+			"GFX_Portrait_Generic_land_31"
+			"GFX_Portrait_Generic_land_32"
+			"GFX_Portrait_Generic_land_33"
+			"GFX_Portrait_Generic_land_34"
+			"GFX_Portrait_Generic_land_35"
+			"GFX_Portrait_Generic_land_36"
+			"GFX_Portrait_Generic_land_37"
+			"GFX_Portrait_Generic_land_38"
+			"GFX_Portrait_Generic_land_39"
+			"GFX_Portrait_Generic_land_40"	
+		}
+		female = {
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Generic_land_26"
+			"GFX_Portrait_Generic_navi_1"
+			"GFX_Portrait_Generic_navi_2"			
+		}
+	}
+	
+	political = {
+		communist = {
+				male = { 
+					"GFX_Portrait_Generic_pol_14"
+					"GFX_Portrait_Generic_land_4"
+			}
+		}
+		socialist = {
+				male = { 
+				"GFX_Portrait_Generic_pol_15"
+				"GFX_Portrait_Generic_pol_6"
+			}
+		}
+		progressivism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_9"
+					"GFX_Portrait_Generic_pol_10"
+					"GFX_Portrait_Generic_pol_11"
+			}
+		}
+		liberalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_16"
+					"GFX_Portrait_Generic_pol_18"
+			}
+		}
+		conservatism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_17"
+					"GFX_Portrait_Generic_pol_21"
+					"GFX_Portrait_Generic_pol_19"
+			}
+		}
+		paternalism = {
+			male = { 
+				"GFX_Portrait_Generic_land_7"
+				"GFX_Portrait_Generic_land_10"
+				"GFX_Portrait_Generic_pol_1"
+			}
+		}
+		despotism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_20"
+					"GFX_Portrait_Generic_pol_22"
+					
+			}
+		}
+		ultranationalism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_7"
+					"GFX_Portrait_Generic_pol_1"
+					"GFX_Portrait_Generic_land_6"
+					
+			}
+		}	
+		fascism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_2"
+					"GFX_Portrait_Generic_pol_3"
+			}
+		}
+		national_socialism = {
+				male = { 
+						"GFX_Portrait_Generic_pol_4"
+						"GFX_Portrait_Generic_pol_5"
+						"GFX_Portrait_Generic_land_3"
+			}
+		}
+		esoteric_nazism = {
+				male = { 
+					"GFX_Portrait_Generic_pol_8"
+					"GFX_Portrait_Generic_pol_13"
+					"GFX_Portrait_Generic_land_1"					
+			}
+		}	
 	}
 }

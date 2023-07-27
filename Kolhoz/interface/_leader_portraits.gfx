@@ -101,4 +101,16 @@ spriteTypes = {
 		name = "GFX_portrait_PRO_Prostov"
 		textureFile = "gfx/leaders/PRO/PRO_Prostov.dds"
 	}
+	
+	
+	#Татарстан 
+	spriteType = {
+		name = "GFX_portrait_TAR_MUXA"
+		textureFile = "gfx/leaders/TAR/TAR_MUXA.dds"
+	}
+	#визерия
+	spriteType = {
+		name = "GFX_portrait_BIZ_Borad"
+		textureFile = "gfx/leaders/BIZ/BIZ_Borad.dds"
+	}	
 } 

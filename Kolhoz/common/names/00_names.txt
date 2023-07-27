@@ -7,8 +7,8 @@
 
 default = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
-		surnames = { }
+		names = { "Pol" "Imbecilov" "Luganov" "Geys" "Muxamed" "Laden" "Zig" "Yazov" "Tyhac" "Miki" "Wrongov" "Putins" "Alixmed" "Taraktoroski" "Demensov" "Donetskins" "Zelenski" "Mao"}
+		surnames = { "Pot" "Wo" "Ni" "Ben" "Russkiii" "Vlasovski" "Roa"}
 		callsigns = { }
 	}
 	female = {

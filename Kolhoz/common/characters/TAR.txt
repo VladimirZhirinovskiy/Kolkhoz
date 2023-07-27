@@ -1,0 +1,18 @@
+characters = {
+
+	TAR_MUXA = {
+		name = TAR_MUXA
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TAR_MUXA"
+			}
+		}
+		
+		country_leader = {
+			ideology = despotism_military_junta_subtype
+			desc = TAR_MUXA_DESC
+			traits = { }
+		}
+
+	}
+}

@@ -1,0 +1,20 @@
+characters = {
+
+	BIZ_Borad = {
+		name = BIZ_Borad
+
+
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_BIZ_Borad"
+			}
+		}
+		
+		country_leader = {
+			ideology = conservatism_christian_conservatism_subtype
+			desc = BIZ_Borad_DESC
+			traits = { }
+		}
+
+	}
+}
