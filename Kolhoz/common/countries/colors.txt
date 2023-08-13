@@ -46,3 +46,15 @@ TAR = {
 	color = rgb { 2 200 5 }
 	color_ui = rgb { 2 200 5}
 }
+KAD = {
+	color = rgb { 0 176 252 }
+	color_ui = rgb {0 176 252}
+}
+ZAP = {
+	color = rgb { 184 4 53 }
+	color_ui = rgb { 184 4 53 }
+}
+DRO = {
+	color = rgb { 161 109 11 }
+	color_ui = rgb { 161 109 11 }
+}

@@ -1,0 +1,92 @@
+﻿### Botswana OOB ###
+
+division_template = {
+	name = "infa4"		
+	division_names_group = DRO_INF_01		# Uses generic English templates
+	# Note: Represents both regular infantry and militia units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+}
+
+
+
+units = {
+	division= {	
+		name = "Авангард"
+		location = 16863 
+		division_template = "infa4"
+		start_experience_factor = 0.55
+	}
+	division= {	
+		name = "Авангард"
+		location = 4735 
+		division_template = "infa4"
+		start_experience_factor = 0.55
+	}	
+	division= {	
+		name = "Авангард"
+		location = 16863 
+		division_template = "infa4"
+		start_experience_factor = 0.55
+	}	
+	division= {	
+		name = "Авангард"
+		location = 2973 
+		division_template = "infa4"
+		start_experience_factor = 0.55
+	}
+	division= {	
+		name = "Авангард"
+		location = 17391 
+		division_template = "infa4"
+		start_experience_factor = 0.55
+	}
+	division= {	
+		name = "Авангард"
+		location = 6759 
+		division_template = "infa4"
+		start_experience_factor = 0.55
+	}	
+	division= {	
+		name = "Авангард"
+		location = 2160 
+		division_template = "infa4"
+		start_experience_factor = 0.55
+	}
+	division= {	
+		name = "Авангард"
+		location = 9627 
+		division_template = "infa4"
+		start_experience_factor = 0.55
+	}
+}
+
+
+### No air forces (small handful of various aircraft in 1935) ###
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "DRO"
+		}
+		requested_factories = 5
+		progress = 0.4
+		efficiency = 30
+	}
+
+}
+
+#################################

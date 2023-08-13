@@ -1,0 +1,22 @@
+characters = {
+
+	ZAP_Gernin = {
+		name = ZAP_Gernin
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ZAP_Gernin"
+			}
+		}
+		
+		country_leader = {
+			ideology = fascism_ecclesiastic_nationalism_subtype
+			desc = ZAP_Gernin_DESC
+			traits = { }
+		}
+		country_leader = {
+			ideology = despotism_national_catholicism_subtype
+			desc = ZAP_Gernin_DESC
+			traits = { }
+		}
+	}
+}

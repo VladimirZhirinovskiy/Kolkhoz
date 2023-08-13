@@ -1,0 +1,23 @@
+characters = {
+
+	KAD_Zahid = {
+		name = KAD_Zahid
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_KAD_Zahid"
+			}
+		}
+		
+		country_leader = {
+			ideology = conservatism_islamic_conservatism_subtype
+			desc = KAD_Zahid_DESC
+			traits = { }
+		}
+		country_leader = {
+			ideology = despotism_corporatocracy_subtype
+			desc = KAD_Zahid_DESC
+			traits = { }
+		}		
+
+	}
+}

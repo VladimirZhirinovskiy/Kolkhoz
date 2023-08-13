@@ -4,13 +4,20 @@ state={
 	provinces={
 		1145 2990 3618 3691 3713 4386 6440 9259 10061 15938 15947 16048 16078 16125 16175 16202 
 	}
-	manpower = 101
-	state_category = rural
+	manpower = 873231
+	state_category = city
 	local_supplies=0.0
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = ZAP
+		add_core_of = ZAP
+		victory_points = {1145 18}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 5
+			anti_air_building = 3
+		}
 	}
 	 
 }

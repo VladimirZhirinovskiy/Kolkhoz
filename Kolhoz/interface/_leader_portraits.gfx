@@ -112,5 +112,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_BIZ_Borad"
 		textureFile = "gfx/leaders/BIZ/BIZ_Borad.dds"
+	}
+	#Каджарский Халифат
+	spriteType = {
+		name = "GFX_portrait_KAD_Zahid"
+		textureFile = "gfx/leaders/KAD/KAD_Zahid.dds"
 	}	
+	#Закорпатье
+	spriteType = {
+		name = "GFX_portrait_ZAP_Gernin"
+		textureFile = "gfx/leaders/ZAP/ZAP_Gernin.dds"
+	}	
+	#Горная конфедерация
+	spriteType = {
+		name = "GFX_portrait_DRO_Minsatin"
+		textureFile = "gfx/leaders/DRO/DRO_Minsatin.dds"
+	}		
 } 

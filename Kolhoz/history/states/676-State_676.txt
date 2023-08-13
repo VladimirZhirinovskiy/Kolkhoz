@@ -14,7 +14,7 @@ state={
 		add_core_of = MIS
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 3
 		}
 		
 	 }		 
