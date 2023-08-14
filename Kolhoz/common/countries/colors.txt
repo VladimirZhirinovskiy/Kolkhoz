@@ -58,3 +58,7 @@ DRO = {
 	color = rgb { 161 109 11 }
 	color_ui = rgb { 161 109 11 }
 }
+BRZ = {
+	color = rgb { 92 18 14 }
+	color_ui = rgb { 92 18 14 }
+}

@@ -14,7 +14,7 @@ focus_tree = {
         
 
    
-focus = {
+	focus = {
 		id = "LEB_1" 
 		icon = GFX_goal_unknown
 		
@@ -29,7 +29,7 @@ focus = {
 			add_political_power = 150
 		}
 	}
-	continuous_focus_position = { x = 50 y = 1400 } (x по вертикали y по горизонтали)
+	continuous_focus_position = { x = 50 y = 1400 } 
 	focus = {
 		id = "LEB_2" 
 		icon = GFX_goal_unknown
@@ -100,9 +100,9 @@ focus = {
 		
 		available_if_capitulated = yes
 
-completion_reward = {
-	add_manpower = 10000
-					}
+	completion_reward = {
+		add_manpower = 10000
+						}
 	}
 	focus = {
 		id = "LEB_5" 
@@ -679,7 +679,7 @@ completion_reward = {
 							add_autonomy_score = {
     value = -500 
     localization = EXAMPLE
-}
+	}
 		}
 	}
 	focus = {
@@ -697,7 +697,8 @@ completion_reward = {
 			add_autonomy_score = {
     value = -1000 
     localization = EXAMPLE
-}random_owned_controlled_state = { 
+								}	
+	random_owned_controlled_state = { 
 								limit = {
 										free_building_slots = {
 												building = industrial_complex
@@ -903,10 +904,12 @@ completion_reward = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-add_autonomy_score = {
+	add_autonomy_score = {
     value = 3000
     localization = EXAMPLE
-}  add_political_power = 200
+
+	} 
+ 	add_political_power = 200
 		}
 	}
 								focus = {
@@ -942,10 +945,10 @@ add_autonomy_score = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-add_autonomy_score = {
+	add_autonomy_score = {
     value = 4000 
     localization = EXAMPLE
-}add_political_power = 350
+	}add_political_power = 350
 	}
 	}
 									focus = {
