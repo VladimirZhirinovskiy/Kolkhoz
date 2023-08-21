@@ -1,8 +1,5 @@
 spriteTypes = {
-	spriteType = {
-		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/democratic_group.dds"
-	}
+
 
 	spriteType = {
 		name = "GFX_ideology_socialist_group"
@@ -649,7 +646,10 @@ spriteTypes = {
 		name = "GFX_ideology_socialist_buddhist_socialism_subtype"
 		texturefile = "gfx/interface/ideologies/socialist_buddhist_socialism_subtype.dds"
 	}
-
+	SpriteType = { # Силенд
+        name = "GFX_ideology_BRZ_communism_group"
+        texturefile = "gfx/interface/ideologies/BRZ_communism_group.dds"
+    }
 
 	# --- Main Ideologies --- #
 

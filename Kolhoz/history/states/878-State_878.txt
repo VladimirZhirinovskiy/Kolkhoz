@@ -5,13 +5,17 @@ state={
 		375 895 1606 2085 2164 5164 5197 5670 5788 7796 8235 8649 20050 20076 20103 20114 20118 20119 20157 20158 20168 20174 20193 20208 20246 20257 20283 20284 20291 20292 20297 20308 20315 20321 
 	}
 
-	manpower = 1231567
-	state_category = city
+	manpower = 132131
+	state_category = rural
 	buildings_max_level_factor=1.00
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = BRZ
+		add_core_of = BRZ
+		victory_points = {375 7}
+		buildings = {
+			industrial_complex = 1
+		}
 	}
 	 
 }

@@ -5,7 +5,7 @@ oob ="BRI_2020"
 #Персонажи
 
 #Правители
-recruit_character = PRO_Prostov 
+recruit_character = BRZ_BRIS
 
 set_research_slots = 2
 set_convoys = 150

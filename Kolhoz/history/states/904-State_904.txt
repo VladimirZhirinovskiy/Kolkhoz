@@ -9,8 +9,15 @@ state={
 	buildings_max_level_factor=1.00
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = BRZ
+		add_core_of = BRZ
+		victory_points = {103 17}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 4
+			dockyard = 2
+		}
 	}
 	 
 }

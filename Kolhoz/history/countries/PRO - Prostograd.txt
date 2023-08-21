@@ -7,6 +7,12 @@ oob ="PRO_2020"
 #Правители
 recruit_character = PRO_Prostov 
 
+create_faction = Redemption
+add_to_faction = PRO
+add_to_faction = BRZ
+
+
+
 set_research_slots = 3
 set_convoys = 200
 set_stability = 0.90
@@ -110,17 +116,17 @@ set_politics = {
 
 set_popularities = {
 	communist = 55
-	socialist = 10
+	socialist = 20
 	#65
-	progressivism = 5
-	liberalism = 3
-	conservatism = 2
-	paternalism = 5
+	progressivism = 10
+	liberalism = 0
+	conservatism = 0
+	paternalism = 0
 	despotism = 0
 	#15
-	ultranationalism = 5
-	fascism = 2
-	national_socialism = 3
-	esoteric_nazism = 10
+	ultranationalism = 10
+	fascism = 0
+	national_socialism = 5
+	esoteric_nazism = 0
 	#20
 }

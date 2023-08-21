@@ -6,12 +6,20 @@ state={
 	}
 
 	manpower = 985231
-	state_category = city
+	state_category = town
 	buildings_max_level_factor=1.00
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = BRZ
+		add_core_of = BRZ
+		victory_points = {235 12}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
-	 
+	resources = {
+		steel = 5
+	}	 
 }

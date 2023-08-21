@@ -33,8 +33,8 @@ spriteTypes = {
 		name = "GFX_naval_combat_escape_bar"
 		color = { 0.0 0.5 0.0 }
 		colortwo = { 1.0 0.0 0.0 }
-		textureFile1 = "gfx/interface/navalcombat/escape_progress.dds"
-		textureFile2 = "gfx/interface/navalcombat/escape_progress_bg.dds"
+		textureFile1 = "gfx\\interface\\navalcombat\\escape_progress.dds"
+		textureFile2 = "gfx\\interface\\navalcombat\\escape_progress_bg.dds"
 		size = { x = 54 y = 8 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}
@@ -50,72 +50,44 @@ spriteTypes = {
 	# Code expects GFX_navalcombat_ship_icon_ + sprite_name set in subunit defs
 	spriteType = { # "battlecruiser"
 		name = "GFX_navalcombat_ship_icon_battle_cruiser"
-		texturefile = "gfx/interface/counters/ships/battle_hull_medium.dds"
+		texturefile = "gfx/interface/navalcombat/ships/battlecruiser.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_screen_hull_light"
-		texturefile = "gfx/interface/counters/ships/screen_hull_light.dds"
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_battleship"
+		texturefile = "gfx/interface/navalcombat/ships/battleship.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_screen_hull_medium"
-		texturefile = "gfx/interface/counters/ships/screen_hull_medium.dds"
+	spriteType = { # "carrier"
+		name = "GFX_navalcombat_ship_icon_carrier"
+		texturefile = "gfx/interface/navalcombat/ships/carrier.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_screen_hull_heavy"
-		texturefile = "gfx/interface/counters/ships/screen_hull_heavy.dds"
+	spriteType = { # "destroyer"
+		name = "GFX_navalcombat_ship_icon_destroyer"
+		texturefile = "gfx/interface/navalcombat/ships/destroyer.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_battle_hull_light"
-		texturefile = "gfx/interface/counters/ships/battle_hull_light.dds"
+	spriteType = { # "heavy_cruiser"
+		name = "GFX_navalcombat_ship_icon_heavy_cruiser"
+		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_battle_hull_medium"
-		texturefile = "gfx/interface/counters/ships/battle_hull_medium.dds"
+	spriteType = { # "light_cruiser"
+		name = "GFX_navalcombat_ship_icon_light_cruiser"
+		texturefile = "gfx/interface/navalcombat/ships/light_cruiser.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_battle_hull_heavy"
-		texturefile = "gfx/interface/counters/ships/battle_hull_heavy.dds"
+	spriteType = { # "sh_battleship"
+		name = "GFX_navalcombat_ship_icon_sh_battleship"
+		texturefile = "gfx/interface/navalcombat/ships/sh_battleship.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_carrier_hull_light"
-		texturefile = "gfx/interface/counters/ships/carrier_hull_light.dds"
+	spriteType = { # "submarine"
+		name = "GFX_navalcombat_ship_icon_submarine"
+		texturefile = "gfx/interface/navalcombat/ships/submarine.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_carrier_hull_medium"
-		texturefile = "gfx/interface/counters/ships/carrier_hull_medium.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_carrier_hull_super"
-		texturefile = "gfx/interface/counters/ships/carrier_hull_super.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_sub_hull_small_single"
-		texturefile = "gfx/interface/counters/ships/sub_hull_small_single.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_sub_hull_large_single"
-		texturefile = "gfx/interface/counters/ships/sub_hull_large_single.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_sub_hull_large_double"
-		texturefile = "gfx/interface/counters/ships/sub_hull_large_double.dds"
-		noOfFrames = 2
-	}
-	
-	
-	
 	spriteType = { # "transport"
 		name = "GFX_navalcombat_ship_icon_transport"
 		texturefile = "gfx/interface/navalcombat/ships/transport.dds"
@@ -123,7 +95,7 @@ spriteTypes = {
 	}
 	spriteType = { # "convoy"
 		name = "GFX_navalcombat_ship_icon_convoy"
-		texturefile = "gfx/interface/counters/ships/convoy.dds"
+		texturefile = "gfx/interface/navalcombat/ships/convoy.dds"
 		noOfFrames = 2
 	}
 	spriteType = { # Generic icon for unknown ship that is incoming
@@ -139,121 +111,234 @@ spriteTypes = {
 	# - country tag + equipment type, fe - GER_fighter_equipment_0
 	# - just equipment type - fighter_equipment_0
 	# - sprite_name = X set in equipment type so - light_plane, medium_plane, heavy_plane
-	spriteType = { # "light_plane"
+
+	# Note: we only have three icons in this style.
+
+	# As a last fallback the code looks for an icon based on the 'sprite' attribute name.
+	spriteType = {
 		name = "GFX_navalcombat_air_icon_light_plane"
-		texturefile = "gfx/interface/navalcombat/airwings/fighter_plane.dds"
+		texturefile = "gfx/interface/navalcombat/airwings/fighter.dds"
 		noOfFrames = 2
 	}
-	spriteType = { # "medium_plane"
+	spriteType = {
 		name = "GFX_navalcombat_air_icon_medium_plane"
-		texturefile = "gfx/interface/navalcombat/airwings/fighter_plane.dds"
+		texturefile = "gfx/interface/navalcombat/airwings/tactical_bomber.dds"
 		noOfFrames = 2
 	}
-	spriteType = { # "heavy_plane"
+	spriteType = {
 		name = "GFX_navalcombat_air_icon_heavy_plane"
-		texturefile = "gfx/interface/navalcombat/airwings/fighter_plane.dds"
+		texturefile = "gfx/interface/navalcombat/airwings/strategic_bomber.dds"
 		noOfFrames = 2
 	}
 
-	spriteType = { 
-		name = "GFX_navalcombat_air_icon_tac_bomber_equipment"
-		texturefile = "gfx/interface/navalcombat/airwings/cas_plane.dds"
+	# Small airframe
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_small_plane_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/fighter.dds"
 		noOfFrames = 2
 	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_icon_CAS_equipment"
-		texturefile = "gfx/interface/navalcombat/airwings/cas_plane.dds"
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_small_plane_cas_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/cas.dds"
 		noOfFrames = 2
 	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_icon_cv_CAS_equipment"
-		texturefile = "gfx/interface/navalcombat/airwings/cas_plane.dds"
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_small_plane_naval_bomber_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/naval_bomber.dds"
 		noOfFrames = 2
 	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_icon_fighter_equipment"
-		texturefile = "gfx/interface/navalcombat/airwings/fighter_plane.dds"
-		noOfFrames = 2
-	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_icon_cv_fighter_equipment"
-		texturefile = "gfx/interface/navalcombat/airwings/fighter_plane.dds"
-		noOfFrames = 2
-	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_icon_nav_bomber_equipment"
-		texturefile = "gfx/interface/navalcombat/airwings/nav_plane.dds"
-		noOfFrames = 2
-	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_icon_cv_nav_bomber_equipment"
-		texturefile = "gfx/interface/navalcombat/airwings/nav_plane.dds"
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_small_plane_suicide_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/fighter.dds"
 		noOfFrames = 2
 	}
 
+	# Small carrier airframe
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_cv_small_plane_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/fighter.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_cv_small_plane_cas_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/cas.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_cv_small_plane_naval_bomber_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/naval_bomber.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_cv_small_plane_suicide_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/fighter.dds"
+		noOfFrames = 2
+	}
+
+	# Medium airframe
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_medium_plane_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/tactical_bomber.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_medium_plane_fighter_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/heavy_fighter.dds"
+		noOfFrames = 2
+	}
+
+	# Large airframe
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_large_plane_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/strategic_bomber.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_large_plane_maritime_patrol_plane_airframe"
+		texturefile = "gfx/interface/navalcombat/airwings/maritime_patrol_plane.dds"
+		noOfFrames = 2
+	}
+
+	# Non-BBA archetypes
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_jet_fighter_equipment"
+		texturefile = "gfx/interface/navalcombat/airwings/fighter.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_rocket_interceptor_equipment"
+		texturefile = "gfx/interface/navalcombat/airwings/fighter.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_jet_tac_bomber_equipment"
+		texturefile = "gfx/interface/navalcombat/airwings/tactical_bomber.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_icon_jet_strat_bomber_equipment"
+		texturefile = "gfx/interface/navalcombat/airwings/strategic_bomber.dds"
+		noOfFrames = 2
+	}
 
 	# ---------------------------------------------------------------------------
 
 	# Same as above but for the survivor line (we use smaller icons)
 	# Code expect GFX_navalcombat_air_small_icon_ + sprite name
-	spriteType = { 
-		name = "GFX_navalcombat_air_small_icon_CAS_equipment"
-		texturefile = "gfx/interface/counters/air_small/onmap_cas_inverted.dds"
-		noOfFrames = 2
-	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_small_icon_cv_CAS_equipment"
-		texturefile = "gfx/interface/counters/air_small/onmap_cas_inverted.dds"
-		noOfFrames = 2
-	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_small_icon_fighter_equipment"
+
+	# Small airframe
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_small_plane_airframe"
 		texturefile = "gfx/interface/counters/air_small/onmap_fighter_inverted.dds"
 		noOfFrames = 2
 	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_small_icon_cv_fighter_equipment"
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_small_plane_cas_airframe"
+		texturefile = "gfx/interface/counters/air_small/onmap_cas_inverted.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_small_plane_naval_bomber_airframe"
+		texturefile = "gfx/interface/counters/air_small/onmap_nav_bomber_inverted.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_small_plane_suicide_airframe"
 		texturefile = "gfx/interface/counters/air_small/onmap_fighter_inverted.dds"
 		noOfFrames = 2
 	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_small_icon_nav_bomber_equipment"
+
+	# Small carrier airframe
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_cv_small_plane_airframe"
+		texturefile = "gfx/interface/counters/air_small/onmap_fighter_inverted.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_cv_small_plane_cas_airframe"
+		texturefile = "gfx/interface/counters/air_small/onmap_cas_inverted.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_cv_small_plane_naval_bomber_airframe"
 		texturefile = "gfx/interface/counters/air_small/onmap_nav_bomber_inverted.dds"
 		noOfFrames = 2
 	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_small_icon_cv_nav_bomber_equipment"
-		texturefile = "gfx/interface/counters/air_small/onmap_nav_bomber_inverted.dds"
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_cv_small_plane_suicide_airframe"
+		texturefile = "gfx/interface/counters/air_small/onmap_fighter_inverted.dds"
 		noOfFrames = 2
 	}
-	spriteType = { 
-		name = "GFX_navalcombat_air_small_icon_tac_bomber_equipment"
+
+	# Medium airframe
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_medium_plane_airframe"
 		texturefile = "gfx/interface/counters/air_small/onmap_tac_bomber_inverted.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_medium_plane_fighter_airframe"
+		texturefile = "gfx/interface/counters/air_small/onmap_heavy_fighter_inverted.dds"
+		noOfFrames = 2
+	}
+
+	# Large airframe
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_large_plane_airframe"
+		texturefile = "gfx/interface/counters/air_small/onmap_strat_bomber_inverted.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_large_plane_maritime_patrol_plane_airframe"
+		texturefile = "gfx/interface/counters/air_small/onmap_maritime_patrol_plane_inverted.dds"
+		noOfFrames = 2
+	}
+
+	# Non-BBA archetypes
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_jet_fighter_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_jet_fighter_inverted.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_rocket_interceptor_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_jet_fighter_inverted.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_jet_tac_bomber_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_jet_tac_bomber_inverted.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_jet_strat_bomber_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_jet_strat_bomber_inverted.dds"
+		noOfFrames = 2
+	}
+
 	# ---------------------------------------------------------------------------
 
 	corneredTileSpriteType = {
 		name = "GFX_naval_battle_front"
 		size= { x=6 y=6 }
-		textureFile = "gfx/interface/navalcombat/naval_battle_front.dds"
+		textureFile = "gfx//interface//navalcombat//naval_battle_front.dds"
 		borderSize = { x=0 y=0 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-	}
+	}		
 	
 	corneredTileSpriteType = {
 		name = "GFX_naval_combat_tiled_entry"
 		size= { x=64 y=64 }
-		textureFile = "gfx/interface/navalcombat/tiled_fex_bg.dds"
+		textureFile = "gfx//interface//navalcombat//tiled_fex_bg.dds"
 		borderSize = { x=16 y=16 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-	}
+	}	
 
 	frameAnimatedSpriteType = {
 		name = "GFX_aim_body"
-		texturefile = "gfx/interface/navalcombat/aiming_line_body.dds"
+		texturefile = "gfx//interface//navalcombat//aiming_line_body.dds"
 		noOfFrames = 5
 		animation_rate_fps = 15
 		looping = yes

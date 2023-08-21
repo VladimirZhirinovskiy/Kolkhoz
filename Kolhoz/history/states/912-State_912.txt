@@ -4,13 +4,18 @@ state={
 	provinces={
 		589 727 1973 2235 2292 2621 3979 7324 7763 9279 9743 20482 20515 20540 20566 20578 20585 20592 20599 20609 
 	}
-	manpower = 863213
+	manpower = 963213
 	state_category = large_town
 	buildings_max_level_factor=1.00
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = BRZ
+		add_core_of = BRZ
+		victory_points = {589 18}
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
 	 
 }

@@ -128,4 +128,20 @@ spriteTypes = {
 		name = "GFX_portrait_DRO_Minsatin"
 		textureFile = "gfx/leaders/DRO/DRO_Minsatin.dds"
 	}		
+	
+	#Силенд
+	frameAnimatedSpriteType = {
+		name = "GFX_portrait_BRZ_BRIS"
+		textureFile = "gfx/leaders/BRZ/BRZ_BRIS.png"
+		noOfFrames = 7
+		animation_rate_fps = 9
+        looping = yes
+        play_on_show = yes
+	}	
+	
+	#Ново Британия
+	spriteType = {
+		name = "GFX_portrait_FRE_Freyn"
+		textureFile = "gfx/leaders/FRE/FRE_Freyn.dds"
+	}
 } 
