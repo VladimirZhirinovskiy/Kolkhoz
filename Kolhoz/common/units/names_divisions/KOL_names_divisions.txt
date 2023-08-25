@@ -1,0 +1,142 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+
+
+KOL_INF_01 = {
+
+	name = "IMBECILE"
+
+	for_countries = { KOL MIS }
+
+	can_use = {
+		OR = {
+			tag = KOL
+
+		}
+	}
+
+	division_types = { "cavalry" }
+
+	link_numbering_with = { KOL_INF_01 }
+
+	fallback_name = "%d. IMBECILE"={
+	
+		1 = { "%d. IMBECILE" }
+		2 = { "%d. IMBECILE" }
+		3 = { "%d. IMBECILE" }
+		4 = { "%d. IMBECILE" }
+		5 = { "%d. IMBECILE" }
+		6 = { "%d. IMBECILE" }
+		7 = { "%d. IMBECILE" }
+		8 = { "%d. IMBECILE" }
+		9 = { "%d. IMBECILE" }
+		10 = { "%d. IMBECILE" }
+		11 = { "%d. IMBECILE" }
+		12 = { "%d. IMBECILE" }
+		13 = { "%d. IMBECILE" }
+		14 = { "%d. IMBECILE" }
+		15 = { "%d. IMBECILE" }
+		16 = { "%d. IMBECILE" }
+		17 = { "%d. IMBECILE" }
+		18 = { "%d. IMBECILE" }
+		19 = { "%d. IMBECILE" }
+		20 = { "%d. IMBECILE" }
+		21 = { "%d. IMBECILE" }
+		22 = { "%d. IMBECILE" }
+		23 = { "%d. IMBECILE" }
+		24 = { "%d. IMBECILE" }
+		25 = { "%d. IMBECILE" }
+		26 = { "%d. IMBECILE" }
+		27 = { "%d. IMBECILE" }
+		28 = { "%d. IMBECILE" }
+		29 = { "%d. IMBECILE" }
+		30 = { "%d. IMBECILE" }
+		31 = { "%d. IMBECILE" }
+
+
+	}
+KOL_INF_02 = {
+
+	name = "ТЕР ОБОРОНА"
+
+	for_countries = { KOL MIS }
+
+	can_use = {
+		OR = {
+			tag = KOL
+
+		}
+	}
+
+	division_types = { "infantry" }
+
+	link_numbering_with = { KOL_INF_02 }
+
+	fallback_name = "%d. ТЕР ОБОРОНА"={
+	
+		1 = { "%d. ТЕР ОБОРОНА" }
+		2 = { "%d. ТЕР ОБОРОНА" }
+		3 = { "%d. ТЕР ОБОРОНА" }
+		4 = { "%d. ТЕР ОБОРОНА" }
+		5 = { "%d. ТЕР ОБОРОНА" }
+		6 = { "%d. ТЕР ОБОРОНА" }
+		7 = { "%d. ТЕР ОБОРОНА" }
+		8 = { "%d. ТЕР ОБОРОНА" }
+		9 = { "%d. ТЕР ОБОРОНА" }
+		10 = { "%d. ТЕР ОБОРОНА" }
+		11 = { "%d. ТЕР ОБОРОНА" }
+		12 = { "%d. ТЕР ОБОРОНА" }
+		13 = { "%d. ТЕР ОБОРОНА" }
+		14 = { "%d. ТЕР ОБОРОНА" }
+		15 = { "%d. ТЕР ОБОРОНА" }
+		16 = { "%d. ТЕР ОБОРОНА" }
+		17 = { "%d. ТЕР ОБОРОНА" }
+		18 = { "%d. ТЕР ОБОРОНА" }
+		19 = { "%d. ТЕР ОБОРОНА" }
+		20 = { "%d. ТЕР ОБОРОНА" }
+		21 = { "%d. ТЕР ОБОРОНА" }
+		22 = { "%d. ТЕР ОБОРОНА" }
+		23 = { "%d. ТЕР ОБОРОНА" }
+		24 = { "%d. ТЕР ОБОРОНА" }
+		25 = { "%d. ТЕР ОБОРОНА" }
+		26 = { "%d. ТЕР ОБОРОНА" }
+		27 = { "%d. ТЕР ОБОРОНА" }
+		28 = { "%d. ТЕР ОБОРОНА" }
+		29 = { "%d. ТЕР ОБОРОНА" }
+		30 = { "%d. ТЕР ОБОРОНА" }
+		31 = { "%d. ТЕР ОБОРОНА" }
+
+
+	}
+}

@@ -1,0 +1,196 @@
+division_template = {
+	name = "BRIT"				# Infantry Brigade
+
+	division_names_group = FRE_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }		
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }		
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "OMG"				# Infantry Brigade
+	division_names_group = FRE_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }		
+	}	
+}
+
+
+
+
+
+
+
+units = {	
+	division= {	
+		name = "Британская гвардия"
+		location = 211 
+		division_template = "BRIT"
+		start_experience_factor = 0.96
+	}
+	division= {	
+		name = "Британская гвардия"
+		location = 19922
+		division_template = "BRIT"
+		start_experience_factor = 0.56
+	}	
+	division= {	
+		name = "Британская гвардия"
+		location = 20015
+		division_template = "BRIT"
+		start_experience_factor = 0.56
+	}
+	division= {	
+		name = "Британская гвардия"
+		location = 20083
+		division_template = "BRIT"
+		start_experience_factor = 0.56
+	}	
+	division= {	
+		name = "Британская гвардия"
+		location = 427
+		division_template = "BRIT"
+		start_experience_factor = 0.56
+	}	
+	division= {	
+		name = "Британская гвардия"
+		location = 20083
+		division_template = "BRIT"
+		start_experience_factor = 0.56
+	}	
+	division= {	
+		name = "Британская гвардия"
+		location = 4495
+		division_template = "BRIT"
+		start_experience_factor = 0.56
+	}	
+	division= {	
+		name = "Британская гвардия"
+		location = 20577
+		division_template = "BRIT"
+		start_experience_factor = 0.56
+	}	
+	division= {	
+		name = "Британская гвардия"
+		location = 6102
+		division_template = "BRIT"
+		start_experience_factor = 0.56
+	}	
+	division= {	
+		name = "Британская гвардия"
+		location = 20636
+		division_template = "BRIT"
+		start_experience_factor = 0.56
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 8784
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 20645
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 20570
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 6758
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 20365
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 5183
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 1564
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 19820
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 10248
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 8985
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 7965
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+	division= {	
+		name = "Британская Ополчение"
+		location = 8576
+		division_template = "OMG"
+		start_experience_factor = 0.40
+	}	
+
+
+
+
+}
+
+
+
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "FRE"
+		}
+		requested_factories = 8
+		progress = 0.58
+		efficiency = 100
+	}
+}

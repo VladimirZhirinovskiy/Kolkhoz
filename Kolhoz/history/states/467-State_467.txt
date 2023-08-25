@@ -1,0 +1,26 @@
+state={
+	id=467
+	name="STATE_467"
+	provinces={
+		5310 5635 9248 15298 15445 15554 15615 15628 15676 15527 2416 15651 
+	}
+	manpower = 673213
+	state_category = town
+	local_supplies=0.0
+
+	history={
+		owner = TAR
+		add_core_of = BIZ
+		victory_points = {5310 11}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+	}
+	resources = {
+		oil = 19
+	}
+	 
+}

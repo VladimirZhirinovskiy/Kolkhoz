@@ -1,0 +1,33 @@
+state={
+	id=839
+	name="STATE_839"
+	provinces={
+		765 4404 7445 8446 9379 19683 19701 19702 19761 19762 
+	}
+
+	manpower=879432
+	state_category = city
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {19701 11}
+		victory_points = {765 1}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			synthetic_refinery = 1
+			air_base = 1
+		}
+	}
+
+	resources = {
+		oil = 2
+		steel = 2
+		chromium = 1
+	}
+}

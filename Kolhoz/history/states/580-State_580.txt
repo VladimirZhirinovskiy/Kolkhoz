@@ -1,0 +1,20 @@
+state={
+	id=580
+	name="STATE_580"
+	provinces={
+		560 1116 1165 2507 2744 2858 2934 4200 5432 5865 5906 6295 6995 7452 9733 16767 16828 16834 16864 16901 16946 16991 17011 17015 17030 17066 17090 17141 17150 
+	}
+	manpower = 543221
+	state_category = town
+	local_supplies=0.0
+
+	history={
+		owner = CRO
+		add_core_of = CRO
+		victory_points = {560 14}
+		buildings = {
+			industrial_complex = 2
+		}
+	}
+	 
+}

@@ -1,0 +1,130 @@
+﻿### Botswana OOB ###
+
+division_template = {
+	name = "infaA"		
+	division_names_group = TAR_INF_01		# Uses generic English templates
+	# Note: Represents both regular infantry and militia units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	support = {
+		engineer = { x = 0 y = 0 }
+	}	
+
+}
+}
+
+
+
+units = {
+	division= {	
+		name = "Исламская бригада"
+		location = 5635 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 15554 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 5310 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}	
+	division= {	
+		name = "Исламская бригада"
+		location = 9248 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 9248 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 15298 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 15225 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 15144 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}	
+	division= {	
+		name = "Исламская бригада"
+		location = 15076 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 1385 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 5256 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 9271 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 9238 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Исламская бригада"
+		location = 14899 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+}
+
+
+
+### No air forces (small handful of various aircraft in 1935) ###
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CRO"
+		}
+		requested_factories = 5
+		progress = 0.4
+		efficiency = 30
+	}
+
+}
+
+#################################

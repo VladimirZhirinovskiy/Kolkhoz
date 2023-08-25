@@ -1,0 +1,25 @@
+state={
+	id=876
+	name="STATE_876"
+	provinces={
+		262 2199 2289 2767 4017 4152 5387 6343 6469 6740 7799 9027 9889 20017 20040 20125 20133 20169 20184 20213 20226 20258 20259 
+	}
+	manpower = 984123
+	state_category = large_town
+	local_supplies=0.0
+
+	history={
+		owner = PRO
+		add_core_of = PRO
+		victory_points = {262 12}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	resources = {
+		tungsten = 2
+	}
+	 
+}

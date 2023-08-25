@@ -1,0 +1,36 @@
+KOL_civil_war = {	
+	1publik_sud = { 
+
+
+		priority = 10
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 1
+
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		visible = {
+			tag = KOL
+
+		}
+
+		cancel_if_not_visible = yes
+
+		is_good = yes
+
+		timeout_effect = {
+			country_event = KOL_WARCIL.1
+		}
+
+		}
+	
+}

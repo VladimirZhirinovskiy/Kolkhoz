@@ -1,0 +1,28 @@
+state={
+	id=913
+	name="STATE_913"
+	provinces={
+		17 7085 20573 20591 20602 20611 
+	}
+	manpower = 1653213
+	state_category = metropolis
+	buildings_max_level_factor=1.00
+
+	history={
+		owner = BRZ
+		add_core_of = BRZ
+		victory_points = {17 26}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 2
+			anti_air_building = 2
+			17 ={
+				naval_base = 2
+			}
+		}
+	}
+	 
+}

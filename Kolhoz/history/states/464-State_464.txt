@@ -1,0 +1,27 @@
+state={
+	id=464
+	name="STATE_464"
+	provinces={
+		3317 3517 5571 8780 15313 15359 15436 
+	}
+	manpower = 783211
+	state_category = town
+	local_supplies=0.0
+
+	history={
+		owner = BIZ
+		add_core_of = BIZ
+		victory_points = {3317 13}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 3
+			anti_air_building = 1
+			naval_base = 1
+		}
+	}
+	resources = {
+		oil = 9
+	}
+	 
+}

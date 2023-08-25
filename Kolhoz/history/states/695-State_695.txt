@@ -1,0 +1,28 @@
+state={
+	id=695
+	name="STATE_695"
+	provinces={
+		1707 18099 18163 
+	}
+	manpower=144087
+	state_category = large_town
+	buildings_max_level_factor=1.00
+
+	resources={
+		steel = 2
+	}
+	
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = { 18099 10 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+}

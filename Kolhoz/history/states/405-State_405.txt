@@ -1,0 +1,16 @@
+state={
+	id=405
+	name="STATE_405"
+	provinces={
+		754 1898 4591 4679 5322 5420 6014 6624 6707 7998 8271 9381 10188 10257 14782 14867 14896 14929 14957 14993 15027 15047 15083 15096 15103 15109 15177 15178 
+	}
+	manpower = 101
+	state_category = rural
+	local_supplies=0.0
+
+	history={
+		owner = AAA
+		add_core_of = AAA
+	}
+	 
+}

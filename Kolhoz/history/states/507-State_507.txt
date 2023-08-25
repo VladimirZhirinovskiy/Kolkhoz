@@ -1,0 +1,26 @@
+state={
+	id=507
+	name="STATE_507"
+	provinces={
+		177 994 2050 2245 2276 3457 3524 5092 5449 6147 6170 6587 6989 7926 8485 9131 9922 15838 15890 15915 15925 15934 15949 15991 15992 16049 16064 16114 16130 16149 16184 
+	}
+	manpower = 856321
+	state_category = large_town
+	local_supplies=0.0
+
+	history={
+		owner = CRO
+		add_core_of = CRO
+		victory_points = {177 18}
+		buildings ={
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 3
+		}
+		
+	}
+	resources = {
+		tungsten = 2
+	}
+	 
+}

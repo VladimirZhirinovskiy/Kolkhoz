@@ -1,0 +1,21 @@
+state={
+	id=845
+	name="STATE_845"
+	provinces={
+		1315 1728 2319 2389 2510 3720 3732 4548 4571 4680 5362 6769 8156 9154 9605 9613 10163 19720 19738 19787 19788 19846 19847 19884 19937 19961 19972 19978 20016 20046 20055 20084 20115 
+	}
+	manpower = 853123
+	state_category = large_town
+	local_supplies=0.0
+
+	history={
+		owner = PRO
+		add_core_of = PRO
+		victory_points = {1315 12}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+	}
+	 
+}

@@ -1,0 +1,28 @@
+state={
+	id=1019
+	name="STATE_1019"
+	provinces={
+		1724 3866 8944 10117 10195 18577 18618 18695 
+	}
+	manpower=228756
+	state_category = town
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {10117 4}
+		victory_points = {10195 1}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	
+	resources={
+		steel=2
+	} 
+}

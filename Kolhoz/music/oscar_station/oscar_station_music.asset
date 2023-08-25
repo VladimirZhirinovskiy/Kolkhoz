@@ -1,0 +1,100 @@
+music = {
+	name = "4erv"
+	file = "4erv.ogg"
+	volume = 0.80
+}
+music = {
+	name = "anime"
+	file = "anime.ogg"
+	volume = 0.80
+}
+music = {
+	name = "cherv"
+	file = "cherv.ogg"
+	volume = 0.80
+}
+music = {
+	name = "edward_ending"
+	file = "edward_ending.ogg"
+	volume = 0.80
+}
+music = {
+	name = "edward_wave"
+	file = "edward_wave.ogg"
+	volume = 0.80
+}
+music = {
+	name = "fenazepam"
+	file = "fenazepam.ogg"
+	volume = 0.80
+}
+music = {
+	name = "intro_shit"
+	file = "intro_shit.ogg"
+	volume = 0.80
+}
+music = {
+	name = "intro_zamaylov"
+	file = "intro_zamaylov.ogg"
+	volume = 0.80
+}
+music = {
+	name = "katarygin"
+	file = "katarygin.ogg"
+	volume = 0.80
+}
+music = {
+	name = "kitel"
+	file = "kitel.ogg"
+	volume = 0.80
+}
+music = {
+	name = "kryivka"
+	file = "kryivka.ogg"
+	volume = 0.80
+}
+music = {
+	name = "mechta_shabanova"
+	file = "mechta_shabanova.ogg"
+	volume = 0.80
+}
+music = {
+	name = "mododelochka"
+	file = "mododelochka.ogg"
+	volume = 0.80
+}
+music = {
+	name = "necrolog_kriivki"
+	file = "necrolog_kriivki.ogg"
+	volume = 0.80
+}
+music = {
+	name = "photoshop"
+	file = "photoshop.ogg"
+	volume = 0.80
+}
+music = {
+	name = "shabanis"
+	file = "shabanis.ogg"
+	volume = 0.80
+}
+music = {
+	name = "varenik"
+	file = "varenik.ogg"
+	volume = 0.80
+}
+music = {
+	name = "viuviu"
+	file = "viuviu.ogg"
+	volume = 0.80
+}
+music = {
+	name = "vvp"
+	file = "vvp.ogg"
+	volume = 0.80
+}
+music = {
+	name = "zeder_gay"
+	file = "zeder_gay.ogg"
+	volume = 0.80
+}

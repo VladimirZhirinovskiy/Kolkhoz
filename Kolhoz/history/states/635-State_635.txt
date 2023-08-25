@@ -1,0 +1,16 @@
+state={
+	id=635
+	name="STATE_635"
+	provinces={
+		2019 2418 4965 6098 7308 8172 8407 8559 9581 9606 10324 17164 17207 17242 17337 17400 17410 17424 17533 17640 
+	}
+	manpower = 101
+	state_category = rural
+	local_supplies=0.0
+
+	history={
+		owner = AAA
+		add_core_of = AAA
+	}
+	 
+}

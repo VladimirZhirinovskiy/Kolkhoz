@@ -1,0 +1,22 @@
+state={
+	id=442
+	name="STATE_442"
+	provinces={
+		805 917 1751 1924 2257 2291 2998 5348 5356 5716 6499 6520 7158 8118 8954 9136 9245 9458 15055 15136 15184 15215 15223 15244 15255 15256 15295 15323 15379 15387 15427 15428 15443 15451 15486 
+	}
+	manpower = 783213
+	state_category = town
+	local_supplies=0.0
+
+	history={
+		owner = KAD
+		add_core_of = KAD
+		victory_points = {805 14}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 2
+		}
+	}
+	 
+}

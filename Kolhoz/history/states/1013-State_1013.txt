@@ -1,0 +1,26 @@
+state={
+	id=1013
+	name="STATE_1013"
+	provinces={
+		1154 3110 19864 19888 19929 
+	}
+	
+	manpower=44564
+	state_category = rural
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {19929 4}
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	resources = {
+		oil = 1
+	}
+}

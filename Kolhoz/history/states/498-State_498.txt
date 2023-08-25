@@ -1,0 +1,26 @@
+state={
+	id=498
+	name="STATE_498"
+	provinces={
+		891 1197 2628 3768 4576 6885 7867 9840 15761 15769 15810 15854 15909 
+	}
+	manpower = 1032123
+	state_category = large_city
+	local_supplies=0.0
+
+	history={
+		owner = TAR
+		add_core_of = TAR
+		victory_points = {891 23}
+		buildings = {
+			interface = 4
+			industrial_complex = 4
+			arms_factory = 3
+			naval_base = 4
+		}
+	}
+	resources = {
+		oil = 10
+	}
+	 
+}

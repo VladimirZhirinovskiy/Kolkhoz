@@ -1,0 +1,48 @@
+characters = {
+
+	LEB_Bandit = {
+		name = LEB_Bandit
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_LEB_Bandit"
+			}
+		}
+		
+		country_leader = {
+			ideology = esoteric_nazism_deep_ecology_nazism_subtype
+			desc = LEB_Bandit_DESC
+			traits = { }
+		}
+		country_leader = {
+			ideology = despotism_warlordism_subtype
+			desc = LEB_Bandit_DESC
+			traits = { }
+		}
+
+	}
+	LEB_Gnom = {
+		name = LEB_Gnom
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_LEB_Gnom"
+			}
+		}
+		
+		country_leader = {
+			ideology = communist_autarkic_marxism_subtype
+			desc = LEB_Gnom_DESC
+			traits = { }
+		}
+		country_leader = {
+			ideology = ultranationalism_fundamentalism_subtype
+			desc = LEB_Gnom_DESC
+			traits = { }
+		}
+		country_leader = {
+			ideology = liberalism_national_liberal_subtype
+			desc = LEB_Gnom_DESC
+			traits = { }
+		}
+	}
+
+}

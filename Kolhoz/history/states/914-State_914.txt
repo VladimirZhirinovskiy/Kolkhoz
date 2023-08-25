@@ -1,0 +1,26 @@
+state={
+	id=914
+	name="STATE_914"
+	provinces={
+		238 874 3091 4495 5074 5238 7013 7487 7556 7965 9930 20479 20509 20555 20568 20570 20576 20583 20584 20589 20595 20616 20618 
+	}
+	manpower = 321321
+	state_category = town
+	local_supplies=0.0
+
+	history={
+		owner = FRE
+		add_core_of = FRE
+		add_core_of = BRZ		
+		victory_points = {238 15}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	resources = {
+		steel = 11
+		aluminium = 3
+ 	}	 
+}

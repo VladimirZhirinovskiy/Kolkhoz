@@ -1,0 +1,28 @@
+state={
+	id=519
+	name="STATE_519"
+	provinces={
+		1383 1433 1840 6289 7306 7500 7869 8181 9676 10176 15917 15953 15961 15993 16027 16028 16057 16058 16065 16084 16091 16126 16140 16169 16180 16185 16190 
+	}
+	
+	manpower = 637213
+	state_category = large_town
+	local_supplies=0.0
+
+	history={
+		owner = TAR
+		add_core_of = TAR
+		victory_points = {1383 12}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			naval_base = 2
+		}
+	}
+	resources = {
+		aluminium = 5
+	}
+	 
+}

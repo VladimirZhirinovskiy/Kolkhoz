@@ -1,0 +1,22 @@
+state={
+	id=388
+	name="STATE_388"
+	provinces={
+		1097 2252 2649 4593 4709 4836 5335 5474 5997 14587 14627 14710 14753 14840 14920 
+	}
+	manpower = 983213
+	state_category = large_town
+	local_supplies=0.0
+
+	history={
+		owner = BIZ
+		add_core_of = BIZ
+		victory_points = {1097 17}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 4
+			industrial_complex = 1
+		}
+	}
+	 
+}

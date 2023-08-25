@@ -1,0 +1,22 @@
+state={
+	id=889
+	name="STATE_889"
+	provinces={
+		284 1135 2644 3674 4815 5183 6055 6249 7872 9104 9404 20243 20244 20325 20346 20356 20360 20365 20369 20391 20405 20409 20428 20432 20433 20471 
+	}
+	manpower = 564313
+	state_category = large_town
+	local_supplies=0.0
+
+	history={
+		owner = FRE
+		add_core_of = FRE
+		victory_points = {284 18}
+		buildings = {
+			industrial_complex = 5
+			arms_factory = 1
+			infrastructure = 3
+		}
+	}
+	 
+}

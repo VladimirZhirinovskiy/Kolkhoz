@@ -1,0 +1,1954 @@
+focus_tree = {
+	id = KOL
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOL
+		}
+	}
+	default = no
+	focus = {
+		id = KOL_PROM1
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 5
+		y = 0
+				completion_reward = {
+						add_tech_bonus = {
+								name = industrial_bonus
+								bonus = 0.8
+								uses = 2
+								category = industry
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_Armi1
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 14
+		y = 0
+				completion_reward = {
+						army_experience = 10
+						air_experience = 35
+						add_tech_bonus = {
+								name = infantry_artillery_bonus
+								bonus = 0.7
+								uses = 2
+								category = infantry_weapons
+								category = artillery
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_pol1
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 32
+		y = 0
+				completion_reward = {
+						add_political_power = 25
+						add_popularity = {
+								ideology = despotism
+								popularity = 0.08
+							}
+					}
+
+				available = {
+						NOT = {
+								has_idea = Anynak_ref
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_PROM2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_PROM1
+		}
+		x = 5
+		y = 1
+				completion_reward = {
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = industrial_complex
+												size > 4
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = industrial_complex
+																				size > 4
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 5
+								add_building_construction = {
+										type = industrial_complex
+										level = 5
+										instant_build = yes
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_PROM3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_PROM2
+		}
+		x = 5
+		y = 2
+				completion_reward = {
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = industrial_complex
+												size > 6
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = industrial_complex
+																				size > 6
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 7
+								add_building_construction = {
+										type = industrial_complex
+										level = 7
+										instant_build = yes
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_EK
+		icon = GFX_goal_unknown
+		cost = 12
+		prerequisite = {
+			focus = KOL_PROM3
+		}
+		x = 3
+		y = 3
+				completion_reward = {
+						swap_ideas = {
+								remove_idea = Imbecili_vlasi1
+								add_idea = Imbecili_vlasi2
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_PROM4
+		icon = GFX_goal_unknown
+		cost = 12
+		prerequisite = {
+			focus = KOL_PROM3
+		}
+		x = 5
+		y = 3
+				completion_reward = {
+						add_tech_bonus = {
+								name = industrial_bonus
+								bonus = 0.5
+								uses = 1
+								category = industry
+							}
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = industrial_complex
+												size > 9
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = industrial_complex
+																				size > 9
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 8
+								add_building_construction = {
+										type = industrial_complex
+										level = 8
+										instant_build = yes
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_PROM5
+		icon = GFX_goal_unknown
+		cost = 13
+		prerequisite = {
+			focus = KOL_PROM4
+		}
+		x = 5
+		y = 4
+				completion_reward = {
+						add_tech_bonus = {
+								name = industrial_bonus
+								bonus = 0.2
+								uses = 2
+								category = industry
+							}
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = industrial_complex
+												size > 11
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = industrial_complex
+																				size > 11
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 10
+								add_building_construction = {
+										type = industrial_complex
+										level = 10
+										instant_build = yes
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_PROM6
+		icon = GFX_goal_unknown
+		cost = 15
+		prerequisite = {
+			focus = KOL_PROM5
+		}
+		x = 6
+		y = 5
+				available = {
+					NOT = {
+						has_idea = Anynak_ref
+					}
+				}
+				completion_reward = {
+						add_tech_bonus = {
+								name = industrial_bonus
+								bonus = 0.3
+								uses = 2
+								category = industry
+							}
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = industrial_complex
+												size > 13
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = industrial_complex
+																				size > 13
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 12
+								add_building_construction = {
+										type = industrial_complex
+										level = 12
+										instant_build = yes
+									}
+							}
+					}
+
+
+
+
+		}
+	focus = {
+		id = KOL_tex1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_PROM3
+		}
+		x = 8
+		y = 3
+				completion_reward = {
+						add_tech_bonus = {
+								name = electronics_bonus
+								bonus = 0.4
+								uses = 3
+								category = electronics
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_tex2
+		icon = GFX_goal_unknown
+		cost = 12
+		prerequisite = {
+			focus = KOL_tex1
+		}
+		x = 8
+		y = 4
+				completion_reward = {
+						add_research_slot = 1
+					}
+
+				available = {
+						NOT = {
+								has_idea = Anynak_ref
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_tex3
+		icon = GFX_goal_unknown
+		cost = 13
+		prerequisite = {
+			focus = KOL_tex2
+		}
+		x = 8
+		y = 5
+				completion_reward = {
+						add_research_slot = 1
+					}
+
+				available = {
+						NOT = {
+								has_idea = Anynak_ref
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_PROMARM1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_PROM3
+		}
+		x = 10
+		y = 3
+				completion_reward = {
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = arms_factory
+												size > 5
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = arms_factory
+																				size > 5
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 6
+								add_building_construction = {
+										type = arms_factory
+										level = 6
+										instant_build = yes
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_Armi2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_Armi1
+		}
+		x = 14
+		y = 1
+				completion_reward = {
+						army_experience = 10
+						air_experience = 35						
+						add_tech_bonus = {
+								name = land_doctrine_bonus
+								bonus = 0.4
+								uses = 3
+								category = land_doctrine
+							}
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Тероборонаn\"division_template=\"TER_DEF\"start_experience_factor=0.4"
+										owner = KOL
+										count = 2
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_Armi4
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_Armi2
+		}
+		x = 12
+		y = 2
+				completion_reward = {
+						army_experience = 12
+						add_tech_bonus = {
+								name = artillery_bonus
+								bonus = 0.5
+								uses = 2
+								category = artillery
+							}
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Тероборонаn\"division_template=\"TER_DEF\"start_experience_factor=0.4"
+										owner = KOL
+										count = 3
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_Armi5
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KOL_Armi4
+		}
+		x = 12
+		y = 3
+				completion_reward = {
+						army_experience = 15
+						add_tech_bonus = {
+								name = infantry_weapons_bonus
+								bonus = 1.2
+								uses = 1
+								category = infantry_weapons
+							}
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Тероборонаn\"division_template=\"TER_DEF\"start_experience_factor=0.4"
+										owner = KOL
+										count = 4
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_PROMARM2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_PROMARM1
+			focus = KOL_Armi5
+		}
+		x = 11
+		y = 4
+				completion_reward = {
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = arms_factory
+												size > 7
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = arms_factory
+																				size > 7
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 8
+								add_building_construction = {
+										type = arms_factory
+										level = 8
+										instant_build = yes
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_PROMARM3
+		icon = GFX_goal_unknown
+		cost = 12
+		prerequisite = {
+			focus = KOL_PROMARM2
+		}
+		x = 12
+		y = 5
+				completion_reward = {
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = arms_factory
+												size > 8
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = arms_factory
+																				size > 8
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 9
+								add_building_construction = {
+										type = arms_factory
+										level = 9
+										instant_build = yes
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_PROMARM4
+		icon = GFX_goal_unknown
+		cost = 15
+		prerequisite = {
+			focus = KOL_PROMARM3
+		}
+		x = 12
+		y = 6
+				completion_reward = {
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = arms_factory
+												size > 11
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = arms_factory
+																				size > 11
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 12
+								add_building_construction = {
+										type = arms_factory
+										level = 12
+										instant_build = yes
+									}
+							}
+					}
+
+				available = {
+						NOT = {
+								has_idea = Anynak_ref
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_Arm3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_Armi2
+		}
+		x = 15
+		y = 2
+				completion_reward = {
+						army_experience = 35
+						swap_ideas = {
+								remove_idea = Imbecili_arm1
+								add_idea = Imbecili_arm2
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_Arm6
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_Arm3
+		}
+		mutually_exclusive = {
+			focus = KOL_Arm7
+		}
+		x = 14
+		y = 3
+				completion_reward = {
+						army_experience = 15
+						add_equipment_to_stockpile = {
+								type = infantry_equipment_1
+								amount = 1500
+								producer = KOL
+							}
+						add_equipment_to_stockpile = {
+								type = artillery_equipment_1
+								amount = 600
+								producer = KOL
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_Arm8
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_Arm6
+		}
+		x = 14
+		y = 4
+				completion_reward = {
+						army_experience = 25
+						add_equipment_to_stockpile = {
+								type = artillery
+								amount = 500
+								producer = KOL
+							}
+						add_manpower = 111111
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Тероборонаn\"division_template=\"TER_DEF\"start_experience_factor=0.2"
+										owner = KOL
+										count = 6
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_Arm7
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_Arm3
+		}
+		mutually_exclusive = {
+			focus = KOL_Arm6
+		}
+		x = 16
+		y = 3
+				completion_reward = {
+						army_experience = 15
+						add_equipment_to_stockpile = {
+								type = mechanized_equipment_1
+								amount = 250
+								producer = KOL
+							}
+						add_equipment_to_stockpile = {
+								type = motorized_equipment_1
+								amount = 500
+								producer = KOL
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_Arm9
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_Arm7
+		}
+		x = 16
+		y = 4
+				completion_reward = {
+						army_experience = 15
+						add_equipment_to_stockpile = {
+								type = motorised_infantry
+								amount = 650
+								producer = KOL
+							}
+						division_template = {
+								name = "Traktor"
+								division_cap = 12
+								division_names_group = KOL_INF_03
+								priority = 2
+								template_counter = 0
+								regiments = {
+										motorized = {
+												x = 0
+												y = 0
+											}
+										motorized = {
+												x = 0
+												y = 1
+											}
+										motorized = {
+												x = 1
+												y = 0
+											}
+										motorized = {
+												x = 1
+												y = 1
+											}
+										mechanized = {
+												x = 0
+												y = 2
+											}
+										mechanized = {
+												x = 1
+												y = 2
+											}
+										mot_artillery_brigade = {
+												x = 2
+												y = 0
+											}
+										mot_artillery_brigade = {
+												x = 2
+												y = 1
+											}
+									}
+								support = {
+										engineer = {
+												x = 0
+												y = 0
+											}
+										artillery = {
+												x = 0
+												y = 1
+											}
+										mot_recon = {
+												x = 0
+												y = 2
+											}
+									}
+							}
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Бульдозерская\"division_template=\"Traktor\"start_experience_factor=0.9"
+										owner = KOL
+										count = 1
+									}
+							}
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Бульдозерская\"division_template=\"Traktor\"start_experience_factor=0.9"
+										owner = KOL
+										count = 1
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_gen1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_Arm8
+			focus = KOL_Arm9
+		}
+		x = 15
+		y = 5
+				completion_reward = {
+						army_experience = 5
+						swap_ideas = {
+								remove_idea = Imbecili_arm2
+								add_idea = Imbecili_arm3
+							}
+						add_field_marshal_role = {
+								character = KOL_evreyka
+								skill = 3
+								attack_skill = 7
+								defense_skill = 5
+								planning_skill = 2
+								logistics_skill = 4
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_gen2
+		icon = GFX_goal_unknown
+		cost = 12
+		prerequisite = {
+			focus = KOL_gen1
+		}
+		x = 14
+		y = 6
+				available = {
+						NOT = {
+								has_idea = Anynak_ref
+							}
+					}
+				completion_reward = {
+						army_experience = 35
+						swap_ideas = {
+								remove_idea = Imbecili_arm3
+								add_idea = Imbecili_arm4
+							}
+					}
+
+	}
+	focus = {
+		id = KOL_genFIN
+		icon = GFX_goal_unknown
+		cost = 15
+		prerequisite = {
+			focus = KOL_gen2
+		}
+		prerequisite = {
+			focus = KOL_PROMARM4
+		}
+		x = 13
+		y = 7
+				available = {
+						NOT = {
+								has_idea = Anynak_ref
+							}
+					}
+				completion_reward = {
+						army_experience = 35
+						swap_ideas = {
+								remove_idea = Imbecili_arm4
+								add_idea = Imbecili_arm5
+							}
+					}
+
+	}
+	focus = {
+		id = KOL_Arm10
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_gen1
+		}
+		x = 16
+		y = 6
+				completion_reward = {
+						army_experience = 15
+						add_equipment_to_stockpile = {
+								type = motorised_infantry
+								amount = 650
+								producer = KOL
+							}
+						division_template = {
+								name = "Blitze"
+								division_names_group = KOL_INF_04
+								priority = 1
+								regiments = {
+										motorized = {
+												x = 0
+												y = 0
+											}
+										motorized = {
+												x = 0
+												y = 1
+											}
+										motorized = {
+												x = 1
+												y = 0
+											}
+										motorized = {
+												x = 1
+												y = 1
+											}
+										mot_artillery_brigade = {
+												x = 2
+												y = 0
+											}
+										mot_artillery_brigade = {
+												x = 2
+												y = 1
+											}
+									}
+								support = {
+										engineer = {
+												x = 0
+												y = 0
+											}
+									}
+							}
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Мотаризированыетракторы\"division_template=\"Blitze\"start_experience_factor=0.5"
+										owner = KOL
+										count = 2
+									}
+							}
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Тероборона\"division_template=\"TER_DEF\"start_experience_factor=0.3"
+										owner = KOL
+										count = 3
+									}
+							}
+					}
+
+				available = {
+						NOT = {
+								has_idea = Anynak_ref
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_pol2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_pol1
+		}
+		x = 32
+		y = 1
+				completion_reward = {
+						add_political_power = 55
+						add_stability = 0.15
+					}
+
+
+	}
+	focus = {
+		id = KOL_pol3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_pol2
+		}
+		x = 25
+		y = 2
+				completion_reward = {
+						add_political_power = 150
+						swap_ideas = {
+								remove_idea = Sana_low
+								add_idea = Sana_norm
+							}
+						news_event = news.1
+					}
+
+
+	}
+	focus = {
+		id = KOL_pol4
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_pol3
+		}
+		mutually_exclusive = {
+			focus = KOL_burg1
+		}
+		x = 22
+		y = 3
+				completion_reward = {
+						add_political_power = 110
+						add_popularity = {
+								ideology = despotism
+								popularity = 0.12
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_pol5
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_pol4
+		}
+		x = 21
+		y = 4
+				completion_reward = {
+						add_political_power = 10
+						add_popularity = {
+								ideology = fascism
+								popularity = -0.05
+							}
+						add_popularity = {
+								ideology = liberalism
+								popularity = -0.02
+							}
+						add_popularity = {
+								ideology = socialist
+								popularity = -0.02
+							}
+						add_manpower = -15000
+						add_stability = -0.05
+						add_war_support = 0.04
+					}
+
+
+	}
+	focus = {
+		id = KOL_pol6
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_pol4
+		}
+		x = 23
+		y = 4
+				completion_reward = {
+						army_experience = -25
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Телохранители\"division_template=\"TER_DEF\"start_experience_factor=0.4"
+										owner = KOL
+										count = 3
+									}
+							}
+						add_manpower = -40000
+					}
+
+
+	}
+	focus = {
+		id = KOL_burg1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_pol3
+		}
+		mutually_exclusive = {
+			focus = KOL_pol4
+		}
+		x = 26
+		y = 3
+			completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+    			ideology = esoteric_nazism
+  				  popularity = 0.45
+				}
+			set_politics = {
+			ruling_party = esoteric_nazism
+			elections_allowed = no
+			}
+
+	}
+	}
+	focus = {
+		id = KOL_burg2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_burg1
+		}
+		x = 25
+		y = 4
+				completion_reward = {
+						add_political_power = 10
+						add_popularity = {
+								ideology = communist
+								popularity = -0.05
+							}
+						add_popularity = {
+								ideology = progressivism
+								popularity = -0.05
+							}
+						add_popularity = {
+								ideology = liberalism
+								popularity = -0.05
+							}
+						add_popularity = {
+								ideology = conservatism
+								popularity = -0.05
+							}	
+							add_popularity = {
+								ideology = fascism
+								popularity = -0.05
+							}						
+						add_manpower = -35000
+						add_stability = -0.12
+						add_war_support = 0.08
+					}
+	}
+	focus = {
+		id = KOL_dip1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_pol6
+		}
+		prerequisite = {
+			focus = KOL_pol5
+		}
+		x = 22
+		y = 5
+				completion_reward = {
+						create_faction = Kol_Konf
+						add_war_support = 0.02
+					}
+
+
+	}
+	focus = {
+		id = KOL_burg3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_burg1
+		}
+		x = 27
+		y = 4
+				completion_reward = {
+						army_experience = -45
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Телохранители\"division_template=\"TER_DEF\"start_experience_factor=0.4"
+										owner = KOL
+										count = 4
+									}
+							}
+						add_manpower = -50000
+					}
+	}
+	focus = {
+		id = KOL_burgdip1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_burg2
+		}
+		prerequisite = {
+			focus = KOL_burg3
+		}
+		x = 26
+		y = 5
+				completion_reward = {
+						create_faction = Kol_Imp
+						add_war_support = 0.02
+					}
+	}
+	focus = {
+		id = KOL_dip2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip1
+			focus = KOL_burgdip1
+		}
+		x = 25
+		y = 6
+				completion_reward = {
+						add_political_power = 10
+						add_manpower = -50000
+						add_stability = 0.05
+						add_war_support = 0.05
+						news_event = news.2
+							swap_ideas = {
+								remove_idea = Great_Nation
+								add_idea = Great_Nation1
+								news_event = news.4
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip11
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KOL_dip2
+		}
+		x = 27
+		y = 7
+				completion_reward = {
+						add_political_power = 15
+						add_state_core = 799
+						add_state_core = 838
+						add_state_core = 837
+					}
+
+
+	}
+	focus = {
+		id = KOL_poldip4
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip11
+		}
+		x = 27
+		y = 8
+				completion_reward = {
+						army_experience = 10
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Тероборонаn\"division_template=\"TER_DEF\"start_experience_factor=0.4"
+										owner = KOL
+										count = 2
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip4
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_poldip4
+		}
+		x = 27
+		y = 9
+				completion_reward = {
+						add_political_power = 15
+						create_wargoal = {
+   							 type = annex_everything
+   							 target = GUB
+						}
+					}
+
+
+	}
+	focus = {
+		id = KOL_EK1
+		icon = GFX_goal_unknown
+		cost = 12
+		prerequisite = {
+			focus = KOL_EK
+		}
+		x = 3
+		y = 4
+				completion_reward = {
+						add_political_power = 25
+						swap_ideas = {
+								remove_idea = Imbecili_vlasi2
+								add_idea = Imbecili_vlasi3
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_EK2
+		icon = GFX_goal_unknown
+		cost = 12
+		prerequisite = {
+			focus = KOL_EK1
+		}
+		prerequisite = {
+			focus = KOL_PROM5
+		}
+		x = 4
+		y = 5
+				completion_reward = {
+						add_political_power = 25
+						swap_ideas = {
+								remove_idea = Imbecili_vlasi2
+								add_idea = Imbecili_vlasi3
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_EK3
+		icon = GFX_goal_unknown
+		cost = 13
+		prerequisite = {
+			focus = KOL_EK2
+		}
+		x = 4
+		y = 6
+				completion_reward = {
+						add_political_power = 25
+						swap_ideas = {
+								remove_idea = Imbecili_vlasi3
+								add_idea = Imbecili_vlasi4
+							}
+					}
+
+				available = {
+						NOT = {
+								has_idea = Anynak_ref
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_EK4
+		icon = GFX_goal_unknown
+		cost = 15
+		prerequisite = {
+			focus = KOL_EK3
+		}
+		prerequisite = {
+			focus = KOL_PROM6
+		}
+		prerequisite = {
+			focus = KOL_tex3
+		}
+		x = 8
+		y = 7
+				completion_reward = {
+						add_political_power = 55
+						swap_ideas = {
+								remove_idea = Imbecili_vlasi4
+								add_idea = Imbecili_vlasi5
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_poldip1
+		}
+		x = 23
+		y = 9
+				completion_reward = {
+						add_political_power = 15
+						create_wargoal = {
+   							 type = annex_everything
+   							 target = CHN
+						}
+					}
+
+
+	}
+	focus = {
+		id = KOL_poldip1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip5
+		}
+		x = 23
+		y = 8
+				completion_reward = {
+						army_experience = 10
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Тероборонаn\"division_template=\"TER_DEF\"start_experience_factor=0.4"
+										owner = KOL
+										count = 3
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip5
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip2
+		}
+		x = 23
+		y = 7
+				completion_reward = {
+						add_political_power = 15
+						add_state_core = 1036
+						add_state_core = 1037
+						add_state_core = 1038
+						add_state_core = 1039
+						add_state_core = 1040
+						add_state_core = 1041
+						add_state_core = 1042
+						add_state_core = 1043
+						add_state_core = 1044
+						add_state_core = 1045
+						add_state_core = 1046
+						add_state_core = 1047
+						add_state_core = 1048
+						add_state_core = 1050
+						add_state_core = 829
+						add_state_core = 826
+						add_state_core = 813
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip16
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip4
+		}
+		prerequisite = {
+			focus = KOL_dip3
+		}
+		x = 25
+		y = 10
+				completion_reward = {
+						add_political_power = 150
+						swap_ideas = {
+								remove_idea = Sana_norm
+								add_idea = Sana_Fin
+							}
+							news_event = news.3
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip7
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_poldip5
+		}
+		x = 23
+		y = 13
+				completion_reward = {
+						add_political_power = 15
+						create_wargoal = {
+   							 type = annex_everything
+   							 target = PRO
+						}
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip6
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_poldip7
+		}
+		x = 27
+		y = 13
+				completion_reward = {
+						add_political_power = 15
+						create_wargoal = {
+   							 type = annex_everything
+   							 target = MIS
+						}
+					}
+
+
+	}
+	focus = {
+		id = KOL_poldip5
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip8
+		}
+		x = 23
+		y = 12
+				completion_reward = {
+						army_experience = 15
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = industrial_complex
+												size > 6
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = industrial_complex
+																				size > 6
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 5
+								add_building_construction = {
+										type = industrial_complex
+										level = 5
+										instant_build = yes
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_poldip7
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip12
+		}
+		x = 27
+		y = 12
+						completion_reward = {
+								army_experience = 15
+								add_equipment_to_stockpile = {
+										type = motorised_infantry
+										amount = 650
+										producer = KOL
+									}
+								division_template = {
+										name = "Atak_bri"
+										division_cap = 12
+										division_names_group = KOL_INF_04
+										priority = 2
+										template_counter = 0
+										regiments = {
+												mechanized = {
+														x = 0
+														y = 0
+													}
+												mechanized = {
+														x = 0
+														y = 1
+													}
+												motorized = {
+														x = 1
+														y = 0
+													}
+												motorized = {
+														x = 1
+														y = 1
+													}
+												mot_artillery_brigade = {
+														x = 2
+														y = 0
+													}
+											}
+										support = {
+												engineer = {
+														x = 0
+														y = 0
+													}
+												mot_recon = {
+														x = 0
+														y = 1
+													}
+											}
+									}
+								random_owned_controlled_state = {
+										create_unit = {
+												division = "name=\"Освободительнаябригада\"division_template=\"Atak_bri\"start_experience_factor=0.9"
+												owner = KOL
+												count = 3
+											}
+									}
+								add_equipment_to_stockpile = {
+										type = mechanized_equipment_1
+										amount = 150
+										producer = KOL
+									}
+							}
+
+
+	}
+	focus = {
+		id = KOL_dip8
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip16
+		}
+		x = 23
+		y = 11
+				completion_reward = {
+						add_political_power = 15
+						add_state_core = 856
+						add_state_core = 876
+						add_state_core = 888
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip9
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip7
+		}
+		prerequisite = {
+			focus = KOL_dip6
+		}
+		x = 25
+		y = 14
+				completion_reward = {
+						add_political_power = 100
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip10
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_poldip9
+		}
+		x = 23
+		y = 17
+				completion_reward = {
+						add_political_power = 15
+						create_wargoal = {
+   							 type = annex_everything
+   							 target = TNR
+						}
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip12
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KOL_dip16
+		}
+		x = 27
+		y = 11
+				completion_reward = {
+						add_political_power = 15
+						add_state_core = 715
+						add_state_core = 666
+						add_state_core = 637
+					}
+
+
+	}
+	focus = {
+		id = KOL_dip13
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_poldip11
+		}
+		x = 27
+		y = 17
+				completion_reward = {
+						add_political_power = 15
+						create_wargoal = {
+   							 type = annex_everything
+   							 target = CRO
+						}
+					}
+
+
+	}
+	focus = {
+		id = KOL_poldip9
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_final2
+		}
+		x = 23
+		y = 16
+				completion_reward = {
+						army_experience = 15
+						add_equipment_to_stockpile = {
+								type = motorised_infantry
+								amount = 650
+								producer = KOL
+							}
+						division_template = {
+								name = "Mot"
+								division_cap = 12
+								division_names_group = KOL_INF_03
+								priority = 2
+								template_counter = 0
+								regiments = {
+										motorized = {
+												x = 0
+												y = 0
+											}
+										motorized = {
+												x = 0
+												y = 1
+											}
+										motorized = {
+												x = 0
+												y = 2
+											}
+										motorized = {
+												x = 1
+												y = 0
+											}
+										motorized = {
+												x = 1
+												y = 1
+											}
+										mot_artillery_brigade = {
+												x = 2
+												y = 0
+											}
+										mot_artillery_brigade = {
+												x = 2
+												y = 1
+											}
+									}
+								support = {
+										engineer = {
+												x = 0
+												y = 0
+											}
+										mot_recon = {
+												x = 0
+												y = 1
+											}
+									}
+							}
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name=\"Блицпигиенфундкрфаля\"division_template=\"Mot\"start_experience_factor=0.9"
+										owner = KOL
+										count = 5
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_poldip11
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_final1
+		}
+		x = 27
+		y = 16
+				completion_reward = {
+						army_experience = 15
+						random_owned_controlled_state = {
+								limit = {
+										free_building_slots = {
+												building = industrial_complex
+												size > 8
+												include_locked = yes
+											}
+										OR = {
+												is_in_home_area = yes
+												NOT = {
+														owner = {
+																any_owned_state = {
+																		free_building_slots = {
+																				building = industrial_complex
+																				size > 8
+																				include_locked = yes
+																			}
+																		is_in_home_area = yes
+																	}
+															}
+													}
+											}
+									}
+								add_extra_state_shared_building_slots = 7
+								add_building_construction = {
+										type = industrial_complex
+										level = 7
+										instant_build = yes
+									}
+							}
+					}
+
+
+	}
+	focus = {
+		id = KOL_final1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip9
+		}
+		x = 27
+		y = 15
+
+	}
+	focus = {
+		id = KOL_final2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip9
+		}
+		x = 23
+		y = 15
+				completion_reward = {
+						add_political_power = 15
+						add_state_core = 1060
+						add_state_core = 627
+						add_state_core = 615
+						add_state_core = 644
+						add_state_core = 642
+						add_state_core = 640
+						add_state_core = 650
+						add_state_core = 661
+						add_state_core = 685
+						add_state_core = 698
+						add_state_core = 622
+						add_state_core = 1047
+						add_state_core = 1048
+						add_state_core = 1050
+					}
+
+
+	}
+	focus = {
+		id = KOL_final3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_dip13
+		}
+		prerequisite = {
+			focus = KOL_dip10
+		}
+		x = 25
+		y = 18
+				completion_reward = {
+						add_political_power = 10
+						add_manpower = -1500000
+						add_stability = -0.06
+						add_war_support = 0.12
+					}
+
+
+	}
+	focus = {
+		id = KOL_the_end
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KOL_final3
+		}
+		x = 25
+		y = 19
+				completion_reward = {
+						add_country_leader_trait = {
+								ideology = despotism_absolute_monarchy_subtype
+								trait = underage_monarch
+							}
+						news_event = news.5
+					}
+
+
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=630
+	name="STATE_630"
+	provinces={
+		1113 2312 3954 4397 5103 8356 9336 9782 17363 17373 17457 17480 17539 
+	}
+
+	manpower=322123
+	state_category = town
+	
+	 history= {
+		victory_points = {1113 12}
+		owner = MIS
+		add_core_of = MIS
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		
+	 }		 
+}

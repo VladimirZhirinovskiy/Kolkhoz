@@ -1,0 +1,90 @@
+music = {
+	name = "dristayshiy_angel"
+	file = "dristayshiy_angel.ogg"
+	volume = 0.80
+}
+music = {
+	name = "kolesnytsa_bomjey"
+	file = "kolesnytsa_bomjey.ogg"
+	volume = 0.80
+}
+music = {
+	name = "kolysei_uebanov"
+	file = "kolysei_uebanov.ogg"
+	volume = 0.80
+}
+music = {
+	name = "obosany_graal"
+	file = "obosany_graal.ogg"
+	volume = 0.80
+}
+music = {
+	name = "victorkorneplod"
+	file = "victorkorneplod.ogg"
+	volume = 0.80
+}
+music = {
+	name = "dvorets_knyaza_tmi"
+	file = "dvorets_knyaza_tmi.ogg"
+	volume = 0.80
+}
+music = {
+	name = "metallist"
+	file = "metallist.ogg"
+	volume = 0.80
+}
+music = {
+	name = "koltso"
+	file = "koltso.ogg"
+	volume = 0.80
+}
+music = {
+	name = "metall"
+	file = "metall.ogg"
+	volume = 0.80
+}
+music = {
+	name = "heavy_metal"
+	file = "heavy_metal.ogg"
+	volume = 0.80
+}
+music = {
+	name = "jeltiy_dojd"
+	file = "jeltiy_dojd.ogg"
+	volume = 0.80
+}
+music = {
+	name = "orel"
+	file = "orel.ogg"
+	volume = 0.80
+}
+music = {
+	name = "petuh"
+	file = "petuh.ogg"
+	volume = 0.80
+}
+music = {
+	name = "smertelny_boy_nasmert"
+	file = "smertelny_boy_nasmert.ogg"
+	volume = 0.80
+}
+music = {
+	name = "za_metall"
+	file = "za_metall.ogg"
+	volume = 0.80
+}
+music = {
+	name = "vsadnik_iz_govno"
+	file = "vsadnik_iz_govno.ogg"
+	volume = 0.80
+}
+music = {
+	name = "dora_dura"
+	file = "dora_dura.ogg"
+	volume = 0.80
+}
+music = {
+	name = "dermirror"
+	file = "dermirror.ogg"
+	volume = 0.80
+}

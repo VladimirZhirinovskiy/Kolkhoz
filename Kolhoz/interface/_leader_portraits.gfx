@@ -1,0 +1,147 @@
+spriteTypes = {
+ 
+	spriteType = {
+		name = "GFX_portrait_operative_unknown"
+		texturefile = "gfx/leaders/operative_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown"
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown_female"
+		texturefile = "gfx/leaders/leader_unknown_female.dds"
+	}
+	
+	#колхоз при пидорасе
+	spriteType = {
+		name = "GFX_portrait_KOL_sanchous"
+		textureFile = "gfx/leaders/KOL/KOL_sanchous.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KOL_gordon"
+		textureFile = "gfx/leaders/KOL/KOL_gordon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KOL_donel"
+		textureFile = "gfx/leaders/KOL/KOL_donel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KOL_evreyka"
+		textureFile = "gfx/leaders/KOL/KOL_evreyka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_evreyka"
+		texturefile = "gfx/interface/ideas/idea_evreyka.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KOL_traktorist"
+		textureFile = "gfx/leaders/KOL/KOL_traktorist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KOL_tikhon"
+		textureFile = "gfx/leaders/KOL/KOL_tikhon.dds"
+	}
+	
+	#чиллингия
+	spriteType = {
+		name = "GFX_portrait_CHN_shaurma"
+		textureFile = "gfx/leaders/CHN/CHN_shaurma.dds"
+	}
+	
+	#мисохуяк
+	spriteType = {
+		name = "GFX_portrait_MIS_misomaniac"
+		textureFile = "gfx/leaders/MIS/MIS_misomaniac.dds"
+	}
+	
+	#губерград
+	spriteType = {
+		name = "GFX_portrait_GUB_dremes"
+		textureFile = "gfx/leaders/GUB/GUB_dremes.dds"
+	}
+	
+	#анархия мама
+	spriteType = {
+		name = "GFX_portrait_AAA_anarchy"
+		textureFile = "gfx/leaders/AAA/AAA_anarchy.dds"
+	}
+	#ТНО ХЗ
+	spriteType = {
+		name = "GFX_portrait_TNR_parlament"
+		textureFile = "gfx/leaders/TNR/TNR_parlament.dds"
+	}
+	
+	#Чернорууусссьььь
+	spriteType = {
+		name = "GFX_portrait_CRO_VYK"
+		textureFile = "gfx/leaders/CRO/CRO_VYK.dds"
+	}
+	
+	#Марионетка мисохуяк
+		spriteType = {
+		name = "GFX_portrait_LEB_Bandit"
+		textureFile = "gfx/leaders/LEB/LEB_Bandit.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_LEB_Gnom"
+		textureFile = "gfx/leaders/LEB/LEB_Gnom.dds"
+	}
+	
+	
+	#ПРОСТО ГРАД 
+	spriteType = {
+		name = "GFX_portrait_PRO_Prostov"
+		textureFile = "gfx/leaders/PRO/PRO_Prostov.dds"
+	}
+	
+	
+	#Татарстан 
+	spriteType = {
+		name = "GFX_portrait_TAR_MUXA"
+		textureFile = "gfx/leaders/TAR/TAR_MUXA.dds"
+	}
+	#визерия
+	spriteType = {
+		name = "GFX_portrait_BIZ_Borad"
+		textureFile = "gfx/leaders/BIZ/BIZ_Borad.dds"
+	}
+	#Каджарский Халифат
+	spriteType = {
+		name = "GFX_portrait_KAD_Zahid"
+		textureFile = "gfx/leaders/KAD/KAD_Zahid.dds"
+	}	
+	#Закорпатье
+	spriteType = {
+		name = "GFX_portrait_ZAP_Gernin"
+		textureFile = "gfx/leaders/ZAP/ZAP_Gernin.dds"
+	}	
+	#Горная конфедерация
+	spriteType = {
+		name = "GFX_portrait_DRO_Minsatin"
+		textureFile = "gfx/leaders/DRO/DRO_Minsatin.dds"
+	}		
+	
+	#Силенд
+	frameAnimatedSpriteType = {
+		name = "GFX_portrait_BRZ_BRIS"
+		textureFile = "gfx/leaders/BRZ/BRZ_BRIS.png"
+		noOfFrames = 7
+		animation_rate_fps = 9
+        looping = yes
+        play_on_show = yes
+	}	
+	
+	#Ново Британия
+	spriteType = {
+		name = "GFX_portrait_FRE_Freyn"
+		textureFile = "gfx/leaders/FRE/FRE_Freyn.dds"
+	}
+} 

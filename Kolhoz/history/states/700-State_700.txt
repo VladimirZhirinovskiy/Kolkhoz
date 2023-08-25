@@ -1,0 +1,16 @@
+state={
+	id=700
+	name="STATE_700"
+	provinces={
+		468 3059 3319 3379 4740 6479 6708 9143 9679 18016 18066 18160 18314 18343 
+	}
+	manpower = 101
+	state_category = rural
+	local_supplies=0.0
+
+	history={
+		owner = AAA
+		add_core_of = AAA
+	}
+	 
+}

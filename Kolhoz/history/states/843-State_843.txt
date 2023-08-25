@@ -1,0 +1,24 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		211 931 2518 5364 10248 19611 19624 19651 19686 19712 19753 19767 19772 19815 19876 
+	}
+	manpower = 432313
+	state_category = town
+	local_supplies=0.0
+
+	history={
+		owner = FRE
+		add_core_of = FRE
+		victory_points = {211 14}
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			anti_air_building = 1
+			industrial_complex = 2
+			arms_factory = 3
+		}
+	}
+	 
+}

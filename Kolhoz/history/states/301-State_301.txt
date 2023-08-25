@@ -1,0 +1,16 @@
+state={
+	id=301
+	name="STATE_301"
+	provinces={
+		990 2060 2233 6835 8228 13720 
+	}
+	manpower = 101
+	state_category = rural
+	local_supplies=0.0
+
+	history={
+		owner = AAA
+		add_core_of = AAA
+	}
+	 
+}

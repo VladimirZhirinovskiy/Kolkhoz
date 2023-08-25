@@ -1,0 +1,21 @@
+state={
+	id=622
+	name="STATE_622"
+	provinces={
+		671 3215 3651 4988 7970 8377 9389 17128 17162 17196 17221 17229 17255 
+	}
+	manpower=432123
+	local_supplies=0.0
+	state_category = town
+	 history= {
+		victory_points = {671 11}
+
+		owner = TNR
+		add_core_of = TNR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		
+	 }			 
+}

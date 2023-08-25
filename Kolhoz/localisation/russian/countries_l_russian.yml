@@ -1,0 +1,63 @@
+﻿l_russian:
+ KOL_despotism:0 "Колхоз имени Тстанчовуса"
+ KOL_despotism_DEF:0 "Колхоз имени Тстанчовуса"
+ KOL_liberalism:0 "Республика Колхоз"
+ KOL_liberalism_DEF:0 "Республика Колхоз"
+ KOL_progressivism:0 "Республика Колхоз"
+ KOL_progressivism_DEF:0 "Республика Колхоз"
+ KOL_conservatism:0 "Республика Колхоз"
+ KOL_conservatism_DEF:0 "Республика Колхоз"
+ 
+
+ KOL_paternalism:1 "Колхоз"
+ KOL_paternalism_DEF:1 "Колхоз"
+ KOL_communist:0 "Социалистическая республика Колхоз"
+ KOL_communist_DEF:0 "Социалистическая республика Колхоз"
+ KOL_fascism_ADJ:0 "Колхозн."
+ KOL_democratic_ADJ:0 "Колхозн."
+ KOL_neutrality_ADJ:0 "Колхозн."
+ KOL_communism_ADJ:0 "Колхозн."
+ KOL_autonomy_supervised_state:0 "$OVERLORDADJ$ оккупационная зона"
+ KOL_autonomy_supervised_state_DEF:0 "$OVERLORDADJ$ оккупационная зона"
+ KOL_autonomy_puppet:0 "$OVERLORDADJ$ Колхоз"
+ KOL_autonomy_puppet_DEF:0 "$OVERLORDADJ$ Колхоз"
+ KOL:0 "Колхоз"
+ KOL_DEF:0 "Колхоз"
+ KOL_ADJ:0 "Колхозн"
+ 
+ CHN_despotism:0 "Земли Чиллингов"
+ CHN:0 "Чиллингия"
+ CHN_DEF:0 "Земли Чиллингов"
+ 
+ MIS:0 "Царство Мисоманьяка"
+ MIS_DEF:0 "Царство имени Аянами Рей"
+ 
+ GUB:0 "Губерград"
+ 
+ TNR:0 "Ру-ТНО Коммьюнити"
+ 
+ PRO_communist:0 "Простовградкая-Коммуна"
+ PRO:0 "Простовградкая"
+ 
+ CRO:0 "Черноруcсия"
+ 
+ LEB_esoteric_nazism:0 "Царство Бандитов"
+ LEB_despotism:0 "Царство Бандитов"
+ LEB:0 "Гномский Союз"
+ LEB_DEF:0 "Лес"
+ 
+ TAR:0 "Тартаристан"
+ 
+ BIZ:0 "Визирия"
+ 
+ KAD:0 "Каджарский Халифат"
+ 
+ ZAP:0 "Закарпатье"
+ 
+ DRO:0 "Конфедерация Гор"
+ 
+ BRZ:0 "Силенд"
+ 
+ FRE:0 "Нова Британия"
+ 
+

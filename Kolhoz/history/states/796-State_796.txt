@@ -1,0 +1,26 @@
+state={
+	id=796
+	name="STATE_796"
+	provinces={
+		1759 3476 7979 19406 19444 19568 19618 
+	}	
+
+	manpower=192673
+	state_category = large_town
+	buildings_max_level_factor=1.00
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {1759 9}
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	 
+	resources = {
+		rubber = 4
+	}
+}

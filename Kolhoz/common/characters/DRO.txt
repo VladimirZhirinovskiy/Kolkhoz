@@ -1,0 +1,22 @@
+characters = {
+
+	DRO_Minsatin = {
+		name = DRO_Minsatin
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_DRO_Minsatin"
+			}
+		}
+		
+		country_leader = {
+			ideology = paternalism_national_conservatism_subtype
+			desc = DRO_Minsatin_DESC
+			traits = { }
+		}
+		country_leader = {
+			ideology = fascism_proletarian_nationalism_subtype
+			desc = DRO_Minsatin_DESC
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=571
+	name="STATE_571"
+	provinces={
+		2229 4053 5272 16644 16684 16734 16787 16788 16844 16902 16938 
+	}
+
+	manpower=832421
+	state_category = city	
+
+	history = {
+		victory_points = {2229 16}
+		owner = TNR
+		add_core_of = TNR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+		}
+		
+	}
+	resources = {
+		aluminium = 1
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		308 557 2763 2870 3360 4445 4789 5132 5531 7466 7777 7984 8143 8914 19253 19293 19298 19345 19358 19373 19393 19400 19418 19460 19472 19480 19506 19549 19574 19580 19642 19706 
+	}
+	manpower = 101
+	state_category = rural
+	local_supplies=0.0
+
+	history={
+		owner = AAA
+		add_core_of = AAA
+	}
+	 
+}

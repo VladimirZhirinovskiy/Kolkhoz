@@ -1,0 +1,23 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		1192 2443 9894 15702 
+	}
+	manpower = 1
+	state_category = wasteland
+	local_supplies=0.0
+
+	history={
+		owner = KAD
+		add_core_of = KAD
+		add_core_of = ZAP
+		victory_points = {1192 8}
+		buildings = {arms_factory = 1}
+	}
+	resources = {
+		chromium = 8
+		steel = 18
+		aluminium = 1
+	}	 
+}

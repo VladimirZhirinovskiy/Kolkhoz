@@ -1,0 +1,439 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_1"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_2"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_3"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_4"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_5"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_6"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_7"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_8"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_9"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_9.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_10"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_10.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_11"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_11.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_12"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_12.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_13"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_13.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_14"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_14.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_15"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_15.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_16"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_16.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_17"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_17.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_18"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_18.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_19"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_19.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_20"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_20.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_21"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_21.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_22"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_22.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_23"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_23.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_24"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_24.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_25"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_25.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_26"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_26.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_27"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_27.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_28"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_28.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_29"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_29.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_30"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_30.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_31"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_31.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_32"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_32.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_33"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_33.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_34"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_34.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_35"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_35.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_36"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_36.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_37"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_37.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_38"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_38.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_39"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_39.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_40"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_land_40.dds"
+	}
+
+
+
+
+	spriteType = {
+		name = "GFX_Portrait_Generic_navi_1"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_navi_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_navi_2"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_navi_2.dds"
+	}
+
+
+
+
+
+
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_1"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_2"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_3"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_4"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_5"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_6"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_7"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_8"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_9"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_9.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_10"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_10.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_11"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_11.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_12"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_12.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_13"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_13.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_14"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_14.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_15"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_15.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_16"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_16.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_17"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_17.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_18"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_18.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_19"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_19.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_20"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_20.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_21"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_21.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_22"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_22.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_pol_23"
+		texturefile = "gfx/leaders/Europes/Portrait_Generic_pol_23.dds"
+	}
+
+
+
+
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_9_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_9.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_10_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_10.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_11_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_11.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_12_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_12.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_13_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_13.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_14_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_14.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_15_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_15.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_16_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_16.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_17_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_17.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_18_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_18.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_19_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_19.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_20_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_20.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_21_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_21.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_22_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_22.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_23_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_23.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_24_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_24.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_25_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_25.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_26_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_26.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_27_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_27.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_28_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_28.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_29_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_29.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_30_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_30.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_31_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_31.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_32_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_32.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_33_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_33.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_34_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_34.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_35_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_35.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_36_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_36.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_37_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_37.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_38_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_38.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_39_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_39.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_land_40_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_40.dds"
+	}
+
+
+
+}

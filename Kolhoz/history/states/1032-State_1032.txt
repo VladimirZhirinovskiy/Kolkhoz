@@ -1,0 +1,28 @@
+state={
+	id=1032
+	name="STATE_1032"
+	provinces={
+		4230 5120 19710 19756 19812 
+	}
+
+	manpower=426387
+	state_category = large_city
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+		
+		victory_points = {5120 4}
+		victory_points = {19756 8}
+		
+		buildings = {
+			infrastructure = 3
+			fuel_silo = 1
+		}
+	}
+	
+	resources = {
+		oil = 3
+	}
+}

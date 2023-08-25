@@ -1,0 +1,25 @@
+state={
+	id=819
+	name="STATE_819"
+	provinces={
+		89 622 1231 4021 7282 19314 19323 19378 19398 19478 
+	}
+	manpower=231341
+	state_category = town
+
+	history = {
+		victory_points = { 19478 13 }
+	
+		owner = CHN
+		add_core_of = CHN
+		
+			buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			
+		}
+		
+	}
+	
+	 
+}

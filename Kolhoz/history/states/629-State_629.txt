@@ -1,0 +1,24 @@
+state={
+	id=629
+	name="STATE_629"
+	provinces={
+		4817 6801 9114 17385 17307 17359 
+	}
+	
+	manpower = 976321
+	state_category = city
+	local_supplies=0.0
+
+	history={
+		owner = LEB
+		add_core_of = LEB
+		victory_points = {4817 26}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 3
+		}
+	}
+
+		 
+}

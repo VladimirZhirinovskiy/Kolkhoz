@@ -1,0 +1,32 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_scrollbar_vertical_bg_alt"
+		size= { x=18 y=156 }
+		textureFile = "gfx/interface/alternative_scrollbar/scrollbar_vertical_bg_alt.dds"
+		borderSize = { x=0 y=52 }
+		tilingCenter = yes
+	}
+
+	spriteType = {
+		name = "GFX_scroll_drager_alt"
+		texturefile = "gfx/interface/alternative_scrollbar/scroll_drager_alt.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_scroll_track_alt"
+		size= {x =12 y = 12 }
+		texturefile = "gfx/interface/alternative_scrollbar/scroll_track_alt.dds"
+		borderSize = { x=4 y=4 }
+	}
+
+	spriteType = {
+		name = "GFX_scroll_up_alt"
+		texturefile = "gfx/interface/alternative_scrollbar/scroll_up_alt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_scroll_down_alt"
+		texturefile = "gfx/interface/alternative_scrollbar/scroll_down_alt.dds"
+	}
+}

@@ -1,0 +1,224 @@
+division_template = {
+	name = "Gvard"				# Infantry Brigade
+
+	division_names_group = MIS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Militsa"				# Infantry Brigade
+	division_names_group = MIS_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}		
+
+}
+division_template = {
+	name = "Colonia"				# Infantry Brigade
+	division_names_group = MIS_INF_03
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}		
+
+}
+division_template = {
+	name = "Blitx_war"				# Infantry Brigade
+	is_locked = yes
+	division_names_group = MIS_Mnt_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		mot_artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		anti_tank = {x = 0 y = 2}
+	}		
+
+}
+
+
+
+
+
+units = {	
+	division= {	
+		name = "1.грвардейская"
+		location = 7084  
+		division_template = "Gvard"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "2.грвардейская"
+		location = 9478  
+		division_template = "Gvard"
+		start_experience_factor = 0.45
+	}	
+	division= {	
+		name = "3.грвардейская"
+		location = 18222  
+		division_template = "Gvard"
+		start_experience_factor = 0.45
+	}	
+	division= {	
+		name = "4.грвардейская"
+		location = 18134  
+		division_template = "Gvard"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "5.грвардейская"
+		location = 6259  
+		division_template = "Gvard"
+		start_experience_factor = 0.45
+	}	
+	division= {	
+		name = "6.грвардейская"
+		location = 6046 
+		division_template = "Gvard"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "7.грвардейская"
+		location = 7594 
+		division_template = "Gvard"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "8.грвардейская"
+		location = 416 
+		division_template = "Gvard"
+		start_experience_factor = 0.45
+	}	
+	division= {	
+		name = "1.Пограничная"
+		location = 4755  
+		division_template = "Militsa"
+		start_experience_factor = 0.65
+	}
+	division= {	
+		name = "2.Пограничная"
+		location = 17596  
+		division_template = "Militsa"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "3.Пограничная"
+		location = 6647 
+		division_template = "Militsa"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "4.Пограничная"
+		location = 17517 
+		division_template = "Militsa"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "5.Пограничная"
+		location = 7027 
+		division_template = "Militsa"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "6.Пограничная"
+		location = 1064 
+		division_template = "Militsa"
+		start_experience_factor = 0.35
+	}		
+	division= {	
+		name = "1.Колонильная"
+		location = 5823  
+		division_template = "Colonia"
+		start_experience_factor = 0.15
+	}
+	division= {	
+		name = "2.Колонильная"
+		location = 8605  
+		division_template = "Colonia"
+		start_experience_factor = 0.15
+	}	
+	division= {	
+		name = "3.Колонильная"
+		location = 7003 
+		division_template = "Colonia"
+		start_experience_factor = 0.15
+	}
+	division= {	
+		name = "4.Колонильная"
+		location = 2016 
+		division_template = "Colonia"
+		start_experience_factor = 0.15
+	}	
+	division= {	
+		name = "1.Аянами Рейская"
+		location = 17961 
+		division_template = "Blitx_war"
+		start_experience_factor = 0.85
+	}	
+	division= {	
+		name = "2.Аянами Рейская"
+		location = 5577 
+		division_template = "Blitx_war"
+		start_experience_factor = 0.85
+	}
+	division= {	
+		name = "3.Аянами Рейская"
+		location = 114 
+		division_template = "Blitx_war"
+		start_experience_factor = 0.85
+	}	
+	division= {	
+		name = "4.Аянами Рейская"
+		location = 855 
+		division_template = "Blitx_war"
+		start_experience_factor = 0.85
+	}	
+}
+
+
+
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_2
+			creator = "MIS"
+		}
+		requested_factories = 3
+		progress = 0.58
+		efficiency = 100
+	}
+}

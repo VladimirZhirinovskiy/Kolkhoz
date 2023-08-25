@@ -1,0 +1,31 @@
+state={
+	id=1031
+	name="STATE_1031"
+	provinces={
+		1015 4688 19524 19577 19593 19654 
+	}
+	
+	manpower=203754
+	state_category = large_town
+	buildings_max_level_factor=1.00
+	 
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		victory_points = {4688 7}
+
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+
+			4688 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	resources = {
+		oil = 3
+	}
+}

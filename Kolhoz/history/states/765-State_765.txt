@@ -1,0 +1,23 @@
+state={
+	id=765
+	name="STATE_765"
+	provinces={
+		505 3513 5379 6846 7491 18752 18819 18827 18845 18883 18895 18924 18933 18955 18996 19027 
+	}
+
+	manpower = 1013123
+	state_category = city
+	buildings_max_level_factor=1.00
+
+	history={
+		owner = PRO
+		add_core_of = PRO
+		
+		victory_points = {505 17}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+		}
+	}	 
+}

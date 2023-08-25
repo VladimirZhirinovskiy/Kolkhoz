@@ -1,0 +1,193 @@
+division_template = {
+	name = "Internal"				# Infantry Brigade
+
+	division_names_group = PRO_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }		
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Red_gvard"				# Infantry Brigade
+	division_names_group = PRO_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+	}	
+}
+
+division_template = {
+	name = "pec_arm"				# Infantry Brigade
+	division_names_group = PRO_ARM_01
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }		
+		
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }	
+		anti_tank = {x = 0 y = 3}
+	}		
+
+}
+
+
+
+
+
+units = {	
+	division= {	
+		name = "Мехонизированый корпус имени Анунака"
+		location = 9357 
+		division_template = "pec_arm"
+		start_experience_factor = 0.95
+	}
+	division= {	
+		name = "Мехонизированый пехота имени Ленина"
+		location = 174 
+		division_template = "pec_arm"
+		start_experience_factor = 0.95
+	}
+	division= {	
+		name = "Пехотная дивизия ленинская 1"
+		location = 4605 
+		division_template = "Internal"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "Пехотная дивизия ленинская 2"
+		location = 5771 
+		division_template = "Internal"
+		start_experience_factor = 0.45
+	}	
+	division= {	
+		name = "Пехотная дивизия ленинская 3"
+		location = 1369 
+		division_template = "Internal"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "Пехотная дивизия ленинская 4"
+		location = 6843 
+		division_template = "Internal"
+		start_experience_factor = 0.45
+	}	
+	division= {	
+		name = "Пехотная дивизия ленинская 5"
+		location = 19862 
+		division_template = "Internal"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "Пехотная дивизия ленинская 6"
+		location = 6846 
+		division_template = "Internal"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "Пехотная дивизия ленинская 7"
+		location = 18752 
+		division_template = "Internal"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "Пехотная дивизия ленинская 8"
+		location = 3513 
+		division_template = "Internal"
+		start_experience_factor = 0.45
+	}
+	division= {	
+		name = "Краное Ополчение"
+		location = 5249 
+		division_template = "Red_gvard"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "Краное Ополчение"
+		location = 19522 
+		division_template = "Red_gvard"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "Краное Ополчение"
+		location = 19817 
+		division_template = "Red_gvard"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "Краное Ополчение"
+		location = 488 
+		division_template = "Red_gvard"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "Краное Ополчение"
+		location = 20332 
+		division_template = "Red_gvard"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "Краное Ополчение"
+		location = 9786 
+		division_template = "Red_gvard"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "Краное Ополчение"
+		location = 20333 
+		division_template = "Red_gvard"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "Краное Ополчение"
+		location = 1755 
+		division_template = "Red_gvard"
+		start_experience_factor = 0.35
+	}	
+	division= {	
+		name = "Краное Ополчение"
+		location = 7038 
+		division_template = "Red_gvard"
+		start_experience_factor = 0.35
+	}	
+		
+}
+
+
+
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GUB"
+		}
+		requested_factories = 8
+		progress = 0.58
+		efficiency = 100
+	}
+}

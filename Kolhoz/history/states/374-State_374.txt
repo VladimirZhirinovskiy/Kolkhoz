@@ -1,0 +1,24 @@
+state={
+	id=374
+	name="STATE_374"
+	provinces={
+		2371 2759 2783 3403 7020 7771 8095 9452 9652 9770 14358 14417 14425 14448 14533 14574 14575 14739 
+	}
+	manpower = 1233213
+	state_category = large_city
+	local_supplies=0.0
+
+	history={
+		owner = BIZ
+		add_core_of = BIZ
+		victory_points = {2371 23}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 6
+		}
+	}
+	 resources = {
+		steel = 15
+	 }
+}

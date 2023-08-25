@@ -1,0 +1,24 @@
+state={
+	id=828
+	name="STATE_828"
+	provinces={
+		131 228 349 415 2561 2814 3542 6767 6863 8927 19454 19467 19475 19522 19523 19530 19531 19596 19597 19612 19652 19665 19666 19687 19719 19782 19794 19817 19837 19838 19874 
+	}
+	
+	manpower = 983123
+	state_category = city
+
+	history={
+		owner = PRO
+		add_core_of = PRO
+
+		victory_points = {131 18}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 3
+		}
+	}
+	 
+}

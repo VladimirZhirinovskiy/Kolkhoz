@@ -1,0 +1,30 @@
+state={
+	id=1040
+	name="STATE_1040"
+	provinces={
+		1807 2845 3289 8471 19617 19667 19682 
+	}
+
+	manpower=563420
+	state_category = city
+	buildings_max_level_factor=1.00
+
+	history = {
+		owner = CHN
+		add_core_of = CHN
+		
+		victory_points = {8471 11}
+	
+		buildings = {
+			infrastructure = 3
+			fuel_silo = 1
+			anti_air_building = 1
+			1807 = {
+				bunker = 1
+			}
+			8471 = {
+				bunker = 1
+			}
+		}
+	} 
+}

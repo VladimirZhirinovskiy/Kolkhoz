@@ -1,0 +1,21 @@
+state={
+	id=915
+	name="STATE_915"
+	provinces={
+		2672 3402 3743 4095 4451 4478 6102 7180 8985 20577 20593 20612 20619 20621 20622 20633 20636 20642 
+	}
+	manpower = 203231
+	state_category = town
+	local_supplies=0.0
+
+	history={
+		owner = FRE
+		add_core_of = FRE
+		victory_points = {2672 12}
+		buildings = {
+			arms_factory = 4
+			infrastructure = 2
+		}
+	}
+	 
+}

@@ -1,0 +1,27 @@
+state={
+	id=920
+	name="STATE_920"
+	provinces={
+		572 2559 2685 3731 4039 8710 9139 20644 20657 20669 20671 20675 20676 
+	}
+	manpower = 1232132
+	state_category = large_city
+	local_supplies=0.0
+
+	history={
+		owner = BRZ
+		add_core_of = BRZ
+		victory_points = {572 21}
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 5
+			dockyard = 2
+		}
+	}
+	resources = {
+		steel = 12
+		chromium = 4
+		aluminium = 8		
+		tungsten = 3
+	}	 
+}

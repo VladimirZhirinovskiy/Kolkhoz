@@ -1,0 +1,22 @@
+state={
+	id=869
+	name="STATE_869"
+	provinces={
+		758 952 1564 2283 3195 6373 6722 6916 7274 7325 8547 8912 8966 19901 20006 20074 20192 20200 20273 
+	}
+	manpower = 893654
+	state_category = city
+	local_supplies=0.0
+
+	history={
+		owner = FRE
+		add_core_of = FRE
+		victory_points = {758 19}
+		buildings = {
+			industrial_complex = 5
+			arms_factory = 2
+			anti_air_building = 1
+		}
+	}
+	 
+}

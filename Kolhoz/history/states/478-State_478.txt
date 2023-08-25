@@ -1,0 +1,21 @@
+state={
+	id=478
+	name="STATE_478"
+	provinces={
+		12 530 621 2039 2141 2493 2948 3099 3765 6325 6894 7845 8291 8349 8548 9902 15525 15552 15553 15590 15599 15620 15648 15649 15674 15760 15768 15774 15789 15795 15807 15889 15908 15914 
+	}
+	manpower = 786321
+	state_category = large_town
+	local_supplies=0.0
+
+	history={
+		owner = CRO
+		add_core_of = CRO
+		victory_points = {12 17}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+		}
+	}
+	 
+}
