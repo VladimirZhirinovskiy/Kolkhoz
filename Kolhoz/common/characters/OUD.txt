@@ -1,16 +1,16 @@
 characters = {
 
-	AAA_anarchy = {
-		name = AAA_anarchy
+	OUD_swain = {
+		name = OUD_swain
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_AAA_anarchy"
+				large = "GFX_portrait_OUD_swain"
 			}
 		}
 		
 		country_leader = {
-			ideology = socialist_anarcho_communist_subtype
-			desc = AAA_anarchy_DESC
+			ideology = ultranationalism_oudap_subtype
+			desc = OUD_swain_DESC
 			traits = { }
 		}
 

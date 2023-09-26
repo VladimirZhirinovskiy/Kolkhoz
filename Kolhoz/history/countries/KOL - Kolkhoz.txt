@@ -94,6 +94,7 @@ add_ideas = {
 	Imbecili_vlasi1
 	Imbecili_arm1
 	Sana_low
+	Oudap
 }
 add_timed_idea = {
 	idea = Anynak_ref
@@ -127,3 +128,5 @@ recruit_character = KOL_traktorist
 recruit_character = KOL_donel
 recruit_character = KOL_evreyka
 recruit_character = KOL_tikhon
+recruit_character = KOL_anunak
+

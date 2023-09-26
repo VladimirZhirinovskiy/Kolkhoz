@@ -9,4 +9,14 @@ KOL_civil_war = {
 		original_tag = KOL
 
 	}
+		available = {
+						NOT = {
+								has_idea = Oudap
+							}
+		}
+		visible = {
+						
+								has_idea = Oudap
+							
+		}
 }

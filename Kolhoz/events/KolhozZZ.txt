@@ -1,0 +1,429 @@
+﻿add_namespace = KolhozZ
+country_event = {
+	id = KolhozZ.1
+	title = KolhozZ.1.t	
+	desc = KolhozZ.1.desc	
+	picture = GFX_report_event_german_volunteers	
+    is_triggered_only = yes	
+	option = { 
+		name = KolhozZ.1.a 
+		ai_chance = {
+			base = 50
+		}
+    add_stability = -0.07
+    hidden_effect = {
+    1020 = {set_demilitarized_zone = yes}
+    1019 = {set_demilitarized_zone = yes}
+    750 = {set_demilitarized_zone = yes}
+    1017 = {set_demilitarized_zone = yes}
+    809 = {set_demilitarized_zone = yes}
+    1016 = {set_demilitarized_zone = yes}
+    790 = {set_demilitarized_zone = yes}
+    1018 = {set_demilitarized_zone = yes}
+    997 = {set_demilitarized_zone = yes}
+    1019 = {set_demilitarized_zone = yes}
+    1007 = {set_demilitarized_zone = yes}
+    1008 = {set_demilitarized_zone = yes}
+	 country_event ={ id =KolhozZ.2  days = 5}
+        }
+    }
+}
+country_event = {
+	id = KolhozZ.2
+	title = KolhozZ.2.t	
+	desc = KolhozZ.2.desc	
+	picture = GFX_report_event_german_volunteers	
+    is_triggered_only = yes
+	option = { 
+		name = KolhozZ.2.a 
+		ai_chance = {
+			base = 50
+		}
+       random_owned_controlled_state = {
+                                create_unit = {
+                                       division = "division_template = \"IMBECILE\"	start_experience_factor = 0.9"
+                                        owner = KOL
+                                        count = 6
+                                    }
+       }
+    add_stability = -0.08
+    hidden_effect = {
+    1020 = {set_demilitarized_zone = No}
+    1019 = {set_demilitarized_zone = No}
+    750 = {set_demilitarized_zone = No}
+    1017 = {set_demilitarized_zone = No}
+    809 = {set_demilitarized_zone = No}
+    1016 = {set_demilitarized_zone = No}
+    790 = {set_demilitarized_zone = No}
+    1018 = {set_demilitarized_zone = No}
+    997 = {set_demilitarized_zone = No}
+    1019 = {set_demilitarized_zone = No}
+    1007 = {set_demilitarized_zone = No}
+    1008 = {set_demilitarized_zone = No}
+    OUD = {
+        transfer_state = 1020
+        transfer_state = 1019
+        transfer_state = 750
+        transfer_state = 1017
+        transfer_state = 809
+        transfer_state = 1016
+        transfer_state = 790
+        transfer_state = 1018
+        transfer_state = 997
+        transfer_state = 1019
+        transfer_state = 1007
+        transfer_state = 1008
+        transfer_state = 1009
+        transfer_state = 1015                        
+        transfer_state = 1010
+        transfer_state = 1014
+        transfer_state = 1012
+        transfer_state = 839       
+        transfer_state = 999
+        transfer_state = 713
+        transfer_state = 716
+        transfer_state = 998
+        transfer_state = 994
+        transfer_state = 993
+        transfer_state = 695
+        transfer_state = 6
+        transfer_state = 988
+        transfer_state = 995
+        transfer_state = 989
+        transfer_state = 1001
+        transfer_state = 684
+        transfer_state = 710
+        transfer_state = 1011        
+
+        add_state_core  = 1020
+        add_state_core  = 1019
+        add_state_core  = 750
+        add_state_core  = 1017
+        add_state_core  = 809
+        add_state_core  = 1016
+        add_state_core  = 790
+        add_state_core  = 1018
+        add_state_core  = 997
+        add_state_core  = 1019
+        add_state_core  = 1007
+        add_state_core  = 1008
+        add_state_core  = 1009
+        add_state_core  = 1015                        
+        add_state_core  = 1010
+        add_state_core  = 1014
+        add_state_core  = 1012
+        add_state_core  = 839       
+        add_state_core  = 999
+        add_state_core  = 713
+        add_state_core  = 716
+        add_state_core  = 998
+        add_state_core  = 994
+        add_state_core  = 993
+        add_state_core  = 695
+        add_state_core  = 6
+        add_state_core  = 988
+        add_state_core  = 995
+        add_state_core  = 989
+        add_state_core  = 1001
+        add_state_core  = 684
+        add_state_core  = 710
+        add_state_core  = 1011       
+
+        load_oob  ="OUD_2020"
+	    country_event ={ id =KolhozZ.3  days = 5}
+        random_owned_controlled_state = {
+                                create_unit = {
+                                       division = "division_template = \"POLCENIE\"	start_experience_factor = 0.9"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"POLCENIE\"	start_experience_factor = 0.8"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"POLCENIE\"	start_experience_factor = 0.7"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"POLCENIE\"	start_experience_factor = 0.7"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"POLCENIE\"	start_experience_factor = 0.7"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"POLCENIE\"	start_experience_factor = 0.7"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"POLCENIE\"	start_experience_factor = 0.7"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"POLCENIE\"	start_experience_factor = 0.45"
+                                        owner = OUD
+                                        count = 5
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"Militsai\"	start_experience_factor = 0.7"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"Militsai\"	start_experience_factor = 0.45"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"Militsai\"	start_experience_factor = 0.45"
+                                        owner = OUD
+                                        count = 2
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"Militsai\"	start_experience_factor = 0.45"
+                                        owner = OUD
+                                        count = 3
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"Militsai\"	start_experience_factor = 0.45"
+                                        owner = OUD
+                                        count = 3
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"Militsai\"	start_experience_factor = 0.45"
+                                        owner = OUD
+                                        count = 4
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"Militsai\"	start_experience_factor = 0.45"
+                                        owner = OUD
+                                        count = 3
+                                    }
+                                create_unit = {
+                                       division = "division_template = \"Bron_es\"	start_experience_factor = 1"
+                                        owner = OUD
+                                        count = 4
+                                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            }
+
+
+
+        }
+
+
+        }
+    }
+}
+country_event = {
+	id = KolhozZ.3
+	title = KolhozZ.3.t	
+	desc = KolhozZ.3.desc	
+	picture = GFX_report_event_german_volunteers	
+    is_triggered_only = yes
+	option = { 
+		name = KolhozZ.2.a 
+		ai_chance = {
+			base = 50
+		}
+       random_owned_controlled_state = {
+                                create_unit = {
+                                       division = "division_template = \"IMBECILE\"	start_experience_factor = 1"
+                                        owner = KOL
+                                        count = 3
+                                    }
+       }
+    add_war_support = 0.1
+    hidden_effect = {
+    OUD = {     
+    declare_war_on = {
+         target = KOL
+         type = annex_everything
+    }
+
+        random_owned_controlled_state = {
+                                create_unit = {
+                                       division = "division_template = \"Militsai\"	start_experience_factor = 0.35"
+                                        owner = OUD
+                                        count = 6
+                                    }
+                            }
+
+
+
+        }
+
+
+        }
+    }
+	option = { 
+		name = KolhozZ.2.b 
+		ai_chance = {
+			base = 50
+		}
+       random_owned_controlled_state = {
+                                create_unit = {
+                                       division = "division_template = \"IMBECILE\"	start_experience_factor = 0.55"
+                                        owner = KOL
+                                        count = 8
+                                    }
+       }
+    add_war_support = 0.1
+    hidden_effect = {
+    OUD = {     
+    declare_war_on = {
+         target = KOL
+         type = annex_everything
+    }
+
+        random_owned_controlled_state = {
+                                create_unit = {
+                                       division = "division_template = \"Militsai\"	start_experience_factor = 0.89"
+                                        owner = OUD
+                                        count = 3
+                                    }
+                            }
+
+
+
+        }
+
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+country_event = {
+	id = KolhozZ.5
+	title = KolhozZ.5.t	
+	desc = KolhozZ.5.desc	
+	picture = GFX_report_event_german_volunteers	
+    is_triggered_only = yes	
+	option = { 
+		name = KolhozZ.5.a 
+		ai_chance = {
+			base = 50
+		}
+    add_stability = 0.15
+			add_days_mission_timeout = {
+				mission = 1publik_sud
+				days = 80
+			}
+					random_owned_state = {
+                        add_manpower = -35000
+					}
+                    add_manpower = -5000
+					add_equipment_to_stockpile = {
+								type = infantry_equipment
+								amount = -1
+					}
+    }
+}
+country_event = {
+	id = KolhozZ.6
+	title = KolhozZ.6.t	
+	desc = KolhozZ.6.desc	
+	picture = GFX_report_event_german_volunteers	
+    is_triggered_only = yes	
+	option = { 
+		name = KolhozZ.6.a
+		ai_chance = {
+			base = 100
+		}
+    add_stability = 0.15
+    }
+}
+country_event = {
+	id = KolhozZ.7
+	title = KolhozZ.7.t	
+	desc = KolhozZ.7.desc	
+	picture = GFX_report_event_german_volunteers	
+    is_triggered_only = yes	
+	option = { 
+		name = KolhozZ.7.a
+		ai_chance = {
+			base = 60
+		}
+                    add_manpower = -1
+                    add_war_support = 0.08
+						add_popularity = {
+								ideology = communist
+								popularity = 0.1
+							}
+						add_popularity = {
+								ideology = national_socialism
+								popularity = 0.1
+							}
+    }
+	option = { 
+		name = KolhozZ.7.b
+		ai_chance = {
+			base = 40
+		}
+                    add_manpower = -1
+                    add_stability = 0.1
+						add_popularity = {
+								ideology = conservatism
+								popularity = 0.1
+							}
+						add_popularity = {
+								ideology = fascism
+								popularity = 0.1
+							}
+    }
+}
+country_event = {
+	id = KolhozZ.7
+	title = KolhozZ.7.t	
+	desc = KolhozZ.7.desc	
+	picture = GFX_report_event_german_volunteers	
+    is_triggered_only = yes	
+	option = { 
+		name = KolhozZ.7.a
+		ai_chance = {
+			base = 100
+		}
+                    add_political_power = 300               
+                    add_war_support = 0.04
+                    add_stability = 0.1
+    }
+
+}

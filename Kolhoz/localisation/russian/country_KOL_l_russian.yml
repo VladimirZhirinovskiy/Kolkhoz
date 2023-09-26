@@ -6,6 +6,7 @@
 
 ### National Focuses ###
 
+
 ### ideas ###
 
 
@@ -13,8 +14,9 @@
 
 
 ### Cosmetic Tags ###
-
-
+KOL_qero:0 "Кверодап"
+KOL_qero_DEF:0 "Oudap"
+KOL_qero_ADJ:0 "Oudap"
 ### Custom Effect Tooltip ###
 
 
@@ -25,6 +27,12 @@
 
 
 ### Decisions ###
+KOL_civil_war:0 "Оудап"
+1publik_sud:0 "Востание оудапа"
+Chiski:0 "Резня во имя Колхоза"
+rec_sani:0 "Реч Сани"
+misulina:0 "Мизулина"
+polit_arest:0 "Полит оресты"
 
 ###Leaders###
 KOL_sanchous:0 "Санчоус"
@@ -39,6 +47,8 @@ KOL_evreyka:0 "Еврейка"
 KOL_evreyka_DESC:0 "Еврейка"
 KOL_tikhon:0 "Тихон"
 KOL_tikhon_DESC:0 "Тихон"
+KOL_anunak:0 "Анунак"
+KOL_anunak_DESC:0 "Денги не пахнут"
 ###Generals###
 
 

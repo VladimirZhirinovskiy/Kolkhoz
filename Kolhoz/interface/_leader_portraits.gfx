@@ -49,7 +49,10 @@ spriteTypes = {
 		name = "GFX_portrait_KOL_tikhon"
 		textureFile = "gfx/leaders/KOL/KOL_tikhon.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_portrait_KOL_anunak"
+		textureFile = "gfx/leaders/KOL/KOL_anunak.dds"
+	}	
 	#чиллингия
 	spriteType = {
 		name = "GFX_portrait_CHN_shaurma"
@@ -144,4 +147,11 @@ spriteTypes = {
 		name = "GFX_portrait_FRE_Freyn"
 		textureFile = "gfx/leaders/FRE/FRE_Freyn.dds"
 	}
+	#Oudap	
+	spriteType = {
+		name = "GFX_portrait_OUD_swain"
+		textureFile = "gfx/leaders/OUD/OUD_swain.dds"
+	}
+
+
 } 

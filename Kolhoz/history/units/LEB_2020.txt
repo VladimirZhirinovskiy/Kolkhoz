@@ -21,6 +21,8 @@ units = {
 		location = 661 
 		division_template = "infa"
 		start_experience_factor = 0.65
+		start_equipment_factor = 0.9
+		start_manpower_factor = 1
 	}
 	division= {	
 		name = "Колониальная двизия 2"

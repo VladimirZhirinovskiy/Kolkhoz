@@ -1,11 +1,11 @@
 capital = 1020
 
-oob ="OUD_2020"
 
-set_research_slots = 3
-set_convoys = 200
-set_stability = 0.60
-set_war_support = 0.20
+
+set_research_slots = 2
+set_convoys = 150
+set_stability = 0.35
+set_war_support = 0.8
 
 # Starting tech
 set_technology = {
@@ -19,11 +19,9 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
-	mechanised_infantry = 1
+	
 	mass_assault = 1
 	fleet_in_being = 1
-	motorised_infantry_2 = 1
-	infantry_weapons0 = 1
 }
 
 if = {
@@ -89,41 +87,28 @@ if = {
 		basic_torpedo = 1
 	}
 }
-add_ideas = {
-	Great_Nation
-	Imbecili_vlasi1
-	Imbecili_arm1
-	Sana_low
-}
-add_timed_idea = {
-	idea = Anynak_ref
-	days = 430
-}
+
 set_politics = {
-	ruling_party = despotism
+	ruling_party = socialist
 	last_election = "2020.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+
 set_popularities = {
 	communist = 0
-	socialist = 1
-	progressivism = 1
-	liberalism = 4
-	conservatism = 3
-	paternalism = 5
-	despotism = 56
-	ultranationalism = 8
-	fascism = 12
-	national_socialism = 7
+	socialist = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	paternalism = 0
+	despotism = 20
+	ultranationalism = 60
+	fascism = 8
+	national_socialism = 9
 	esoteric_nazism = 3
 }
 
-#Персонажи
-recruit_character = KOL_sanchous
-recruit_character = KOL_gordon
-recruit_character = KOL_traktorist
-recruit_character = KOL_donel
-recruit_character = KOL_evreyka
-recruit_character = KOL_tikhon
+recruit_character = OUD_swain
+

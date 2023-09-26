@@ -1,8 +1,8 @@
 KOL_civil_war = {	
 	1publik_sud = { 
+ 
 
-
-		priority = 10
+		priority = 365
 
 		icon = generic_ignite_civil_war
 
@@ -10,17 +10,22 @@ KOL_civil_war = {
 			hidden_trigger = { always = no }
 		}
 
-		days_mission_timeout = 1
+		days_mission_timeout = 365
 
 		fire_only_once = yes
 
 		activation = {
 
 		}
-
+		available = {
+						NOT = {
+								has_idea = Oudap
+							}
+		}
 		visible = {
-			tag = KOL
-
+						
+								has_idea = Oudap
+							
 		}
 
 		cancel_if_not_visible = yes
@@ -28,9 +33,167 @@ KOL_civil_war = {
 		is_good = yes
 
 		timeout_effect = {
-			country_event = KOL_WARCIL.1
+			KOL = { country_event = KolhozZ.1}
 		}
+	}		
+	Chiski = {
+
+		icon = eng_propaganda_campaigns
+
+
+		visible = {
+			tag = KOL
 
 		}
+
+		cost = 45
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 200
+		}
+
+		days_remove = 40
+
+		modifier = {
+			
+		}
+
+
+
+		remove_effect = {
+		add_stability = -0.05
+		add_manpower = -5000
+			add_days_mission_timeout = {
+				mission = 1publik_sud
+				days = 35
+			}
 	
+					random_owned_state = {
+                        add_manpower = -10000
+					}
+					add_equipment_to_stockpile = {
+								type = infantry_equipment
+								amount = -600
+
+					}
+		}
+
+
+
+	}
+	rec_sani = {
+	 	
+		icon = eng_propaganda_campaigns
+
+
+		visible = {
+			tag = KOL
+
+		}
+
+		cost = 80
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 200
+		}
+
+		days_remove = 40
+
+		modifier = {
+			
+		}
+  
+
+
+		remove_effect = {
+		add_stability = 0.04
+			add_popularity = {
+			    ideology = despotism
+			    popularity = 0.06
+			}
+
+			add_days_mission_timeout = {
+				mission = 1publik_sud
+				days = 35
+			}
+		}
+	}
+	misulina = {
+
+		icon = eng_propaganda_campaigns
+
+		fire_only_once = yes
+		
+		visible = {
+			tag = KOL
+
+		}
+
+		cost = 80
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 200
+		}
+ 
+		days_remove = 70
+
+		modifier = {
+			
+		}
+
+
+
+		remove_effect = {
+		add_stability = 0.02
+		KOL = { country_event = KolhozZ.5 }
+
+			add_days_mission_timeout = {
+				mission = 1publik_sud
+				days = 50
+			}
+		}
+	}
+	polit_arest = {
+
+		icon = eng_propaganda_campaigns
+
+		fire_only_once = no
+		
+		visible = {
+			tag = KOL
+
+		}
+
+		cost = 40
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 200
+		}
+ 
+		days_remove = 36
+
+		modifier = {
+			
+		}
+
+
+
+		remove_effect = {
+		add_stability = -0.05
+		add_manpower = -20000
+
+			add_days_mission_timeout = {
+				mission = 1publik_sud
+				days = 35
+			}
+		}
+	}
 }

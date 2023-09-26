@@ -84,6 +84,23 @@ characters = {
 		
 	}		
 
+	KOL_anunak={
+		name = KOL_anunak
+		portraits = {
+			civilian = {
+					large = "GFX_portrait_KOL_anunak"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_national_liberal_subtype
+			desc = KOL_anunak_DESC
+				traits = { }
+		}			
+	
+	}	
+
+
+
 	KOL_donel={
 		name = KOL_donel
 		portraits = {
@@ -141,6 +158,14 @@ characters = {
 			desc = KOL_tikhon_DESC
 				traits = { }
 		}
+	}
+	Kol_Misul = {
+		name = Kol_Misul
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_Kol_Misul"
+			}
+		}		
 	}
 
 }

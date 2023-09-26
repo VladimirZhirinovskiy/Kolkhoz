@@ -67,6 +67,6 @@ FRE = {
 	color_ui = rgb { 20 15 59 }
 }
 OUD = {
-	color = rgb { 110 0 17 }
-	color_ui = rgb { 110 0 17 }
+	color = rgb { 71 25 25 }
+	color_ui = rgb { 71 25 25 }
 }
