@@ -73,7 +73,21 @@ focus_tree = {
 		cost = 10
 		x = 48
 		y = 0
-
+				available = {
+						NOT = {
+								has_idea = Oudap
+							}
+					}		
+				completion_reward = {
+						army_experience = 50
+						random_owned_controlled_state = {
+								create_unit = {
+										division = "name"
+										owner = KOL
+										count = 2
+									}
+							}
+					}
 	}
 	focus = {
 		id = KOL_gordon1
@@ -2229,6 +2243,13 @@ focus_tree = {
 		}
 		x = 48
 		y = 1
+				completion_reward = {
+						add_stability = 0.07
+						swap_ideas = {
+								remove_idea = Great_Nation
+								add_idea = Great_Nation1
+							}
+					}
 
 	}
 	focus = {
@@ -2243,14 +2264,10 @@ focus_tree = {
 				completion_reward = {
 						add_political_power = 10
 						add_manpower = -50000
-						add_stability = 0.05
+
 						add_war_support = 0.05
 						news_event = news.2
-						swap_ideas = {
-								remove_idea = Great_Nation
-								add_idea = Great_Nation1
-								news_event = news.4
-							}
+
 					}
 
 
@@ -2315,11 +2332,8 @@ focus_tree = {
 		x = 49
 		y = 2
 				completion_reward = {
-						add_political_power = 150
-						swap_ideas = {
-								remove_idea = Sana_norm
-								add_idea = Sana_Fin
-							}
+						add_political_power = 200
+
 						news_event = news.3
 					}
 

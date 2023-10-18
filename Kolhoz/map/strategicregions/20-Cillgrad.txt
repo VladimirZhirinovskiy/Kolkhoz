@@ -112,4 +112,5 @@ strategic_region={
 		period={
 			between={ 0.8 29.8 }
 		}
+	}
 }

@@ -1,0 +1,144 @@
+﻿### Botswana OOB ###
+
+division_template = {
+	name = "infaA"		
+	division_names_group = TAR_INF_01		# Uses generic English templates
+	# Note: Represents both regular infantry and militia units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }		
+	support = {
+		engineer = { x = 0 y = 0 }
+	}	
+
+	}
+}
+
+
+
+units = {
+	division= {	
+		name = "Изивбат"
+		location = 1481 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 7788 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 15000 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}	
+	division= {	
+		name = "Изивбат"
+		location = 4219 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 8632 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 4951 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 1513 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 678 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}	
+	division= {	
+		name = "Изивбат"
+		location = 2700 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 8069 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 6252 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 8069 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 52 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 14170 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 2816 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Изивбат"
+		location = 1181 
+		division_template = "infaA"
+		start_experience_factor = 0.4
+	}		
+}
+
+
+
+### No air forces (small handful of various aircraft in 1935) ###
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "IZV"
+		}
+		requested_factories = 5
+		progress = 0.4
+		efficiency = 30
+	}
+
+}
+
+#################################

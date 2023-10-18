@@ -152,6 +152,10 @@ spriteTypes = {
 		name = "GFX_portrait_OUD_swain"
 		textureFile = "gfx/leaders/OUD/OUD_swain.dds"
 	}
-
-
+	#Ново израль 
+	spriteType = {
+		name = "GFX_portrait_IZV_Mosa"
+		textureFile = "gfx/leaders/IZV/IZV_Mosa.dds"
+	}
+	
 } 

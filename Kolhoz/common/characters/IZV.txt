@@ -1,0 +1,18 @@
+characters = {
+
+	IZV_Mosa = {
+		name = IZV_Mosa
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_IZV_Mosa"
+			}
+		}
+		
+		country_leader = {
+			ideology = ultranationalism_reactionary_nationalism_subtype
+			desc = IZV_Mosa_DESC
+			traits = { }
+		}
+
+	}
+}

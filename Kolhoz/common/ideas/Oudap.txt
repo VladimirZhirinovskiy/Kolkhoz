@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		oudaps = {
+			removal_cost = -1
+			picture = ORE_anarchic_commune
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				
+			}
+
+
+
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+}

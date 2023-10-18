@@ -4,13 +4,23 @@ state={
 	provinces={
 		1513 4951 5327 5357 14458 14603 14663 14694 14736 
 	}
-	manpower = 101
-	state_category = rural
+	manpower = 453235
+	state_category = large_town
 	local_supplies=0.0
 
 	history={
-		owner = AAA
-		add_core_of = AAA
+		owner = IZV
+		add_core_of = KAD
+		victory_points = {1513 11}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 4
+			arms_factory = 1
+		}
 	}
-	 
+	resources = {
+		steel = 17
+		aluminium = 9
+		chromium = 19
+	}
 }

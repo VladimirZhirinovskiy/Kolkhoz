@@ -15,3 +15,5 @@ DRO = "countries/Drovs.txt"
 BRZ = "countries/BriksunseaCommyna.txt"
 FRE = "countries/NovaBritania.txt"
 OUD = "countries/Oudap.txt"
+IZV = "countries/Izrailvoin.txt"  
+ 
